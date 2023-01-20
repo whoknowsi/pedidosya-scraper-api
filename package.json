@@ -13,6 +13,7 @@
     "playwright": "^1.29.2"
   },
   "dependencies": {
+    "dotenv": "^16.0.3",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "2.25.2",
     "eslint-plugin-n": "15.0.0",

@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  dotenv: ^16.0.3
   eslint: ^8.0.1
   eslint-config-standard: ^17.0.0
   eslint-plugin-import: 2.25.2
@@ -9,6 +10,7 @@ specifiers:
   playwright: ^1.29.2
 
 dependencies:
+  dotenv: 16.0.3
   eslint-config-standard: 17.0.0_e6qfl5pmxsyfuxbbac4tyvigc4
   eslint-plugin-import: 2.25.2_eslint@8.0.1
   eslint-plugin-n: 15.0.0_eslint@8.0.1
@@ -219,6 +221,11 @@ packages:
     engines: {node: '>=6.0.0'}
     dependencies:
       esutils: 2.0.3
+
+  /dotenv/16.0.3:
+    resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
+    engines: {node: '>=12'}
+    dev: false
 
   /enquirer/2.3.6:
     resolution: {integrity: sha512-yjNnPr315/FjS4zIsUxYguYUPP2e1NK4d7E7ZOLiyYCcbFBiTMyID+2wvm2w6+pZ/odMA7cRkjhsPbltwBOrLg==}
