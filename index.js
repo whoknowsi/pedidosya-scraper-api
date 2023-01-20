@@ -1,7 +1,17 @@
 import { firefox } from 'playwright'
-import { writeDBFile } from './db/index.js'
 import dotenv from 'dotenv'
+
+import mongoose from 'mongoose'
+import { saveMarket } from './db/index.js'
+
 dotenv.config()
+
+mongoose
+  .connect(process.env.DB_URL)
+  .then(() => console.log('connected to MongoDB'))
+  .catch((error) => console.error('error connecting to MongoDB: ', error.message))
+
+const fromCommaToDot = (numero) => parseFloat(numero.replace('.', '').replace(',', '.'))
 
 const randomIntFromInterval = (min, max) => Math.floor(Math.random() * (max - min + 1) + min)
 
@@ -15,25 +25,33 @@ const scrollToBottom = async (page) => {
 }
 
 ;(async () => {
-  const browser = await firefox.launch({ headless: false })
+  const browser = await firefox.launch()
   const page = await browser.newPage()
   await page.goto(process.env.PLACE_URL)
 
-  const data = []
   await page.waitForSelector('h1')
   const h1El = await page.$('h1')
-  const name = await h1El.textContent()
+  const marketName = await h1El.textContent()
 
   await scrollToBottom(page)
 
   await page.waitForSelector('[role=listitem]')
   let categories = await page.$$('[role=listitem]')
+  const categoriesScraped = []
 
   for (let i = 0; i < categories.length; i++) {
     await page.waitForSelector('[role=listitem]')
     categories = await page.$$('[role=listitem]')
     const category = categories[i]
+    const categoryName = await category.textContent()
     await category.click({ delay: randomIntFromInterval(300, 600) })
+
+    const categoryScraped = {
+      name: categoryName,
+      products: []
+    }
+
+    console.log(`Scraping ${categoryName} category from ${marketName}`)
 
     await scrollToBottom(page)
 
@@ -42,16 +60,29 @@ const scrollToBottom = async (page) => {
 
     for (const product of products) {
       const text = await product.textContent()
-      const [name, price] = text.split('$')
+      const [productName, productPrice] = text.split('$')
+      const date = new Date(Date.now())
+      if (!productName || !productPrice) continue
 
-      data.push({
-        name,
-        price: '$' + price
-      })
+      const productData = {
+        name: productName,
+        price: fromCommaToDot(productPrice),
+        date
+      }
+      categoryScraped.products.push(productData)
     }
+
+    categoriesScraped.push(categoryScraped)
   }
 
-  console.log(name, data)
-  writeDBFile(name, data)
+  const data = {
+    name: marketName,
+    categories: categoriesScraped
+  }
+
+  await saveMarket(data)
   await browser.close()
+  mongoose.connection.close()
+
+  console.log('finish scraping')
 })()
