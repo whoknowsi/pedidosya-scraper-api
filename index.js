@@ -27,6 +27,8 @@ const scrollToBottom = async (page) => {
 ;(async () => {
   const browser = await firefox.launch()
   const page = await browser.newPage()
+  const initalTime = Date.now()
+
   await page.goto(process.env.PLACE_URL)
 
   await page.waitForSelector('h1')
@@ -84,5 +86,6 @@ const scrollToBottom = async (page) => {
   await browser.close()
   mongoose.connection.close()
 
-  console.log('finish scraping')
+  const finalTime = Date.now()
+  console.log(`Finish scraping in ${((finalTime / initalTime) * 1000).toFixed()} seconds`)
 })()
