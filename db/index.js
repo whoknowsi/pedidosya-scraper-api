@@ -5,15 +5,15 @@ import Product from '../models/product.js'
 import mongoose from 'mongoose'
 
 const addMarketToProduct = async (foundProduct, product, foundMarket) => {
-  const updatedProduct = foundProduct.prices.push({
+  foundProduct.prices.push({
     market: mongoose.Types.ObjectId(foundMarket.id.toString()),
     price: product.price,
     date: product.date
   })
 
-  foundMarket.products ? foundMarket.products.push(updatedProduct.id) : (foundMarket.products = [updatedProduct.id])
+  foundMarket.products ? foundMarket.products.push(foundProduct.id) : (foundMarket.products = [foundProduct.id])
 
-  const foundHistoricalPrice = await HistoricalPrice.findOne({ product: updatedProduct.id })
+  const foundHistoricalPrice = await HistoricalPrice.findOne({ product: foundProduct.id })
   foundHistoricalPrice.markets.push({
     market: mongoose.Types.ObjectId(foundMarket.id.toString()),
     prices: [
