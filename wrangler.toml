@@ -1,0 +1,11 @@
+name = "pedidosya-api"
+main = "api/server.js"
+compatibility_date = "2023-01-21"
+usage_model = "bundled"
+env = { }
+
+[triggers]
+crons = [ ]
+
+[site]
+bucket = "./assets"
