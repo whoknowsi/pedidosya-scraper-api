@@ -2,9 +2,10 @@ import Category from '../models/category.js'
 import HistoricalPrice from '../models/historicalPrice.js'
 import Market from '../models/market.js'
 import Product from '../models/product.js'
-import { read, write, IMG_PATH } from './utils'
+import { read, write, IMG_PATH } from './utils.js'
 import fetch from 'node-fetch'
 import sharp from 'sharp'
+import * as fs from 'fs'
 
 const saveImage = async (id, src) => {
   if (!src) return
@@ -161,7 +162,7 @@ const saveMarketStatic = async (market) => {
   write('products', productsLocal)
 }
 
-const cleanUnusedAssets = () => {
+const cleanUnusedAssets = async () => {
 
 }
 
