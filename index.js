@@ -2,14 +2,14 @@ import { firefox } from 'playwright'
 import dotenv from 'dotenv'
 
 import mongoose from 'mongoose'
-import { saveMarket } from './db/index.js'
+import { saveMarketStatic } from './db/local.js'
 
 dotenv.config()
 
-mongoose
-  .connect(process.env.DB_URL)
-  .then(() => console.log('connected to MongoDB'))
-  .catch((error) => console.error('error connecting to MongoDB: ', error.message))
+// mongoose
+//   .connect(process.env.DB_URL)
+//   .then(() => console.log('connected to MongoDB'))
+//   .catch((error) => console.error('error connecting to MongoDB: ', error.message))
 
 const fromCommaToDot = (numero) => parseFloat(numero.replace('.', '').replace(',', '.'))
 
@@ -24,22 +24,20 @@ const scrollToBottom = async (page) => {
   }
 }
 
-;(async () => {
-  const browser = await firefox.launch()
+const ScrapeData = async (browser, url) => {
   const page = await browser.newPage()
-  const initalTime = Date.now()
-
-  await page.goto(process.env.PLACE_URL)
+  await page.goto(url)
 
   await page.waitForSelector('h1')
   const h1El = await page.$('h1')
   const marketName = await h1El.textContent()
 
+  console.log(`Scraping ${marketName}`)
+
   await scrollToBottom(page)
 
   await page.waitForSelector('[role=listitem]')
   let categories = await page.$$('[role=listitem]')
-  const categoriesScraped = []
 
   for (let i = 0; i < categories.length; i++) {
     await page.waitForSelector('[role=listitem]')
@@ -66,26 +64,40 @@ const scrollToBottom = async (page) => {
       const date = new Date(Date.now())
       if (!productName || !productPrice) continue
 
+      const imageEl = await product.$('img')
+      const image = await imageEl.getAttribute('src')
+
       const productData = {
         name: productName,
         price: fromCommaToDot(productPrice),
-        date
+        date,
+        image
       }
       categoryScraped.products.push(productData)
     }
 
-    categoriesScraped.push(categoryScraped)
+    const data = {
+      name: marketName,
+      category: categoryScraped
+    }
+    await saveMarketStatic(data)
   }
 
-  const data = {
-    name: marketName,
-    categories: categoriesScraped
-  }
+  await page.close()
+}
 
-  await saveMarket(data)
+;(async () => {
+  const browser = await firefox.launch()
+  const initalTime = Date.now()
+
+  const marketURLs = process.env.MARKET_URLS.split(' ')
+  console.log(marketURLs)
+  for (const url of marketURLs) {
+    await ScrapeData(browser, url)
+  }
   await browser.close()
   mongoose.connection.close()
 
   const finalTime = Date.now()
-  console.log(`Finish scraping in ${((finalTime / initalTime) * 1000).toFixed()} seconds`)
+  console.log(`Finish scraping in ${((finalTime - initalTime) / 1000).toFixed()} seconds`)
 })()
