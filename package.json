@@ -2,24 +2,30 @@
   "name": "pedidosya-scraper-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
-    "scrap": "node index.js"
+    "scrap": "node index.js",
+    "dev:api": "wrangler dev api/server.js",
+    "publish:api": "wrangler publish api/server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.0.1",
-    "playwright": "^1.29.2"
-  },
-  "dependencies": {
-    "dotenv": "^16.0.3",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "2.25.2",
     "eslint-plugin-n": "15.0.0",
     "eslint-plugin-promise": "6.0.0",
-    "mongoose": "^6.8.4"
+    "playwright": "^1.29.2",
+    "wrangler": "2.7.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "hono": "^2.7.3",
+    "mongoose": "^6.8.4",
+    "node-fetch": "^3.3.0",
+    "sharp": "^0.31.3"
   }
 }
