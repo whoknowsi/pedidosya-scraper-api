@@ -2,17 +2,9 @@ import Category from '../models/category.js'
 import HistoricalPrice from '../models/historicalPrice.js'
 import Market from '../models/market.js'
 import Product from '../models/product.js'
-import { writeFile, readFile } from 'node:fs/promises'
-import path from 'node:path'
+import { read, write, IMG_PATH } from './utils'
 import fetch from 'node-fetch'
 import sharp from 'sharp'
-
-const DB_PATH = path.join(process.cwd(), './assets/static/db')
-const IMG_PATH = path.join(process.cwd(), './assets/static/products')
-
-const write = async (fileName, content) => {
-  await writeFile(`${DB_PATH}/${fileName}.json`, JSON.stringify(content, null, 2), 'utf-8')
-}
 
 const saveImage = async (id, src) => {
   if (!src) return
@@ -103,10 +95,10 @@ const createHistoricalPrice = (foundProduct, foundMarket) => {
 }
 
 const saveMarketStatic = async (market) => {
-  let marketsLocal = await readFile(`${DB_PATH}/markets.json`, 'utf-8').then(JSON.parse)
-  let productsLocal = await readFile(`${DB_PATH}/products.json`, 'utf-8').then(JSON.parse)
-  let categoriesLocal = await readFile(`${DB_PATH}/categories.json`, 'utf-8').then(JSON.parse)
-  let historicalPricesLocal = await readFile(`${DB_PATH}/historicalprices.json`, 'utf-8').then(JSON.parse)
+  let marketsLocal = await read('markets')
+  let productsLocal = await read('products')
+  let categoriesLocal = await read('categories')
+  let historicalPricesLocal = await read('historicalprices')
 
   const foundMarket = marketsLocal.find((m) => m.name === market.name) || createMarket(market)
   console.log('Market name:', foundMarket.name)
@@ -169,4 +161,8 @@ const saveMarketStatic = async (market) => {
   write('products', productsLocal)
 }
 
-export { saveMarketStatic }
+const cleanUnusedAssets = () => {
+
+}
+
+export { saveMarketStatic, cleanUnusedAssets }
