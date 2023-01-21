@@ -91,7 +91,7 @@ const createProduct = async (product, category, foundMarket) => {
   )
 }
 
-const saveMarket = async (market) => {
+const saveMarketToDatabase = async (market) => {
   let foundMarket = await Market.findOne({ name: market.name })
   if (!foundMarket) {
     foundMarket = await new Market({
@@ -115,4 +115,4 @@ const saveMarket = async (market) => {
   }
 }
 
-export { saveMarket }
+export { saveMarketToDatabase }
