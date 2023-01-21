@@ -15,9 +15,9 @@ const fromCommaToDot = (numero) => parseFloat(numero.replace('.', '').replace(',
 
 const randomIntFromInterval = (min, max) => Math.floor(Math.random() * (max - min + 1) + min)
 
-const scrollToBottom = async (page) => {
-  const quantityOfScroll = 200
-  const rangeOfScroll = 100
+const scrollToBottom = async (page, quantity) => {
+  const quantityOfScroll = quantity
+  const rangeOfScroll = 300
   for (let i = 0; i < quantityOfScroll; i++) {
     await page.waitForTimeout(randomIntFromInterval(10, 60))
     await page.mouse.wheel(0, rangeOfScroll)
@@ -35,7 +35,7 @@ const ScrapeData = async (browser, url) => {
 
   console.log(`Scraping ${marketName}`)
 
-  await scrollToBottom(page)
+  await scrollToBottom(page, 200)
 
   await page.waitForSelector('[role=listitem]')
   let categories = await page.$$('[role=listitem]')
@@ -54,7 +54,7 @@ const ScrapeData = async (browser, url) => {
 
     console.log(`Scraping ${categoryName} category from ${marketName}`)
 
-    await scrollToBottom(page)
+    await scrollToBottom(page, 100)
 
     await page.waitForSelector('#infocard')
     const products = await page.$$('#infocard')
