@@ -27,6 +27,7 @@ const scrollToBottom = async (page) => {
 const ScrapeData = async (browser, url) => {
   const page = await browser.newPage()
   await page.goto(url)
+  await page.evaluate(() => sessionStorage.setItem('user', '{"value":{"isOfAge":true},"expirationTime":0}'))
 
   await page.waitForSelector('h1')
   const h1El = await page.$('h1')
