@@ -163,7 +163,27 @@ const saveMarketStatic = async (market) => {
 }
 
 const cleanUnusedAssets = async () => {
+  const products = await read('products')
+  const productsIds = products.map(p => p.id)
+  const imagesIds = []
+  let fileExtension
+  fs.readdirSync(IMG_PATH).forEach(file => {
+    imagesIds.push(file.split('.')[0])
+    fileExtension ??= file.split('.')[1]
+  })
 
+  const toRemove = imagesIds
+    .filter(id => !productsIds.includes(id))
+    .map(id => `${IMG_PATH}/${id}.${fileExtension}`)
+
+  toRemove.forEach((path) => {
+    try {
+      fs.unlinkSync(path)
+      console.log('Removing: ', path)
+    } catch (err) {
+      console.error(err)
+    }
+  })
 }
 
 export { saveMarketStatic, cleanUnusedAssets }

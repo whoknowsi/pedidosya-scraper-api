@@ -2,7 +2,7 @@ import { firefox } from 'playwright'
 import dotenv from 'dotenv'
 
 import mongoose from 'mongoose'
-import { saveMarketStatic } from './db/local.js'
+import { saveMarketStatic, cleanUnusedAssets } from './db/local.js'
 
 dotenv.config()
 
@@ -88,6 +88,7 @@ const ScrapeData = async (browser, url) => {
 }
 
 ;(async () => {
+  await cleanUnusedAssets()
   const browser = await firefox.launch()
   const initalTime = Date.now()
 
