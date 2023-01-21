@@ -3,26 +3,18 @@ import mongoose from 'mongoose'
 const historicalPrice = new mongoose.Schema({
   product: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: 'Product',
-    required: true
+    ref: 'Product'
   },
   markets: [
     {
       market: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'Market',
-        required: true
+        ref: 'Market'
       },
       prices: [
         {
-          price: {
-            type: Number,
-            required: true
-          },
-          date: {
-            type: Date,
-            required: true
-          }
+          price: { type: Number },
+          date: { type: Date }
         }
       ]
     }

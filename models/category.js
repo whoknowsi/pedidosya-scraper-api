@@ -2,14 +2,12 @@ import mongoose from 'mongoose'
 
 const categorySchema = new mongoose.Schema({
   name: {
-    type: String,
-    required: true
+    type: String
   },
   products: [
     {
       type: mongoose.Schema.Types.ObjectId,
-      ref: 'Product',
-      required: true
+      ref: 'Product'
     }
   ]
 })
