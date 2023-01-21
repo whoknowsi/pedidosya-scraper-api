@@ -46,18 +46,6 @@ const preWriteData = (prev, content) => {
   return prev
 }
 
-// const parseId = (id) => {
-//   return { $oid: id.toString() }
-// }
-
-// const parseDate = (date) => {
-//   return { $date: { $numberLong: date.getTime() } }
-// }
-
-// const sortByDate = (prices) => {
-//   return [...prices].sort((a, b) => a.date.getTime() > b.date.getTime())
-// }
-
 const createCategory = (category) => {
   const newMongoCategory = new Category({})
   const newCategory = { id: newMongoCategory._id, name: category.name, products: [] }
@@ -180,22 +168,5 @@ const saveMarketStatic = async (market) => {
   write('markets', marketsLocal)
   write('products', productsLocal)
 }
-
-// await Market.findByIdAndUpdate(foundMarket.id, foundMarket)
-// await Category.findByIdAndUpdate(foundCategory.id, foundCategory)
-// await HistoricalPrice.create(
-//   new HistoricalPrice({
-//     product: newProduct.id,
-//     markets: {
-//       market: mongoose.Types.ObjectId(foundMarket.id.toString()),
-//       prices: [
-//         {
-//           price: product.price,
-//           date: product.date
-//         }
-//       ]
-//     }
-//   })
-// )
 
 export { saveMarketStatic }
