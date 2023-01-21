@@ -176,6 +176,8 @@ const cleanUnusedAssets = async () => {
     .filter(id => !productsIds.includes(id))
     .map(id => `${IMG_PATH}/${id}.${fileExtension}`)
 
+  console.log(toRemove.length === 0 ? 'No unnused files.' : `Deleting ${toRemove.length} unnused files`)
+
   toRemove.forEach((path) => {
     try {
       fs.unlinkSync(path)
