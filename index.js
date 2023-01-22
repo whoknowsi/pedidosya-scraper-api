@@ -24,8 +24,7 @@ const scrollToBottom = async (page, quantity) => {
   }
 }
 
-const ScrapeData = async (browser, url) => {
-  const page = await browser.newPage()
+const startCatchingCategoriesNames = async (page, url) => {
   await page.goto(url)
   await page.evaluate(() => sessionStorage.setItem('user', '{"value":{"isOfAge":true},"expirationTime":0}'))
 
@@ -36,9 +35,29 @@ const ScrapeData = async (browser, url) => {
   console.log(`Scraping ${marketName}`)
 
   await scrollToBottom(page, 200)
+  return marketName
+}
 
-  await page.waitForSelector('[role=listitem]')
-  let categories = await page.$$('[role=listitem]')
+const ScrapeData = async (browser, url) => {
+  let page = await browser.newPage()
+  let marketName = await startCatchingCategoriesNames(page, url)
+
+  try {
+    await page.waitForSelector('[role=listitem]', { timeout: 3000 })
+  } catch (error) {
+    try {
+      await page.close()
+      page = await browser.newPage()
+
+      marketName = await startCatchingCategoriesNames(page, url)
+      await page.waitForSelector('[role=listitem]', { timeout: 3000 })
+    } catch (error) {
+      console.log('Error loading page...')
+      return
+    }
+  }
+
+  let categories = await page.$$('[role=listitem]', { timeout: 3000 })
 
   for (let i = 0; i < categories.length; i++) {
     await page.waitForSelector('[role=listitem]')
