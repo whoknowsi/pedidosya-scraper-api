@@ -9,7 +9,12 @@ The data is stored in JSON files and images are optimized using the Sharp librar
 The API can be used to access the information collected from PedidosYa in a structured and easily consumable format.
 
 ## Screenshots
+
+Raw data of products:
 ![image of raw data from the API](/screenshots/products.png)
+
+Raw data of categories:
+![image of raw data from the API](/screenshots/categories.png)
 
 ## Setting up the project
 To use this project, you need to have installed NodeJS and MongoDB.
