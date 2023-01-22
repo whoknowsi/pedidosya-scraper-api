@@ -8,6 +8,18 @@ const productSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Category'
   },
+  barcode: {
+    type: String
+  },
+  measurementUnit: {
+    id: { type: Number },
+    plural: { type: String },
+    singular: { type: String },
+    shortName: { type: String }
+  },
+  pricePerMeasurementUnit: {
+    type: Number
+  },
   prices: [
     {
       market: {
