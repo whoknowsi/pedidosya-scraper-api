@@ -1,4 +1,4 @@
-import { writeFile, readFile } from 'node:fs/promises'
+import { writeFileSync, readFileSync } from 'node:fs'
 import path from 'node:path'
 
 const DB_PATH = path.join(process.cwd(), './assets/static/db')
@@ -16,7 +16,10 @@ const sortByDate = (prices) => {
   return [...prices].sort((a, b) => a.date.getTime() > b.date.getTime())
 }
 
-const write = async (fileName, content) => await writeFile(`${DB_PATH}/${fileName}.json`, JSON.stringify(content, null, 2), 'utf-8')
-const read = async (fileName) => await readFile(`${DB_PATH}/${fileName}.json`, 'utf-8').then(JSON.parse)
+const write = (fileName, content) => writeFileSync(`${DB_PATH}/${fileName}.json`, JSON.stringify(content, null, 2), 'utf-8')
+const read = (fileName) => {
+  const file = readFileSync(`${DB_PATH}/${fileName}.json`, 'utf-8')
+  return JSON.parse(file)
+}
 
 export { parseId, parseDate, sortByDate, write, read, IMG_PATH }

@@ -6,12 +6,13 @@ import { read, write, IMG_PATH } from './utils.js'
 import fetch from 'node-fetch'
 import sharp from 'sharp'
 import * as fs from 'fs'
+const pedidosYaImageBaseUrl = 'https://images.deliveryhero.io/image/pedidosya/products'
 
-const saveImage = async (id, src) => {
-  if (!src) return
-  const imageUrl = src.includes('?') ? src.split('?')[0] : src
+const saveImage = async (id, image) => {
+  if (!image) return
+  const imageUrl = `${pedidosYaImageBaseUrl}/${image}`
 
-  console.log('Saving image...')
+  console.log('Saving image:', image)
   try {
     const responseImage = await fetch(imageUrl)
     const arrayBuffer = await responseImage.arrayBuffer()
@@ -19,7 +20,6 @@ const saveImage = async (id, src) => {
     const imageFileName = `${id}.webp`
 
     await sharp(buffer).webp({ effort: 6 }).toFile(`${IMG_PATH}/${imageFileName}`)
-    console.log('Image saved.')
     return `/static/products/${imageFileName}`
   } catch (err) {
     console.log('error:', err.message)
@@ -60,6 +60,9 @@ const createProduct = async (product, foundCategory, foundMarket) => {
     name: product.name,
     category: foundCategory.id,
     image,
+    integrationCode: product.barcode,
+    measurementUnit: product.measurementUnit,
+    pricePerMeasurementUnit: product.pricePerMeasurementUnit,
     prices: [
       {
         market: foundMarket.id,
@@ -95,17 +98,16 @@ const createHistoricalPrice = (foundProduct, foundMarket) => {
   return newHistoricalPrice
 }
 
-const saveMarketStatic = async (market) => {
-  let marketsLocal = await read('markets')
-  let productsLocal = await read('products')
-  let categoriesLocal = await read('categories')
-  let historicalPricesLocal = await read('historicalprices')
+const saveMarketStatic = async (market, index) => {
+  let marketsLocal = read('markets')
+  let productsLocal = read('products')
+  let categoriesLocal = read('categories')
+  let historicalPricesLocal = read('historicalprices')
 
   const foundMarket = marketsLocal.find((m) => m.name === market.name) || createMarket(market)
-  console.log('Market name:', foundMarket.name)
 
   const foundCategory = categoriesLocal.find((c) => c.name === market.category.name) || createCategory(market.category)
-  console.log('Category name:', foundCategory.name)
+  console.log(` ${index} - `, foundCategory.name)
 
   for (const product of market.category.products) {
     const foundProduct =
@@ -113,7 +115,6 @@ const saveMarketStatic = async (market) => {
     const foundHistoricalPrice =
       historicalPricesLocal.find(({ product }) => product === foundProduct.id) ||
       createHistoricalPrice(foundProduct, foundMarket)
-    console.log(`${foundMarket.name} - ${foundCategory.name} - ${foundProduct.name}`)
 
     const existMarketInProduct = foundProduct.prices.find((m) => m.market === foundMarket.id)
     !existMarketInProduct && foundProduct.prices.push(
@@ -163,7 +164,7 @@ const saveMarketStatic = async (market) => {
 }
 
 const cleanUnusedAssets = async () => {
-  const products = await read('products')
+  const products = read('products')
   const productsIds = products.map(p => p.id)
   const imagesIds = []
   let fileExtension

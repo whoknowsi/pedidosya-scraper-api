@@ -1,123 +1,108 @@
 import { firefox } from 'playwright'
 import dotenv from 'dotenv'
-
-import mongoose from 'mongoose'
-import { saveMarketStatic, cleanUnusedAssets } from './db/local.js'
+import { saveMarketStatic } from './db/local.js'
 
 dotenv.config()
 
-// mongoose
-//   .connect(process.env.DB_URL)
-//   .then(() => console.log('connected to MongoDB'))
-//   .catch((error) => console.error('error connecting to MongoDB: ', error.message))
+const ScrapeData = async (browser, url) => {
+  const result = []
 
-const fromCommaToDot = (numero) => parseFloat(numero.replace('.', '').replace(',', '.'))
+  let page = await browser.newPage()
+  page.goto(url)
 
-const randomIntFromInterval = (min, max) => Math.floor(Math.random() * (max - min + 1) + min)
+  let response
+  try {
+    response = await page.waitForResponse('**/v3/catalogues/**', { timeout: 3000 })
+  } catch {
+    try {
+      await page.close()
+      page = await browser.newPage()
+      page.goto(url)
 
-const scrollToBottom = async (page, quantity) => {
-  const quantityOfScroll = quantity
-  const rangeOfScroll = 300
-  for (let i = 0; i < quantityOfScroll; i++) {
-    await page.waitForTimeout(randomIntFromInterval(10, 60))
-    await page.mouse.wheel(0, rangeOfScroll)
+      response = await page.waitForResponse('**/v3/catalogues/**', { timeout: 3000 })
+    } catch {
+      console.log('Failed to load url:', url)
+      result.push(`Failed to load url: ${url}`)
+      return
+    }
   }
-}
 
-const startCatchingCategoriesNames = async (page, url) => {
-  await page.goto(url)
-  await page.evaluate(() => sessionStorage.setItem('user', '{"value":{"isOfAge":true},"expirationTime":0}'))
+  const rawCategoriesUrl = await response.url()
+  const categoriesUrl = rawCategoriesUrl.split('&')[0] + '&max=1000&maxProducts=10&offset=0'
+  const partnerId = rawCategoriesUrl.split('partnerId=')[1].split('&')[0]
 
   await page.waitForSelector('h1')
   const h1El = await page.$('h1')
   const marketName = await h1El.textContent()
 
-  console.log(`Scraping ${marketName}`)
+  console.log(marketName)
 
-  await scrollToBottom(page, 200)
-  return marketName
-}
+  const categories = await page.evaluate(
+    async ({ categoriesUrl, partnerId, marketName }) => {
+      const getCategoryUrl = (productId, partnerId) =>
+        `https://www.pedidosya.com.ar/mobile/v3/menusections/${productId}/products?partnerId=${partnerId}&max=1000&offset=0`
 
-const ScrapeData = async (browser, url) => {
-  let page = await browser.newPage()
-  let marketName = await startCatchingCategoriesNames(page, url)
+      const response = await fetch(categoriesUrl)
+      const categories = await response.json()
+      const categoriesResponse = []
 
-  try {
-    await page.waitForSelector('[role=listitem]', { timeout: 3000 })
-  } catch (error) {
-    try {
-      await page.close()
-      page = await browser.newPage()
+      for (const category of categories.data) {
+        const categoryId = category.id
+        const categoryName = category.name
 
-      marketName = await startCatchingCategoriesNames(page, url)
-      await page.waitForSelector('[role=listitem]', { timeout: 3000 })
-    } catch (error) {
-      console.log('Error loading page...')
-      return
-    }
-  }
+        const response = await fetch(getCategoryUrl(categoryId, partnerId))
+        const productsData = await response.json()
+        const products = productsData.data.map((d) => {
+          return {
+            image: d.image,
+            name: d.name,
+            price: d.price,
+            date: new Date(Date.now()),
+            barcode: d.integrationCode,
+            measurementUnit: d.measurementUnit,
+            pricePerMeasurementUnit: d.pricePerMeasurementUnit
+          }
+        })
 
-  let categories = await page.$$('[role=listitem]', { timeout: 3000 })
+        const categories = {
+          name: marketName,
+          category: {
+            name: categoryName,
+            products
+          }
+        }
+
+        categoriesResponse.push(categories)
+      }
+
+      return categoriesResponse
+    },
+    { categoriesUrl, partnerId, marketName }
+  )
 
   for (let i = 0; i < categories.length; i++) {
-    await page.waitForSelector('[role=listitem]')
-    categories = await page.$$('[role=listitem]')
     const category = categories[i]
-    const categoryName = await category.textContent()
-    await category.click({ delay: randomIntFromInterval(300, 600) })
-
-    const categoryScraped = {
-      name: categoryName,
-      products: []
-    }
-
-    console.log(`Scraping ${categoryName} category from ${marketName}`)
-
-    await scrollToBottom(page, 100)
-
-    await page.waitForSelector('#infocard')
-    const products = await page.$$('#infocard')
-
-    for (const product of products) {
-      const text = await product.textContent()
-      const [productName, productPrice] = text.split('$')
-      const date = new Date(Date.now())
-      if (!productName || !productPrice) continue
-
-      const imageEl = await product.$('img')
-      const image = await imageEl.getAttribute('src')
-
-      const productData = {
-        name: productName,
-        price: fromCommaToDot(productPrice),
-        date,
-        image
-      }
-      categoryScraped.products.push(productData)
-    }
-
-    const data = {
-      name: marketName,
-      category: categoryScraped
-    }
-    await saveMarketStatic(data)
+    await saveMarketStatic(category, i + 1)
   }
 
   await page.close()
+  return result.length === 0 ? [`All scraped without errors on ${marketName}`] : result
 }
 
 ;(async () => {
-  await cleanUnusedAssets()
   const browser = await firefox.launch()
   const initalTime = Date.now()
 
   const marketURLs = process.env.MARKET_URLS.split(' ')
-  console.log(marketURLs)
+  const results = []
   for (const url of marketURLs) {
-    await ScrapeData(browser, url)
+    const result = await ScrapeData(browser, url)
+    results.push(result)
   }
+
+  console.log('results: ', results)
+
   await browser.close()
-  mongoose.connection.close()
 
   const finalTime = Date.now()
   console.log(`Finish scraping in ${((finalTime - initalTime) / 1000).toFixed()} seconds`)
