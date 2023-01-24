@@ -37,10 +37,10 @@ const ScrapeData = async (browser, url) => {
 
   console.log(marketName)
 
+  const productLink = process.env.PEDIDOSYA_PRODUCT_URL.split('${}')
   const categories = await page.evaluate(
-    async ({ categoriesUrl, partnerId, marketName }) => {
-      const getCategoryUrl = (productId, partnerId) =>
-        `https://www.pedidosya.com.ar/mobile/v3/menusections/${productId}/products?partnerId=${partnerId}&max=1000&offset=0`
+    async ({ categoriesUrl, partnerId, marketName, productLink }) => {
+      const getCategoryUrl = (productId, partnerId) => (productLink[0] + productId + productLink[1] + partnerId + productLink[2])
 
       const response = await fetch(categoriesUrl)
       const categories = await response.json()
@@ -77,7 +77,7 @@ const ScrapeData = async (browser, url) => {
 
       return categoriesResponse
     },
-    { categoriesUrl, partnerId, marketName }
+    { categoriesUrl, partnerId, marketName, productLink }
   )
 
   for (let i = 0; i < categories.length; i++) {
