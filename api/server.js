@@ -53,25 +53,19 @@ app.get('/products/:id', (c) => {
 })
 
 app.get('/markets', (c) => {
-  const { categories = false } = c.req.queries
+  c.json(marketsData.map(({ id, name }) => { return { id, name } }))
+})
 
-  let marketsResponse = marketsData
+app.get('/markets/:id', (c) => {
+  const { id } = c.req.param
+  const { name, categories } = marketsData.find((market) => market.id === id)
 
-  if (categories === true) {
-    marketsResponse = marketsResponse.map(({ id, name, categories }) => {
-      const filledCategories = categories.map((categoryId) => {
-        const { id, name } = categoriesData.find((category) => category.id === categoryId)
-        return { id, name }
-      })
-      return { id, name, categories: filledCategories }
-    })
-  }
+  const filledCategories = categories.map((categoryId) => {
+    const { id, name } = categoriesData.find((category) => category.id === categoryId)
+    return { id, name }
+  })
 
-  c.json(
-    !categories
-      ? marketsResponse.map(({ id, name }) => { return { id, name } })
-      : marketsResponse
-  )
+  c.json({ id, name, categories: filledCategories })
 })
 
 app.get('/categories', (c) => {
