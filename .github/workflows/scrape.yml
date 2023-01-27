@@ -1,0 +1,37 @@
+name: "Scrape"
+
+on: workflow_dispatch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+            fetch-depth: 0
+            token: ${{secrets.GH_TOKEN}}
+      - uses: actions/setup-node@v3
+        with:
+            node-version: 19.5.0
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 7.26.0
+          run_install: true
+      - name: Run scrape
+        run: npm run scrape
+        env:
+          BASE_URL: ${{ vars.BASE_URL }}
+          PEDIDOSYA_PRODUCT_URL: ${{ vars.PEDIDOSYA_PRODUCT_URL }}
+          PEDIDOSYA_CATEGORY_URL: ${{ vars.PEDIDOSYA_CATEGORY_URL }}
+          DATA_MARKETS: ${{ vars.DATA_MARKETS }}
+      - name: Commit and push
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "[bot] Update PedidosYa scraper database"
+          git push https://$USERNAME:$REPO_KEY@github.com/whoknowsi/pedidosya-scraper-api.git
+        env:
+          REPO_KEY: ${{ secrets.GH_TOKEN }}
+          USERNAME: github-actions[bot]
+          
