@@ -74,6 +74,10 @@ app.get('/markets', (c) => {
   )
 })
 
+app.get('/categories', (c) => {
+  c.json(categoriesData.map(({ id, name }) => { return { id, name } }))
+})
+
 app.get('/static/*', serveStatic({ root: './' }))
 
 export default app
