@@ -26,14 +26,22 @@ app.get('/products', (c) => {
 
   productsToSend = productsToSend.slice(offset, offset + limit)
 
+  const prev = max > offset
+    ? `/products?limit=${limit}&offset=${Math.max(0, offset - limit)}${marketId ? `&marketId=${marketId}` : ''}`
+    : null
+
+  const next = max > offset + limit
+    ? `/products?limit=${limit}&offset=${offset + limit}${marketId ? `&marketId=${marketId}` : ''}`
+    : null
+
   c.json({
     products: productsToSend,
     offset,
     limit,
     count: productsToSend.length,
     max,
-    prev: max > offset ? `/products?limit=${limit}&offset=${Math.max(0, offset - limit)}${marketId ? `&marketId=${marketId}` : ''}` : null,
-    next: max > (offset + limit) ? `/products?limit=${limit}&offset=${offset + limit}${marketId ? `&marketId=${marketId}` : ''}` : null
+    prev,
+    next
   })
 })
 
