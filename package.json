@@ -5,7 +5,7 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "scrap": "node index.js",
+    "scrape": "node index.js",
     "dev:api": "wrangler dev api/server.js",
     "publish:api": "wrangler publish api/server.js"
   },
