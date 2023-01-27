@@ -20,6 +20,13 @@ app.get('/products', (c) => {
   })
 })
 
+app.get('/products/:id', (c) => {
+  const { id } = c.req.param
+  const foundProduct = products.find((product) => product.id === id)
+
+  foundProduct ? c.json(foundProduct) : c.status(400).json({ message: 'Product not found' })
+})
+
 app.get('/static/*', serveStatic({ root: './' }))
 
 export default app
