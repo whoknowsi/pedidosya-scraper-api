@@ -6,11 +6,11 @@ import { read, write, IMG_PATH } from './utils.js'
 import fetch from 'node-fetch'
 import sharp from 'sharp'
 import * as fs from 'fs'
-const pedidosYaImageBaseUrl = 'https://images.deliveryhero.io/image/pedidosya/products'
 
 const saveImage = async (id, image) => {
+  const baseUrl = process.env.PEDIDOSYA_IMG_BASE_URL
   if (!image) return
-  const imageUrl = `${pedidosYaImageBaseUrl}/${image}`
+  const imageUrl = `${baseUrl}/${image}`
 
   console.log('Saving image:', image)
   try {

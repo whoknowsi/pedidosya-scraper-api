@@ -21,8 +21,9 @@ jobs:
         run: npm run scrape
         env:
           BASE_URL: ${{ vars.BASE_URL }}
-          PEDIDOSYA_PRODUCT_URL: ${{ vars.PEDIDOSYA_PRODUCT_URL }}
+          PEDIDOSYA_IMG_BASE_URL: ${{ vars.PEDIDOSYA_IMG_BASE_URL }}
           PEDIDOSYA_CATEGORY_URL: ${{ vars.PEDIDOSYA_CATEGORY_URL }}
+          PEDIDOSYA_PRODUCT_URL: ${{ vars.PEDIDOSYA_PRODUCT_URL }}
           DATA_MARKETS: ${{ vars.DATA_MARKETS }}
       - name: Commit and push
         run: |
