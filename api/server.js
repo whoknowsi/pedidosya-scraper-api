@@ -1,8 +1,8 @@
 import { Hono } from 'hono'
 import { serveStatic } from 'hono/serve-static.module'
-import products from '../assets/static/db/products.json'
-import categories from '../assets/static/db/categories.json'
-import markets from '../assets/static/db/markets.json'
+import productsData from '../assets/static/db/products.json'
+import categoriesData from '../assets/static/db/categories.json'
+import marketsData from '../assets/static/db/markets.json'
 const app = new Hono()
 
 app.get('/', (c) => c.text('Hono!!'))
@@ -10,11 +10,11 @@ app.get('/', (c) => c.text('Hono!!'))
 app.get('/products', (c) => {
   const { offset = 0, limit = 10, marketId } = c.req.queries
 
-  let max = products.length
-  let productsToSend = products
+  let max = productsData.length
+  let productsToSend = productsData
 
   if (marketId) {
-    const productsIdByMarket = markets.find((market) => market.id === marketId)?.products || []
+    const productsIdByMarket = marketsData.find((market) => market.id === marketId)?.products || []
     max = productsIdByMarket.length
     productsToSend = productsToSend
       .filter((product) => productsIdByMarket.includes(product.id))
@@ -47,16 +47,30 @@ app.get('/products', (c) => {
 
 app.get('/products/:id', (c) => {
   const { id } = c.req.param
-  const foundProduct = products.find((product) => product.id === id)
+  const foundProduct = productsData.find((product) => product.id === id)
 
   foundProduct ? c.json(foundProduct) : c.status(400).json({ message: 'Product not found' })
 })
 
 app.get('/markets', (c) => {
-  c.json(
-    markets.map(({ id, name }) => {
-      return { id, name }
+  const { categories = false } = c.req.queries
+
+  let marketsResponse = marketsData
+
+  if (categories === true) {
+    marketsResponse = marketsResponse.map(({ id, name, categories }) => {
+      const filledCategories = categories.map((categoryId) => {
+        const { id, name } = categoriesData.find((category) => category.id === categoryId)
+        return { id, name }
+      })
+      return { id, name, categories: filledCategories }
     })
+  }
+
+  c.json(
+    !categories
+      ? marketsResponse.map(({ id, name }) => { return { id, name } })
+      : marketsResponse
   )
 })
 
