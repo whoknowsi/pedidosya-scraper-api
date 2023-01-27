@@ -44,6 +44,14 @@ app.get('/products/:id', (c) => {
   foundProduct ? c.json(foundProduct) : c.status(400).json({ message: 'Product not found' })
 })
 
+app.get('/markets', (c) => {
+  c.json(
+    markets.map(({ id, name }) => {
+      return { id, name }
+    })
+  )
+})
+
 app.get('/static/*', serveStatic({ root: './' }))
 
 export default app
