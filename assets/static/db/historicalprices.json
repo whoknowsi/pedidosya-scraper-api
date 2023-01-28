@@ -13770,6 +13770,10 @@
           {
             "price": 313,
             "date": "2023-01-22T08:55:35.024Z"
+          },
+          {
+            "price": 325.52,
+            "date": "2023-01-28T11:28:34.802Z"
           }
         ]
       }
@@ -13834,6 +13838,10 @@
           {
             "price": 295.28,
             "date": "2023-01-22T08:55:35.024Z"
+          },
+          {
+            "price": 307.09,
+            "date": "2023-01-28T11:28:34.802Z"
           }
         ]
       }
@@ -14503,6 +14511,10 @@
           {
             "price": 295.28,
             "date": "2023-01-22T08:55:35.024Z"
+          },
+          {
+            "price": 307.09,
+            "date": "2023-01-28T11:28:34.802Z"
           }
         ]
       }
@@ -15979,6 +15991,10 @@
           {
             "price": 313,
             "date": "2023-01-22T08:55:35.024Z"
+          },
+          {
+            "price": 325.52,
+            "date": "2023-01-28T11:28:34.802Z"
           }
         ]
       }
@@ -23264,6 +23280,10 @@
           {
             "price": 146,
             "date": "2023-01-22T08:55:37.303Z"
+          },
+          {
+            "price": 154,
+            "date": "2023-01-28T11:28:36.420Z"
           }
         ]
       }
@@ -24959,6 +24979,10 @@
           {
             "price": 348.75,
             "date": "2023-01-22T08:55:38.220Z"
+          },
+          {
+            "price": 352.9,
+            "date": "2023-01-28T11:28:36.912Z"
           }
         ]
       }
@@ -27362,6 +27386,10 @@
           {
             "price": 686,
             "date": "2023-01-22T08:55:38.934Z"
+          },
+          {
+            "price": 713,
+            "date": "2023-01-28T11:28:37.455Z"
           }
         ]
       },
@@ -40170,6 +40198,14 @@
           {
             "price": 323.54,
             "date": "2023-01-28T02:28:04.850Z"
+          },
+          {
+            "price": 335.5,
+            "date": "2023-01-28T11:27:23.259Z"
+          },
+          {
+            "price": 323.54,
+            "date": "2023-01-28T11:27:23.259Z"
           }
         ]
       }
@@ -40568,6 +40604,14 @@
           {
             "price": 516.35,
             "date": "2023-01-28T02:29:19.681Z"
+          },
+          {
+            "price": 210.35,
+            "date": "2023-01-28T11:28:42.762Z"
+          },
+          {
+            "price": 516.35,
+            "date": "2023-01-28T11:28:42.762Z"
           }
         ]
       }
@@ -50542,6 +50586,14 @@
           {
             "price": 939,
             "date": "2023-01-28T02:28:01.926Z"
+          },
+          {
+            "price": 692,
+            "date": "2023-01-28T11:27:20.194Z"
+          },
+          {
+            "price": 939,
+            "date": "2023-01-28T11:27:20.194Z"
           }
         ]
       }
@@ -54169,6 +54221,15 @@
             "date": "2023-01-22T09:09:18.699Z"
           }
         ]
+      },
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 452.5,
+            "date": "2023-01-28T11:28:37.997Z"
+          }
+        ]
       }
     ]
   },
@@ -55039,6 +55100,15 @@
           {
             "price": 816.49,
             "date": "2023-01-22T09:42:09.011Z"
+          }
+        ]
+      },
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 828,
+            "date": "2023-01-28T11:28:37.828Z"
           }
         ]
       }
@@ -72366,6 +72436,10 @@
           {
             "price": 1050,
             "date": "2023-01-22T09:50:41.759Z"
+          },
+          {
+            "price": 1134,
+            "date": "2023-01-28T11:25:33.056Z"
           }
         ]
       }
@@ -88382,6 +88456,14 @@
           {
             "price": 138.9,
             "date": "2023-01-28T02:27:32.121Z"
+          },
+          {
+            "price": 192,
+            "date": "2023-01-28T11:26:53.734Z"
+          },
+          {
+            "price": 138.9,
+            "date": "2023-01-28T11:26:53.734Z"
           }
         ]
       }
@@ -100099,6 +100181,15 @@
             "date": "2023-01-22T09:42:18.468Z"
           }
         ]
+      },
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 92.8,
+            "date": "2023-01-28T11:28:38.725Z"
+          }
+        ]
       }
     ]
   },
@@ -100950,6 +101041,15 @@
           {
             "price": 245.2,
             "date": "2023-01-22T09:36:38.170Z"
+          }
+        ]
+      },
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 255.05,
+            "date": "2023-01-28T11:28:32.062Z"
           }
         ]
       }
@@ -104259,6 +104359,15 @@
           {
             "price": 308,
             "date": "2023-01-22T09:36:46.475Z"
+          }
+        ]
+      },
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 290,
+            "date": "2023-01-28T11:27:25.353Z"
           }
         ]
       }
@@ -127123,6 +127232,14 @@
           {
             "price": 1100,
             "date": "2023-01-28T02:22:07.151Z"
+          },
+          {
+            "price": 1329,
+            "date": "2023-01-28T11:25:31.118Z"
+          },
+          {
+            "price": 1100,
+            "date": "2023-01-28T11:25:31.118Z"
           }
         ]
       }
@@ -160797,6 +160914,15 @@
             "date": "2023-01-25T01:39:54.123Z"
           }
         ]
+      },
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 928.47,
+            "date": "2023-01-28T11:28:37.997Z"
+          }
+        ]
       }
     ]
   },
@@ -169237,6 +169363,470 @@
           {
             "price": 257,
             "date": "2023-01-28T02:27:32.825Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5065b5ddc8fc079a7b220",
+    "name": "Vacío Estancia Aconcagua al Vacío x 1 Kg Aprox",
+    "product": "63d506585ddc8fc079a7b21f",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1723,
+            "date": "2023-01-28T11:25:44.178Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d506605ddc8fc079a7b222",
+    "name": "Galletitas Marinera Leiva c/sal Tripack 330g",
+    "product": "63d5065e5ddc8fc079a7b221",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 306,
+            "date": "2023-01-28T11:25:48.448Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d506615ddc8fc079a7b224",
+    "name": "Galletitas Marinera Leiva LIght Tripack 330g",
+    "product": "63d506605ddc8fc079a7b223",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 337,
+            "date": "2023-01-28T11:25:48.448Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5068c5ddc8fc079a7b226",
+    "name": "Yerba Mate Con Palo Carrefour 500 G.",
+    "product": "63d506895ddc8fc079a7b225",
+    "markets": [
+      {
+        "market": "63cd03baaa705832ee238b2b",
+        "prices": [
+          {
+            "price": 308,
+            "date": "2023-01-28T11:26:54.169Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5068d5ddc8fc079a7b228",
+    "name": "Papas Fritas Carrefour Corte Tradicional 170 G.",
+    "product": "63d5068c5ddc8fc079a7b227",
+    "markets": [
+      {
+        "market": "63cd03baaa705832ee238b2b",
+        "prices": [
+          {
+            "price": 297,
+            "date": "2023-01-28T11:26:54.169Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5068e5ddc8fc079a7b22a",
+    "name": "Sal fina Carrefour bolsa 500 g.",
+    "product": "63d5068d5ddc8fc079a7b229",
+    "markets": [
+      {
+        "market": "63cd03baaa705832ee238b2b",
+        "prices": [
+          {
+            "price": 85,
+            "date": "2023-01-28T11:26:54.169Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d506905ddc8fc079a7b22c",
+    "name": "Palitos Salados Carrefour 120 G.",
+    "product": "63d5068e5ddc8fc079a7b22b",
+    "markets": [
+      {
+        "market": "63cd03baaa705832ee238b2b",
+        "prices": [
+          {
+            "price": 127,
+            "date": "2023-01-28T11:26:54.169Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d506b75ddc8fc079a7b22e",
+    "name": "Queso Feteado Carrefour Danbo 200 g",
+    "product": "63d506b55ddc8fc079a7b22d",
+    "markets": [
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 489,
+            "date": "2023-01-28T11:27:35.099Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d506b95ddc8fc079a7b230",
+    "name": "Lomitos De Atún Carrefour Al Natural 80G. 3 Unidades",
+    "product": "63d506b75ddc8fc079a7b22f",
+    "markets": [
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 429,
+            "date": "2023-01-28T11:27:35.099Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d506bb5ddc8fc079a7b232",
+    "name": "Jugo En Polvo Carrefour Rosado Pomelo Bajo En Calorías 10 G",
+    "product": "63d506b95ddc8fc079a7b231",
+    "markets": [
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 29,
+            "date": "2023-01-28T11:27:35.099Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d506bc5ddc8fc079a7b234",
+    "name": "Papas Noisettes Carrefour 500 G.",
+    "product": "63d506bb5ddc8fc079a7b233",
+    "markets": [
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 409,
+            "date": "2023-01-28T11:27:35.099Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d506ed5ddc8fc079a7b236",
+    "name": "Aceto Balsámico Reducción Menoyo 250 Ml",
+    "product": "63d506ec5ddc8fc079a7b235",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 429,
+            "date": "2023-01-28T11:28:32.062Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d506ef5ddc8fc079a7b238",
+    "name": "Aceite Legitimo 1.5L",
+    "product": "63d506ed5ddc8fc079a7b237",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 407.41,
+            "date": "2023-01-28T11:28:32.062Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d506f45ddc8fc079a7b23a",
+    "name": "Nachos Tostitos 220 G",
+    "product": "63d506f05ddc8fc079a7b239",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 863.92,
+            "date": "2023-01-28T11:28:32.715Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d506f75ddc8fc079a7b23c",
+    "name": "Galletitas DIA Avena y Chips de Chocolate 200 g",
+    "product": "63d506f55ddc8fc079a7b23b",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 220,
+            "date": "2023-01-28T11:28:34.802Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d506f85ddc8fc079a7b23e",
+    "name": "Bollitos De Salvado En Bandeja Panex 300 G",
+    "product": "63d506f75ddc8fc079a7b23d",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 210,
+            "date": "2023-01-28T11:28:35.210Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d506fb5ddc8fc079a7b240",
+    "name": "Pan de Molde con Semillas 600 Gr",
+    "product": "63d506f85ddc8fc079a7b23f",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 485,
+            "date": "2023-01-28T11:28:35.210Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d506fe5ddc8fc079a7b242",
+    "name": "Alimento A Base De Queso Opi 40 G",
+    "product": "63d506fc5ddc8fc079a7b241",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 81.1,
+            "date": "2023-01-28T11:28:35.462Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d507015ddc8fc079a7b244",
+    "name": "Queso Untable Gruyere Dia 190 Gr",
+    "product": "63d506fe5ddc8fc079a7b243",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 269,
+            "date": "2023-01-28T11:28:35.462Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d507035ddc8fc079a7b246",
+    "name": "Finlandia Light La Serenisima 290gr",
+    "product": "63d507015ddc8fc079a7b245",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 681.8,
+            "date": "2023-01-28T11:28:35.462Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d507065ddc8fc079a7b248",
+    "name": "Leche Parcialmente Descremada Liviana  La Serenisima Larga Vida 1L",
+    "product": "63d507045ddc8fc079a7b247",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 311.32,
+            "date": "2023-01-28T11:28:35.815Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5070a5ddc8fc079a7b24a",
+    "name": "Bocaditos De Pollo Patitas 1.1 Kg.",
+    "product": "63d507085ddc8fc079a7b249",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 2565,
+            "date": "2023-01-28T11:28:37.828Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5070c5ddc8fc079a7b24c",
+    "name": "Bocaditos De Pollo Dia 800 Gr.",
+    "product": "63d5070a5ddc8fc079a7b24b",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 1202,
+            "date": "2023-01-28T11:28:37.828Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5070e5ddc8fc079a7b24e",
+    "name": "Medallón De Pollo Well Done 114 G",
+    "product": "63d5070c5ddc8fc079a7b24d",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 109,
+            "date": "2023-01-28T11:28:37.997Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d507115ddc8fc079a7b250",
+    "name": "Yogur Firme Entero DIA Vainilla 250 g",
+    "product": "63d5070f5ddc8fc079a7b24f",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 189,
+            "date": "2023-01-28T11:28:38.725Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d507125ddc8fc079a7b252",
+    "name": "Yogur Firme Entero Dia Frutilla 250 G",
+    "product": "63d507115ddc8fc079a7b251",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 189,
+            "date": "2023-01-28T11:28:38.725Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d507145ddc8fc079a7b254",
+    "name": "Yogur Entero Bat Frutilla Ilolay X 120 Gr",
+    "product": "63d507125ddc8fc079a7b253",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 63.75,
+            "date": "2023-01-28T11:28:38.725Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d507145ddc8fc079a7b256",
+    "name": "Yogur Firme Descremado DIA Pack 2 Un 250 Gr.",
+    "product": "63d507145ddc8fc079a7b255",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 189,
+            "date": "2023-01-28T11:28:38.725Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d507185ddc8fc079a7b258",
+    "name": "Ensalada Positana Rocky 300 Gr",
+    "product": "63d507155ddc8fc079a7b257",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 589,
+            "date": "2023-01-28T11:28:39.065Z"
           }
         ]
       }
