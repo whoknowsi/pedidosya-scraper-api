@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "scrape": "node index.js",
-    "dev:api": "wrangler dev api/server.js",
+    "dev:api": "wrangler dev api/server.js --local",
     "publish:api": "wrangler publish api/server.js"
   },
   "keywords": [],
