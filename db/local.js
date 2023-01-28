@@ -6,11 +6,15 @@ import { read, write, IMG_PATH, getImagesNames } from './utils.js'
 import fetch from 'node-fetch'
 import sharp from 'sharp'
 import * as fs from 'fs'
+import dotenv from 'dotenv'
+dotenv.config()
 
 const saveImage = async (id, image) => {
   const baseUrl = process.env.PEDIDOSYA_IMG_BASE_URL
   if (!image) return
   const imageUrl = `${baseUrl}/${image}`
+
+  console.log(baseUrl)
 
   console.log('Saving image:', image)
   try {
@@ -98,7 +102,7 @@ const createHistoricalPrice = (foundProduct, foundMarket) => {
   return newHistoricalPrice
 }
 
-const setImageUrlIfNotExistOnActions = (product, imageUrl) => {
+const checkImgOnProduct = async (product, imageUrl) => {
   if (product === undefined) return undefined
 
   const imagesNames = getImagesNames()
@@ -106,7 +110,9 @@ const setImageUrlIfNotExistOnActions = (product, imageUrl) => {
   const productImageName = product?.image?.includes('/') ? product.image.split('/').at(-1) : null
   if (productImageName && imagesNames.includes(productImageName)) return product
 
-  return { ...product, image: imageUrl }
+  const newImgUrl = await saveImage(product.id, imageUrl)
+
+  return { ...product, image: newImgUrl }
 }
 
 const saveMarketStatic = async (market, index) => {
@@ -122,10 +128,10 @@ const saveMarketStatic = async (market, index) => {
 
   for (const product of market.category.products) {
     const foundProduct =
-      setImageUrlIfNotExistOnActions(
+      (await checkImgOnProduct(
         productsLocal.find((p) => p.name === product.name),
         product.image
-      ) || (await createProduct(product, foundCategory, foundMarket))
+      )) || (await createProduct(product, foundCategory, foundMarket))
 
     const foundHistoricalPrice =
       historicalPricesLocal.find(({ product }) => product === foundProduct.id) || createHistoricalPrice(foundProduct, foundMarket)
@@ -201,4 +207,20 @@ const cleanUnusedAssets = async () => {
   })
 }
 
-export { saveMarketStatic, cleanUnusedAssets }
+const fillImages = async () => {
+  const products = read('products')
+
+  const productsToFillImage = products.filter((product) => !product.image?.includes('/static/products/'))
+  for (const product of productsToFillImage) {
+    const image = await saveImage(product.id, product.image)
+    product.image = image
+  }
+
+  write('products', products.map((product) => {
+    const modifyProduct = productsToFillImage.find((productMod) => productMod.id === product.id)
+    if (modifyProduct) return modifyProduct
+    return product
+  }))
+}
+
+export { saveMarketStatic, cleanUnusedAssets, fillImages }

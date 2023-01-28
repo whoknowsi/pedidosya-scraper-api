@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "scrape": "node index.js",
+    "scrape:images": "node db/fill-images.js",
     "dev:api": "wrangler dev api/server.js --local",
     "publish:api": "wrangler publish api/server.js"
   },
