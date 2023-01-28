@@ -5,10 +5,10 @@ import categoriesData from '../assets/static/db/categories.json'
 import marketsData from '../assets/static/db/markets.json'
 const app = new Hono()
 
-app.get('/', (c) => c.text('Hono!!'))
-
 app.get('/products', (c) => {
-  const { offset = 0, limit = 10, marketId } = c.req.queries
+  let { offset, limit, marketId } = c.req.query()
+  offset = offset ? Number(offset) : 0
+  limit = limit ? Number(limit) : 10
 
   let max = productsData.length
   let productsToSend = productsData
@@ -26,7 +26,7 @@ app.get('/products', (c) => {
 
   productsToSend = productsToSend.slice(offset, offset + limit)
 
-  const prev = max > offset
+  const prev = max > offset && offset > 0
     ? `/products?limit=${limit}&offset=${Math.max(0, offset - limit)}${marketId ? `&marketId=${marketId}` : ''}`
     : null
 
@@ -34,7 +34,9 @@ app.get('/products', (c) => {
     ? `/products?limit=${limit}&offset=${offset + limit}${marketId ? `&marketId=${marketId}` : ''}`
     : null
 
-  c.json({
+  console.log(next)
+
+  return c.json({
     products: productsToSend,
     offset,
     limit,
@@ -46,30 +48,33 @@ app.get('/products', (c) => {
 })
 
 app.get('/products/:id', (c) => {
-  const { id } = c.req.param
+  const { id } = c.req.param()
   const foundProduct = productsData.find((product) => product.id === id)
+  console.log(id)
 
-  foundProduct ? c.json(foundProduct) : c.status(400).json({ message: 'Product not found' })
+  return foundProduct ? c.json(foundProduct) : c.status(400).json({ message: 'Product not found' })
 })
 
 app.get('/markets', (c) => {
-  c.json(marketsData.map(({ id, name }) => { return { id, name } }))
+  return c.json(marketsData.map(({ id, name }) => { return { id, name } }))
 })
 
 app.get('/markets/:id', (c) => {
-  const { id } = c.req.param
-  const { name, categories } = marketsData.find((market) => market.id === id)
+  const { id } = c.req.param()
+
+  let { name, categories } = marketsData.find((market) => market.id === id)
+  categories ??= []
 
   const filledCategories = categories.map((categoryId) => {
     const { id, name } = categoriesData.find((category) => category.id === categoryId)
     return { id, name }
   })
 
-  c.json({ id, name, categories: filledCategories })
+  return c.json({ id, name, categories: filledCategories })
 })
 
 app.get('/categories', (c) => {
-  c.json(categoriesData.map(({ id, name }) => { return { id, name } }))
+  return c.json(categoriesData.map(({ id, name }) => { return { id, name } }))
 })
 
 app.get('/static/*', serveStatic({ root: './' }))
