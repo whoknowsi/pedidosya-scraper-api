@@ -4,10 +4,12 @@ const productSchema = new mongoose.Schema({
   name: {
     type: String
   },
-  category: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'Category'
-  },
+  category: [
+    {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'Category'
+    }
+  ],
   barcode: {
     type: String
   },
@@ -31,6 +33,9 @@ const productSchema = new mongoose.Schema({
       },
       date: {
         type: Date
+      },
+      stock: {
+        type: Number
       }
     }
   ]

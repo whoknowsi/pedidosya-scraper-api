@@ -9,6 +9,12 @@ const categorySchema = new mongoose.Schema({
       type: mongoose.Schema.Types.ObjectId,
       ref: 'Product'
     }
+  ],
+  markets: [
+    {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'Market'
+    }
   ]
 })
 
