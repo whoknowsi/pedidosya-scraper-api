@@ -2,7 +2,7 @@ import Category from '../models/category.js'
 import HistoricalPrice from '../models/historicalPrice.js'
 import Market from '../models/market.js'
 import Product from '../models/product.js'
-import { read, write, IMG_PATH } from './utils.js'
+import { read, write, IMG_PATH, getImagesNames } from './utils.js'
 import fetch from 'node-fetch'
 import sharp from 'sharp'
 import * as fs from 'fs'
@@ -98,6 +98,17 @@ const createHistoricalPrice = (foundProduct, foundMarket) => {
   return newHistoricalPrice
 }
 
+const setImageUrlIfNotExistOnActions = (product, imageUrl) => {
+  if (product === undefined) return undefined
+
+  const imagesNames = getImagesNames()
+
+  const productImageName = product?.image?.includes('/') ? product.image.split('/').at(-1) : null
+  if (productImageName && imagesNames.includes(productImageName)) return product
+
+  return { ...product, image: imageUrl }
+}
+
 const saveMarketStatic = async (market, index) => {
   let marketsLocal = read('markets')
   let productsLocal = read('products')
@@ -111,30 +122,33 @@ const saveMarketStatic = async (market, index) => {
 
   for (const product of market.category.products) {
     const foundProduct =
-      productsLocal.find((p) => p.name === product.name) || (await createProduct(product, foundCategory, foundMarket))
+      setImageUrlIfNotExistOnActions(
+        productsLocal.find((p) => p.name === product.name),
+        product.image
+      ) || (await createProduct(product, foundCategory, foundMarket))
+
     const foundHistoricalPrice =
-      historicalPricesLocal.find(({ product }) => product === foundProduct.id) ||
-      createHistoricalPrice(foundProduct, foundMarket)
+      historicalPricesLocal.find(({ product }) => product === foundProduct.id) || createHistoricalPrice(foundProduct, foundMarket)
 
     const existMarketInProduct = foundProduct.prices.find((m) => m.market === foundMarket.id)
-    !existMarketInProduct && foundProduct.prices.push(
-      {
+    !existMarketInProduct &&
+      foundProduct.prices.push({
         market: foundMarket.id,
         price: product.price,
         date: product.date
-      }
-    )
+      })
 
     const existMarketInHistorical = foundHistoricalPrice.markets.find((m) => m.market === foundMarket.id)
-    !existMarketInHistorical && foundHistoricalPrice.markets.push({
-      market: foundMarket.id,
-      prices: [
-        {
-          price: product.price,
-          date: product.date
-        }
-      ]
-    })
+    !existMarketInHistorical &&
+      foundHistoricalPrice.markets.push({
+        market: foundMarket.id,
+        prices: [
+          {
+            price: product.price,
+            date: product.date
+          }
+        ]
+      })
 
     const existProductInMarket = foundMarket.products.find((productId) => productId === foundProduct.id)
     !existProductInMarket && foundMarket.products.push(foundProduct.id)
@@ -165,17 +179,15 @@ const saveMarketStatic = async (market, index) => {
 
 const cleanUnusedAssets = async () => {
   const products = read('products')
-  const productsIds = products.map(p => p.id)
+  const productsIds = products.map((p) => p.id)
   const imagesIds = []
   let fileExtension
-  fs.readdirSync(IMG_PATH).forEach(file => {
+  fs.readdirSync(IMG_PATH).forEach((file) => {
     imagesIds.push(file.split('.')[0])
     fileExtension ??= file.split('.')[1]
   })
 
-  const toRemove = imagesIds
-    .filter(id => !productsIds.includes(id))
-    .map(id => `${IMG_PATH}/${id}.${fileExtension}`)
+  const toRemove = imagesIds.filter((id) => !productsIds.includes(id)).map((id) => `${IMG_PATH}/${id}.${fileExtension}`)
 
   console.log(toRemove.length === 0 ? 'No unnused files.' : `Deleting ${toRemove.length} unnused files`)
 

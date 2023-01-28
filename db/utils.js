@@ -1,4 +1,4 @@
-import { writeFileSync, readFileSync } from 'node:fs'
+import { writeFileSync, readFileSync, readdirSync } from 'node:fs'
 import path from 'node:path'
 
 const DB_PATH = path.join(process.cwd(), './assets/static/db')
@@ -22,4 +22,10 @@ const read = (fileName) => {
   return JSON.parse(file)
 }
 
-export { parseId, parseDate, sortByDate, write, read, IMG_PATH }
+const getImagesNames = () => {
+  const imagesIds = []
+  readdirSync(IMG_PATH).forEach((file) => imagesIds.push(file))
+  return imagesIds
+}
+
+export { parseId, parseDate, sortByDate, write, read, IMG_PATH, getImagesNames }
