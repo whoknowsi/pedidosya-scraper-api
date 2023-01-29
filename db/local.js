@@ -142,6 +142,8 @@ const saveMarketStatic = async (market, index) => {
     })
   )
 
+  console.log(productsToResetStock)
+
   for (const product of market.category.products) {
     const foundProduct =
       (await checkImgAndResetStockOnProduct(
@@ -150,8 +152,6 @@ const saveMarketStatic = async (market, index) => {
         product.stock,
         foundMarket.id
       )) || (await createProduct(product, foundCategory, foundMarket))
-
-    console.log(foundProduct.prices)
 
     const foundHistoricalPrice =
       historicalPricesLocal.find(({ product }) => product === foundProduct.id) || createHistoricalPrice(foundProduct, foundMarket)
