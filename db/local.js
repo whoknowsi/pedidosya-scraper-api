@@ -101,7 +101,7 @@ const createHistoricalPrice = (foundProduct, foundMarket) => {
   return newHistoricalPrice
 }
 
-const checkImgAndResetStockOnProduct = async (product, imageUrl, stock, marketId) => {
+const checkImgAndResetStockOnProduct = async (product, imageUrl, newStock, marketId) => {
   if (product === undefined) return undefined
 
   const imagesNames = getImagesNames()
@@ -111,9 +111,9 @@ const checkImgAndResetStockOnProduct = async (product, imageUrl, stock, marketId
 
   const newImgUrl = await saveImage(product.id, imageUrl)
 
-  const prices = product.prices.map((price) => {
-    if (price.market === marketId) return { ...price, stock }
-    return price
+  const prices = product.prices.map(({ stock, ...price }) => {
+    if (price.market === marketId) return { ...price, stock: newStock }
+    return { ...price, stock }
   })
 
   return { ...product, prices, image: newImgUrl }
@@ -132,15 +132,17 @@ const saveMarketStatic = async (market, index) => {
 
   const productsOnMarketAndCategory = foundMarket.products.filter((p) => foundCategory.products.includes(p))
   const productsToResetStock = productsLocal.filter((p) => productsOnMarketAndCategory.includes(p.id))
-  productsLocal = preWriteData(productsLocal,
-    productsToResetStock.map((product) => {
-      const prices = product.prices.map((price) => {
-        if (price.market === foundMarket.id) return { ...price, stock: 0 }
-        return price
-      })
-      return { ...product, prices }
+  const productsWithStockReseted = productsToResetStock.map(({ prices, ...product }) => {
+    const newPrices = prices.map((price) => {
+      if (price.market === foundMarket.id) {
+        const newPrice = { ...price, stock: 0 }
+        return newPrice
+      }
+      return price
     })
-  )
+    return { ...product, prices: newPrices }
+  })
+  productsLocal = preWriteData(productsLocal, productsWithStockReseted)
 
   console.log(productsToResetStock.map(x => x.prices))
 
