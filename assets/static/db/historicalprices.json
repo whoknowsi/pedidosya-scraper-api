@@ -36051,6 +36051,14 @@
           {
             "price": 323.54,
             "date": "2023-01-29T01:17:35.477Z"
+          },
+          {
+            "price": 335.5,
+            "date": "2023-01-29T14:55:42.254Z"
+          },
+          {
+            "price": 323.54,
+            "date": "2023-01-29T14:55:42.254Z"
           }
         ]
       }
@@ -36481,6 +36489,14 @@
           {
             "price": 516.35,
             "date": "2023-01-29T14:07:23.981Z"
+          },
+          {
+            "price": 210.35,
+            "date": "2023-01-29T14:57:51.811Z"
+          },
+          {
+            "price": 516.35,
+            "date": "2023-01-29T14:57:51.811Z"
           }
         ]
       }
@@ -45801,6 +45817,14 @@
           {
             "price": 939,
             "date": "2023-01-29T01:17:31.589Z"
+          },
+          {
+            "price": 692,
+            "date": "2023-01-29T14:55:37.141Z"
+          },
+          {
+            "price": 939,
+            "date": "2023-01-29T14:55:37.141Z"
           }
         ]
       }
@@ -79397,6 +79421,14 @@
           {
             "price": 138.9,
             "date": "2023-01-29T01:16:59.635Z"
+          },
+          {
+            "price": 192,
+            "date": "2023-01-29T14:55:01.808Z"
+          },
+          {
+            "price": 138.9,
+            "date": "2023-01-29T14:55:01.808Z"
           }
         ]
       }
@@ -80610,6 +80642,15 @@
             "date": "2023-01-22T09:09:33.848Z"
           }
         ]
+      },
+      {
+        "market": "63cd03baaa705832ee238b2b",
+        "prices": [
+          {
+            "price": 161,
+            "date": "2023-01-29T14:55:02.306Z"
+          }
+        ]
       }
     ]
   },
@@ -81218,6 +81259,15 @@
           {
             "price": 109,
             "date": "2023-01-22T09:09:33.848Z"
+          }
+        ]
+      },
+      {
+        "market": "63cd03baaa705832ee238b2b",
+        "prices": [
+          {
+            "price": 109,
+            "date": "2023-01-29T14:55:02.306Z"
           }
         ]
       }
@@ -98656,6 +98706,15 @@
             "date": "2023-01-22T09:36:55.459Z"
           }
         ]
+      },
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 109,
+            "date": "2023-01-29T14:55:55.366Z"
+          }
+        ]
       }
     ]
   },
@@ -115090,6 +115149,14 @@
           {
             "price": 1100,
             "date": "2023-01-29T01:13:22.480Z"
+          },
+          {
+            "price": 1329,
+            "date": "2023-01-29T14:52:59.000Z"
+          },
+          {
+            "price": 1100,
+            "date": "2023-01-29T14:52:59.000Z"
           }
         ]
       }
@@ -151107,6 +151174,15 @@
             "date": "2023-01-28T11:27:35.099Z"
           }
         ]
+      },
+      {
+        "market": "63cd03baaa705832ee238b2b",
+        "prices": [
+          {
+            "price": 29,
+            "date": "2023-01-29T14:55:02.306Z"
+          }
+        ]
       }
     ]
   },
@@ -155298,6 +155374,328 @@
           {
             "price": 1889,
             "date": "2023-01-29T01:19:30.876Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d68885baab866676b54330",
+    "name": "Galletitas Okebon Natural Avena y Granola 236g",
+    "product": "63d68884baab866676b5432f",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 477,
+            "date": "2023-01-29T14:53:07.615Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d68887baab866676b54332",
+    "name": "Mini Galletitas Macucas 140G",
+    "product": "63d68885baab866676b54331",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 219,
+            "date": "2023-01-29T14:53:07.615Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d68889baab866676b54334",
+    "name": "Galleta Hojalmar 150g palmeritas",
+    "product": "63d68887baab866676b54333",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 238,
+            "date": "2023-01-29T14:53:07.615Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d68898baab866676b54336",
+    "name": "Arandanos x 125 g",
+    "product": "63d68895baab866676b54335",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 360,
+            "date": "2023-01-29T14:53:18.310Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d6889abaab866676b54338",
+    "name": "Cereza X 250G",
+    "product": "63d68898baab866676b54337",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 394,
+            "date": "2023-01-29T14:53:18.310Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d6889fbaab866676b5433a",
+    "name": "Lechuga criolla x 300 g",
+    "product": "63d6889ebaab866676b54339",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 548,
+            "date": "2023-01-29T14:53:20.767Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d688dbbaab866676b5433c",
+    "name": "Papel Higiénico Hoja Simple Carrefour 4 Unidades 30 Metros",
+    "product": "63d688d9baab866676b5433b",
+    "markets": [
+      {
+        "market": "63cd03baaa705832ee238b2b",
+        "prices": [
+          {
+            "price": 299,
+            "date": "2023-01-29T14:55:02.306Z"
+          }
+        ]
+      },
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 299,
+            "date": "2023-01-29T14:55:55.366Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d688dcbaab866676b5433e",
+    "name": "Fideos Tallarín Rojo Carrefour 500 G.",
+    "product": "63d688dbbaab866676b5433d",
+    "markets": [
+      {
+        "market": "63cd03baaa705832ee238b2b",
+        "prices": [
+          {
+            "price": 106,
+            "date": "2023-01-29T14:55:02.306Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d688debaab866676b54340",
+    "name": "Leche Entera Uat Carrefour Tetra 1 L.",
+    "product": "63d688dcbaab866676b5433f",
+    "markets": [
+      {
+        "market": "63cd03baaa705832ee238b2b",
+        "prices": [
+          {
+            "price": 161,
+            "date": "2023-01-29T14:55:02.306Z"
+          }
+        ]
+      },
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 161,
+            "date": "2023-01-29T14:55:55.366Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d6890fbaab866676b54342",
+    "name": "Dulce De Batata Con Chocolate Dulcor 1Kg",
+    "product": "63d6890dbaab866676b54341",
+    "markets": [
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 419,
+            "date": "2023-01-29T14:55:44.564Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d68919baab866676b54344",
+    "name": "Limpiador Líquido Nh3 Pisos Colores Frutales 1.8 L",
+    "product": "63d68918baab866676b54343",
+    "markets": [
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 156.52,
+            "date": "2023-01-29T14:55:50.358Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d68922baab866676b54346",
+    "name": "Leche Parcialmente Descremada Uat Carrefour Tetra 1 L.",
+    "product": "63d68921baab866676b54345",
+    "markets": [
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 161,
+            "date": "2023-01-29T14:55:55.366Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d68924baab866676b54348",
+    "name": "Lomitos De Atún Carrefour En Aceite 170 G.",
+    "product": "63d68922baab866676b54347",
+    "markets": [
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 269,
+            "date": "2023-01-29T14:55:55.366Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d68926baab866676b5434a",
+    "name": "Ravioles Carrefour cuatro quesos 500 g.",
+    "product": "63d68924baab866676b54349",
+    "markets": [
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 249,
+            "date": "2023-01-29T14:55:55.366Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d68928baab866676b5434c",
+    "name": "Papel higiénico hoja simple Carrefour 6 x 90 m.",
+    "product": "63d68926baab866676b5434b",
+    "markets": [
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 1112,
+            "date": "2023-01-29T14:55:55.366Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d68929baab866676b5434e",
+    "name": "Queso crema Carrefour tradicional 320 g.",
+    "product": "63d68928baab866676b5434d",
+    "markets": [
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 290,
+            "date": "2023-01-29T14:55:55.366Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d6892abaab866676b54350",
+    "name": "Formas de pollo Carrefour 360 g.",
+    "product": "63d68929baab866676b5434f",
+    "markets": [
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 481,
+            "date": "2023-01-29T14:55:55.366Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d6892ebaab866676b54352",
+    "name": "Queso Rallado 120 G.",
+    "product": "63d6892cbaab866676b54351",
+    "markets": [
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 295,
+            "date": "2023-01-29T14:55:56.193Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d6892fbaab866676b54354",
+    "name": "Queso Cremoso Puyehue Horma 1Kg",
+    "product": "63d6892ebaab866676b54353",
+    "markets": [
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 1085,
+            "date": "2023-01-29T14:55:56.193Z"
           }
         ]
       }
