@@ -137,7 +137,7 @@ const saveMarketStatic = async (market, index) => {
   const productsWithStockReseted = productsToResetStock.map(({ prices, ...product }) => {
     const newPrices = prices.map((price) => {
       if (price.market === foundMarket.id) {
-        const newPrice = { ...price, stock: 0 }
+        const newPrice = { ...price, stock: -1 }
         return newPrice
       }
       return price
@@ -157,8 +157,6 @@ const saveMarketStatic = async (market, index) => {
         product.stock,
         foundMarket.id
       )) || (await createProduct(product, foundCategory, foundMarket))
-
-    console.log(foundProduct.prices)
 
     const foundHistoricalPrice =
       historicalPricesLocal.find(({ product }) => product === foundProduct.id) || createHistoricalPrice(foundProduct, foundMarket)
