@@ -6,6 +6,7 @@ import { randomBetween } from './utils/utils.js'
 dotenv.config()
 
 const ScrapeData = async (browser, { marketName, partnerId }) => {
+  let result = `${marketName} - Scrapped correctly`
   const page = await browser.newPage()
   const baseUrl = process.env.BASE_URL
   await page.goto(baseUrl)
@@ -20,54 +21,61 @@ const ScrapeData = async (browser, { marketName, partnerId }) => {
 
   const categories = await page.evaluate(
     async ({ categoriesUrl, partnerId, marketName, productLink }) => {
-      const getCategoryUrl = (productId, partnerId) => productLink[0] + productId + productLink[1] + partnerId + productLink[2]
+      try {
+        const getCategoryUrl = (productId, partnerId) => productLink[0] + productId + productLink[1] + partnerId + productLink[2]
 
-      const response = await fetch(categoriesUrl)
-      const categories = await response.json()
-      const categoriesResponse = []
+        const response = await fetch(categoriesUrl)
+        const categories = await response.json()
+        const categoriesResponse = []
 
-      for (const category of categories.data) {
-        const categoryId = category.id
-        const categoryName = category.name
+        for (const category of categories.data) {
+          const categoryId = category.id
+          const categoryName = category.name
 
-        const response = await fetch(getCategoryUrl(categoryId, partnerId))
-        const productsData = await response.json()
-        console.log('products data', productsData)
-        const products = productsData.data.map((d) => {
-          return {
-            image: d.image,
-            name: d.name,
-            price: d.price,
-            stock: d.stock,
-            date: new Date(Date.now()),
-            barcode: d.integrationCode,
-            measurementUnit: d.measurementUnit,
-            pricePerMeasurementUnit: d.pricePerMeasurementUnit
+          const response = await fetch(getCategoryUrl(categoryId, partnerId))
+          const productsData = await response.json()
+          console.log('products data', productsData)
+          const products = productsData.data.map((d) => {
+            return {
+              image: d.image,
+              name: d.name,
+              price: d.price,
+              stock: d.stock,
+              date: new Date(Date.now()),
+              barcode: d.integrationCode,
+              measurementUnit: d.measurementUnit,
+              pricePerMeasurementUnit: d.pricePerMeasurementUnit
+            }
+          })
+
+          const categories = {
+            name: marketName,
+            category: {
+              name: categoryName,
+              products
+            }
           }
-        })
 
-        const categories = {
-          name: marketName,
-          category: {
-            name: categoryName,
-            products
-          }
+          categoriesResponse.push(categories)
         }
 
-        categoriesResponse.push(categories)
+        return categoriesResponse
+      } catch (error) {
+        return []
       }
-
-      return categoriesResponse
     },
     { categoriesUrl, partnerId, marketName, productLink }
   )
+
+  categories.length === 0 && (result = `${marketName} - Error scrapping`)
 
   for (let i = 0; i < categories.length; i++) {
     const category = categories[i]
     await saveMarketStatic(category, i + 1)
   }
 
-  return await page.close()
+  await page.close()
+  return result
 }
 
 ;(async () => {
@@ -76,9 +84,12 @@ const ScrapeData = async (browser, { marketName, partnerId }) => {
 
   const dataMarkets = JSON.parse(process.env.DATA_MARKETS)
   console.log(dataMarkets)
+  const results = []
   for (const data of dataMarkets) {
-    await ScrapeData(browser, data)
+    results.push(await ScrapeData(browser, data))
   }
+
+  console.log('results:', results)
 
   await browser.close()
 
