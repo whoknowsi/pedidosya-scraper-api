@@ -14,8 +14,6 @@ const saveImage = async (id, image) => {
   if (!image) return
   const imageUrl = `${baseUrl}/${image}`
 
-  console.log(baseUrl)
-
   console.log('Saving image:', image)
   try {
     const responseImage = await fetch(imageUrl)
