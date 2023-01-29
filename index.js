@@ -73,8 +73,6 @@ const ScrapeData = async (browser, { marketName, partnerId }) => {
 
   categories.length === 0 && (result = `${marketName} - Error scrapping`)
 
-  console.log(categories)
-
   for (let i = 0; i < categories.length; i++) {
     const category = categories[i]
     await saveMarketStatic(category, i + 1)
@@ -89,7 +87,6 @@ const ScrapeData = async (browser, { marketName, partnerId }) => {
   const initalTime = Date.now()
 
   const dataMarkets = JSON.parse(process.env.DATA_MARKETS)
-  console.log(dataMarkets)
   const results = []
   for (const data of dataMarkets) {
     results.push(await ScrapeData(browser, data))
