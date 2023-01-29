@@ -142,7 +142,7 @@ const saveMarketStatic = async (market, index) => {
     })
   )
 
-  console.log(productsToResetStock)
+  console.log(productsToResetStock.map(x => x.prices))
 
   for (const product of market.category.products) {
     const foundProduct =
