@@ -38,6 +38,7 @@ const ScrapeData = async (browser, { marketName, partnerId }) => {
             image: d.image,
             name: d.name,
             price: d.price,
+            stock: d.stock,
             date: new Date(Date.now()),
             barcode: d.integrationCode,
             measurementUnit: d.measurementUnit,

@@ -62,16 +62,17 @@ const createProduct = async (product, foundCategory, foundMarket) => {
   const newProduct = {
     id: newMongoProduct._id,
     name: product.name,
-    category: foundCategory.id,
+    category: [foundCategory.id],
     image,
-    integrationCode: product.barcode,
+    barcode: product.barcode,
     measurementUnit: product.measurementUnit,
     pricePerMeasurementUnit: product.pricePerMeasurementUnit,
     prices: [
       {
         market: foundMarket.id,
         price: product.price,
-        date: product.date
+        date: product.date,
+        stock: product.stock
       }
     ]
   }
@@ -102,7 +103,7 @@ const createHistoricalPrice = (foundProduct, foundMarket) => {
   return newHistoricalPrice
 }
 
-const checkImgOnProduct = async (product, imageUrl) => {
+const checkImgAndResetStockOnProduct = async (product, imageUrl, stock, marketId) => {
   if (product === undefined) return undefined
 
   const imagesNames = getImagesNames()
@@ -112,7 +113,12 @@ const checkImgOnProduct = async (product, imageUrl) => {
 
   const newImgUrl = await saveImage(product.id, imageUrl)
 
-  return { ...product, image: newImgUrl }
+  const prices = product.prices.map((price) => {
+    if (price.market === marketId) return { ...price, stock }
+    return price
+  })
+
+  return { ...product, prices, image: newImgUrl }
 }
 
 const saveMarketStatic = async (market, index) => {
@@ -126,11 +132,25 @@ const saveMarketStatic = async (market, index) => {
   const foundCategory = categoriesLocal.find((c) => c.name === market.category.name) || createCategory(market.category)
   console.log(` ${index} - `, foundCategory.name)
 
+  const productsOnMarketAndCategory = foundMarket.products.filter((p) => foundCategory.products.includes(p))
+  const productsToResetStock = productsLocal.filter((p) => productsOnMarketAndCategory.includes(p.id))
+  productsLocal = preWriteData(productsLocal,
+    productsToResetStock.map((product) => {
+      const prices = product.prices.map((price) => {
+        if (price.market === foundMarket.id) return { ...price, stock: 0 }
+        return price
+      })
+      return { ...product, prices }
+    })
+  )
+
   for (const product of market.category.products) {
     const foundProduct =
-      (await checkImgOnProduct(
+      (await checkImgAndResetStockOnProduct(
         productsLocal.find((p) => p.name === product.name),
-        product.image
+        product.image,
+        product.stock,
+        foundMarket.id
       )) || (await createProduct(product, foundCategory, foundMarket))
 
     const foundHistoricalPrice =
@@ -141,7 +161,8 @@ const saveMarketStatic = async (market, index) => {
       foundProduct.prices.push({
         market: foundMarket.id,
         price: product.price,
-        date: product.date
+        date: product.date,
+        stock: product.stock
       })
 
     const existMarketInHistorical = foundHistoricalPrice.markets.find((m) => m.market === foundMarket.id)
