@@ -14044,6 +14044,15 @@
             "date": "2023-01-26T15:33:20.550Z"
           }
         ]
+      },
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 696,
+            "date": "2023-01-29T01:13:31.603Z"
+          }
+        ]
       }
     ]
   },
@@ -23991,6 +24000,15 @@
             "date": "2023-01-22T09:36:58.062Z"
           }
         ]
+      },
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 547,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
       }
     ]
   },
@@ -24262,6 +24280,15 @@
           {
             "price": 705.74,
             "date": "2023-01-26T16:40:28.501Z"
+          }
+        ]
+      },
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 740,
+            "date": "2023-01-29T01:13:54.941Z"
           }
         ]
       }
@@ -25529,6 +25556,15 @@
           {
             "price": 1299,
             "date": "2023-01-28T02:10:11.662Z"
+          }
+        ]
+      },
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1217,
+            "date": "2023-01-29T01:13:54.941Z"
           }
         ]
       }
@@ -35939,6 +35975,14 @@
           {
             "price": 323.54,
             "date": "2023-01-28T11:27:23.259Z"
+          },
+          {
+            "price": 335.5,
+            "date": "2023-01-29T01:17:35.477Z"
+          },
+          {
+            "price": 323.54,
+            "date": "2023-01-29T01:17:35.477Z"
           }
         ]
       }
@@ -36313,6 +36357,14 @@
           {
             "price": 516.35,
             "date": "2023-01-28T11:28:42.762Z"
+          },
+          {
+            "price": 210.35,
+            "date": "2023-01-29T01:19:30.648Z"
+          },
+          {
+            "price": 516.35,
+            "date": "2023-01-29T01:19:30.648Z"
           }
         ]
       }
@@ -38075,6 +38127,15 @@
             "date": "2023-01-22T09:42:20.923Z"
           }
         ]
+      },
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 169,
+            "date": "2023-01-29T01:13:32.505Z"
+          }
+        ]
       }
     ]
   },
@@ -38764,6 +38825,15 @@
           {
             "price": 587.25,
             "date": "2023-01-26T18:08:40.998Z"
+          }
+        ]
+      },
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 579,
+            "date": "2023-01-29T01:13:36.532Z"
           }
         ]
       }
@@ -45603,6 +45673,14 @@
           {
             "price": 939,
             "date": "2023-01-28T11:27:20.194Z"
+          },
+          {
+            "price": 692,
+            "date": "2023-01-29T01:17:31.589Z"
+          },
+          {
+            "price": 939,
+            "date": "2023-01-29T01:17:31.589Z"
           }
         ]
       }
@@ -48047,6 +48125,15 @@
             "date": "2023-01-22T09:09:17.648Z"
           }
         ]
+      },
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 500,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
       }
     ]
   },
@@ -48154,6 +48241,15 @@
           {
             "price": 327.6,
             "date": "2023-01-22T09:09:17.648Z"
+          }
+        ]
+      },
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 344,
+            "date": "2023-01-29T01:13:54.434Z"
           }
         ]
       }
@@ -73894,6 +73990,15 @@
             "date": "2023-01-22T09:09:30.884Z"
           }
         ]
+      },
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 248,
+            "date": "2023-01-29T01:13:29.221Z"
+          }
+        ]
       }
     ]
   },
@@ -77504,6 +77609,15 @@
             "date": "2023-01-22T09:09:32.421Z"
           }
         ]
+      },
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 357,
+            "date": "2023-01-29T01:13:33.904Z"
+          }
+        ]
       }
     ]
   },
@@ -79151,6 +79265,14 @@
           {
             "price": 138.9,
             "date": "2023-01-28T11:26:53.734Z"
+          },
+          {
+            "price": 192,
+            "date": "2023-01-29T01:16:59.635Z"
+          },
+          {
+            "price": 138.9,
+            "date": "2023-01-29T01:16:59.635Z"
           }
         ]
       }
@@ -85782,6 +85904,10 @@
           {
             "price": 536,
             "date": "2023-01-22T09:50:48.430Z"
+          },
+          {
+            "price": 619,
+            "date": "2023-01-29T01:13:31.168Z"
           }
         ]
       }
@@ -88079,6 +88205,15 @@
           {
             "price": 1430,
             "date": "2023-01-22T09:09:36.823Z"
+          }
+        ]
+      },
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1500,
+            "date": "2023-01-29T01:13:54.941Z"
           }
         ]
       }
@@ -101038,6 +101173,15 @@
             "date": "2023-01-22T09:42:06.187Z"
           }
         ]
+      },
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1140,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
       }
     ]
   },
@@ -109407,6 +109551,10 @@
           {
             "price": 231,
             "date": "2023-01-22T09:51:16.766Z"
+          },
+          {
+            "price": 264,
+            "date": "2023-01-29T01:13:59.589Z"
           }
         ]
       },
@@ -114810,6 +114958,14 @@
           {
             "price": 1100,
             "date": "2023-01-28T11:25:31.118Z"
+          },
+          {
+            "price": 1329,
+            "date": "2023-01-29T01:13:22.480Z"
+          },
+          {
+            "price": 1100,
+            "date": "2023-01-29T01:13:22.480Z"
           }
         ]
       }
@@ -151109,6 +151265,3907 @@
           {
             "price": 589,
             "date": "2023-01-28T11:28:39.065Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c86083232b66b534a871",
+    "name": "Caramelos Lipo Wamis Dulce de Leche 50 unidades",
+    "product": "63d5c86083232b66b534a870",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 655,
+            "date": "2023-01-29T01:13:20.467Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c86383232b66b534a873",
+    "name": "Alimento Dog Chow Adulto Mini Y Pequeños 1,5Kg",
+    "product": "63d5c86283232b66b534a872",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1019,
+            "date": "2023-01-29T01:13:22.480Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c86483232b66b534a875",
+    "name": "Barritas Raza Bañadas Sabor Panceta 12Gr",
+    "product": "63d5c86383232b66b534a874",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 189,
+            "date": "2023-01-29T01:13:22.481Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c86683232b66b534a877",
+    "name": "Crema Corporal Nivea Aloe Vera 5en1 Piel Normal 400 ml",
+    "product": "63d5c86583232b66b534a876",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1129,
+            "date": "2023-01-29T01:13:24.177Z"
+          }
+        ]
+      },
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 1105,
+            "date": "2023-01-29T01:17:35.477Z"
+          }
+        ]
+      },
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 1202.59,
+            "date": "2023-01-29T01:19:30.394Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c86e83232b66b534a879",
+    "name": "Alimento Para Gatos Raza 3 Kg Pescado",
+    "product": "63d5c86c83232b66b534a878",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1355,
+            "date": "2023-01-29T01:13:29.221Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c86f83232b66b534a87b",
+    "name": "FANCY FEAST Demi Glace con Salmón 85g",
+    "product": "63d5c86e83232b66b534a87a",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 380,
+            "date": "2023-01-29T01:13:29.221Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c87683232b66b534a87d",
+    "name": "Pan Integral Bimbo 400G",
+    "product": "63d5c87583232b66b534a87c",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 483,
+            "date": "2023-01-29T01:13:33.904Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c87683232b66b534a87f",
+    "name": "Pan Integral Grano Entero Fargo 400G",
+    "product": "63d5c87683232b66b534a87e",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 529,
+            "date": "2023-01-29T01:13:33.904Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c87c83232b66b534a881",
+    "name": "Gin Tonic Schweppes 310ml",
+    "product": "63d5c87b83232b66b534a880",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 375,
+            "date": "2023-01-29T01:13:39.374Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c87c83232b66b534a883",
+    "name": "Vodka Citrus Schweppes 310ml",
+    "product": "63d5c87c83232b66b534a882",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 375,
+            "date": "2023-01-29T01:13:39.374Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c87d83232b66b534a885",
+    "name": "Gin Merle Edicion Limitada 750 Ml",
+    "product": "63d5c87c83232b66b534a884",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1923,
+            "date": "2023-01-29T01:13:39.374Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c87d83232b66b534a887",
+    "name": "Vodka Skyy Infusions Raspberry 750 Ml",
+    "product": "63d5c87d83232b66b534a886",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1815,
+            "date": "2023-01-29T01:13:39.374Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c87e83232b66b534a889",
+    "name": "Vodka Smirnoff Watermelon 700ml",
+    "product": "63d5c87d83232b66b534a888",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1908,
+            "date": "2023-01-29T01:13:39.374Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c87e83232b66b534a88b",
+    "name": "Brighton Gin 700ML",
+    "product": "63d5c87e83232b66b534a88a",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 2038,
+            "date": "2023-01-29T01:13:39.374Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c87f83232b66b534a88d",
+    "name": "Vodka Skyy Infusion Coconut 750 Ml",
+    "product": "63d5c87e83232b66b534a88c",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1801,
+            "date": "2023-01-29T01:13:39.374Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c87f83232b66b534a88f",
+    "name": "Vodka Orloff 750Ml",
+    "product": "63d5c87f83232b66b534a88e",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 913,
+            "date": "2023-01-29T01:13:39.374Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c88083232b66b534a891",
+    "name": "Gin Maleficio Pink 500ml",
+    "product": "63d5c87f83232b66b534a890",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1910,
+            "date": "2023-01-29T01:13:39.374Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c88083232b66b534a893",
+    "name": "Gin Blue Merle 750 Ml",
+    "product": "63d5c88083232b66b534a892",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 3186,
+            "date": "2023-01-29T01:13:39.374Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c88183232b66b534a895",
+    "name": "Vodka Sernova Tropical Passion 700 Ml",
+    "product": "63d5c88083232b66b534a894",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1805,
+            "date": "2023-01-29T01:13:39.374Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c88283232b66b534a897",
+    "name": "RTD Bacardi Ron Cola 310ml",
+    "product": "63d5c88183232b66b534a896",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 703,
+            "date": "2023-01-29T01:13:39.374Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c88283232b66b534a899",
+    "name": "Gin Maleficio Honey 500ml",
+    "product": "63d5c88283232b66b534a898",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1766,
+            "date": "2023-01-29T01:13:39.374Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c88383232b66b534a89b",
+    "name": "Vodka Sernova Sweet Apple Pear 700 Ml",
+    "product": "63d5c88283232b66b534a89a",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1805,
+            "date": "2023-01-29T01:13:39.374Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c88383232b66b534a89d",
+    "name": "Ron Bacardi Carta Oro 750 ml",
+    "product": "63d5c88383232b66b534a89c",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 5835,
+            "date": "2023-01-29T01:13:39.374Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c88483232b66b534a89f",
+    "name": "Gin Maleficio Sunset Orange 500ml",
+    "product": "63d5c88383232b66b534a89e",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1910,
+            "date": "2023-01-29T01:13:39.374Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c88483232b66b534a8a1",
+    "name": "Gin Larios 700 Ml",
+    "product": "63d5c88483232b66b534a8a0",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 3248,
+            "date": "2023-01-29T01:13:39.374Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c88583232b66b534a8a3",
+    "name": "Vodka Raspberri 40° 750 Cc Absolut",
+    "product": "63d5c88483232b66b534a8a2",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 4062,
+            "date": "2023-01-29T01:13:39.374Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c88583232b66b534a8a5",
+    "name": "Pisco Anejado En Roble 35° 750 Cc Mistral",
+    "product": "63d5c88583232b66b534a8a4",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 2754,
+            "date": "2023-01-29T01:13:39.374Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c88683232b66b534a8a7",
+    "name": "Whisky Ballantine's Finest 750ml",
+    "product": "63d5c88583232b66b534a8a6",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 4331,
+            "date": "2023-01-29T01:13:39.374Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c88783232b66b534a8a9",
+    "name": "Whiskey Jim Beam Honey Bourbon 750 Ml",
+    "product": "63d5c88683232b66b534a8a8",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 6455,
+            "date": "2023-01-29T01:13:39.374Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c88883232b66b534a8ab",
+    "name": "Gin Heraclito & Macedonio 750 Ml",
+    "product": "63d5c88783232b66b534a8aa",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 2775,
+            "date": "2023-01-29T01:13:39.374Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c88883232b66b534a8ad",
+    "name": "Whisky Jameson Caskmates IPA 750 ml",
+    "product": "63d5c88883232b66b534a8ac",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 5849,
+            "date": "2023-01-29T01:13:39.374Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c88983232b66b534a8af",
+    "name": "Gin Bosque 500 Ml",
+    "product": "63d5c88883232b66b534a8ae",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 3293,
+            "date": "2023-01-29T01:13:39.374Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c88a83232b66b534a8b1",
+    "name": "Gin Bombay Sapphire 750ml",
+    "product": "63d5c88983232b66b534a8b0",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 12447,
+            "date": "2023-01-29T01:13:39.374Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c88b83232b66b534a8b3",
+    "name": "Whisky Chivas Regal 40° 12 Anos 750 Cc",
+    "product": "63d5c88a83232b66b534a8b2",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 6873,
+            "date": "2023-01-29T01:13:39.374Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c88c83232b66b534a8b5",
+    "name": "Edulcorante Hileret Clasico en sobres X 500 Uni",
+    "product": "63d5c88b83232b66b534a8b4",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 2251,
+            "date": "2023-01-29T01:13:39.746Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c88d83232b66b534a8b7",
+    "name": "Agua Sierra De Los Padres Sin Gas 600 Ml",
+    "product": "63d5c88c83232b66b534a8b6",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 94,
+            "date": "2023-01-29T01:13:40.339Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c88e83232b66b534a8b9",
+    "name": "Sidra Patagonia Isidra 473ml",
+    "product": "63d5c88d83232b66b534a8b8",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 507,
+            "date": "2023-01-29T01:13:40.628Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c88e83232b66b534a8bb",
+    "name": "Sidra 1888 Rose 750Ml",
+    "product": "63d5c88e83232b66b534a8ba",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1340,
+            "date": "2023-01-29T01:13:40.628Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c88f83232b66b534a8bd",
+    "name": "Champagne Renaissance Dulce 750ml",
+    "product": "63d5c88e83232b66b534a8bc",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 523,
+            "date": "2023-01-29T01:13:40.628Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c88f83232b66b534a8bf",
+    "name": "Champaña Renaissance Extra Brut 750 ml",
+    "product": "63d5c88f83232b66b534a8be",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 748,
+            "date": "2023-01-29T01:13:40.628Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c88f83232b66b534a8c1",
+    "name": "Espumante brut nature Salentein 750 cc.",
+    "product": "63d5c88f83232b66b534a8c0",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 2290,
+            "date": "2023-01-29T01:13:40.628Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c89083232b66b534a8c3",
+    "name": "Espumante extra brut Callia 750 cc.",
+    "product": "63d5c88f83232b66b534a8c2",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 990,
+            "date": "2023-01-29T01:13:40.628Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c89083232b66b534a8c5",
+    "name": "Espumante extra brut Salentein 750 cc.",
+    "product": "63d5c89083232b66b534a8c4",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 2100,
+            "date": "2023-01-29T01:13:40.628Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c89183232b66b534a8c7",
+    "name": "Clericó Fizz Del Valle 720 Cc.",
+    "product": "63d5c89083232b66b534a8c6",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 725,
+            "date": "2023-01-29T01:13:40.628Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c89383232b66b534a8c9",
+    "name": "Ananá Fizz Real 750 Cc.",
+    "product": "63d5c89183232b66b534a8c8",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 789,
+            "date": "2023-01-29T01:13:40.628Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c89383232b66b534a8cb",
+    "name": "Espumante Mumm leger 750 cc.",
+    "product": "63d5c89383232b66b534a8ca",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1519,
+            "date": "2023-01-29T01:13:40.628Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c89483232b66b534a8cd",
+    "name": "Frizzé Evolution Blue Lata 473Ml",
+    "product": "63d5c89383232b66b534a8cc",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 273,
+            "date": "2023-01-29T01:13:40.628Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c89483232b66b534a8cf",
+    "name": "Espumante Navarro Correas nature 750 cc.",
+    "product": "63d5c89483232b66b534a8ce",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1872,
+            "date": "2023-01-29T01:13:40.628Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c89583232b66b534a8d1",
+    "name": "Clericó Fizz Real 750 Cc.",
+    "product": "63d5c89483232b66b534a8d0",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 789,
+            "date": "2023-01-29T01:13:40.628Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c89583232b66b534a8d3",
+    "name": "Espumante brut nature Nieto Senetiner 750 cc.",
+    "product": "63d5c89583232b66b534a8d2",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 2196,
+            "date": "2023-01-29T01:13:40.628Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c89683232b66b534a8d5",
+    "name": "Espumante Dadá Sweet Pink 7 750 Cc.",
+    "product": "63d5c89583232b66b534a8d4",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1270,
+            "date": "2023-01-29T01:13:40.628Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c89683232b66b534a8d7",
+    "name": "Dada 7 Maracuya 750 Ml",
+    "product": "63d5c89683232b66b534a8d6",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1523,
+            "date": "2023-01-29T01:13:40.628Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c89783232b66b534a8d9",
+    "name": "Frizze Italian Limonata 1L",
+    "product": "63d5c89683232b66b534a8d8",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 603,
+            "date": "2023-01-29T01:13:40.628Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c89a83232b66b534a8db",
+    "name": "Gomitas Haribo Starmix 150 G",
+    "product": "63d5c89983232b66b534a8da",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 705,
+            "date": "2023-01-29T01:13:42.205Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c89a83232b66b534a8dd",
+    "name": "Durazno x 4 unidades",
+    "product": "63d5c89a83232b66b534a8dc",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 694,
+            "date": "2023-01-29T01:13:42.540Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c89b83232b66b534a8df",
+    "name": "Mango x unidad",
+    "product": "63d5c89a83232b66b534a8de",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 622,
+            "date": "2023-01-29T01:13:42.540Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c89e83232b66b534a8e1",
+    "name": "Tostada Paseo Light 200gr",
+    "product": "63d5c89e83232b66b534a8e0",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 278,
+            "date": "2023-01-29T01:13:44.314Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c89f83232b66b534a8e3",
+    "name": "Galletitas Sandwich Tripack Leiva 330 G",
+    "product": "63d5c89e83232b66b534a8e2",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 318,
+            "date": "2023-01-29T01:13:44.314Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c89f83232b66b534a8e5",
+    "name": "Galletitas Leiva Crackers Multisemillas 175g",
+    "product": "63d5c89f83232b66b534a8e4",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 200,
+            "date": "2023-01-29T01:13:44.314Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8a283232b66b534a8e7",
+    "name": "Lechuga mantecosa lavada Filieres 200 g.",
+    "product": "63d5c8a083232b66b534a8e6",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 543,
+            "date": "2023-01-29T01:13:46.071Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8a383232b66b534a8e9",
+    "name": "Ensalada mix verdes 300 g.",
+    "product": "63d5c8a283232b66b534a8e8",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 595,
+            "date": "2023-01-29T01:13:46.071Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8a583232b66b534a8eb",
+    "name": "Sal Con Ajo Dos anclas X 200Gr",
+    "product": "63d5c8a583232b66b534a8ea",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 704,
+            "date": "2023-01-29T01:13:47.644Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8ac83232b66b534a8ed",
+    "name": "Cerveza Schneider Lager 473Cc x 6",
+    "product": "63d5c8ab83232b66b534a8ec",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1274,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8ac83232b66b534a8ef",
+    "name": "Cerveza Heineken Pack x 6 Latas",
+    "product": "63d5c8ac83232b66b534a8ee",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1959,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8ad83232b66b534a8f1",
+    "name": "Cerveza Andes Fresquita 473Ml",
+    "product": "63d5c8ac83232b66b534a8f0",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 287,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8ad83232b66b534a8f3",
+    "name": "Quilmes Doble Malta Lata 410Cc",
+    "product": "63d5c8ad83232b66b534a8f2",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 233,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8ae83232b66b534a8f5",
+    "name": "Cerveza Imperial Lager 473Cc x 6",
+    "product": "63d5c8ad83232b66b534a8f4",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1751,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8ae83232b66b534a8f7",
+    "name": "Cerveza 1890 473 Ml X6",
+    "product": "63d5c8ae83232b66b534a8f6",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1289,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8af83232b66b534a8f9",
+    "name": "Cerveza Patagonia Vera Ipa 410Ml X6",
+    "product": "63d5c8ae83232b66b534a8f8",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 2355,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8af83232b66b534a8fb",
+    "name": "Cerveza Stella Artois Noire Pura Malta Lata 473Ml",
+    "product": "63d5c8af83232b66b534a8fa",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 368,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8af83232b66b534a8fd",
+    "name": "Cerveza Andes Origen Vendimia 473Ml Pack X 4",
+    "product": "63d5c8af83232b66b534a8fc",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1238,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8b083232b66b534a8ff",
+    "name": "Cerveza Patagonia HOPPY LAGER 730mL",
+    "product": "63d5c8af83232b66b534a8fe",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 588,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8b083232b66b534a901",
+    "name": "Cerveza Patagonia Travesía Sureña Lata 410 ml",
+    "product": "63d5c8b083232b66b534a900",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 405,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8b183232b66b534a903",
+    "name": "Cerveza Patagonia Vera Ipa 410Ml",
+    "product": "63d5c8b083232b66b534a902",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 405,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8b183232b66b534a905",
+    "name": "Cerveza Bierhaus Chalaland Ipa 473Ml",
+    "product": "63d5c8b183232b66b534a904",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 570,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8b283232b66b534a907",
+    "name": "Cerveza Peñon Del Aguila Oktoberfest 473 mL",
+    "product": "63d5c8b183232b66b534a906",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 406,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8b283232b66b534a909",
+    "name": "Cerveza rubia Rabieta golden ale 710 cc.",
+    "product": "63d5c8b283232b66b534a908",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 670,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8b383232b66b534a90b",
+    "name": "Cerveza rubia Rabieta american Ipa 710 cc.",
+    "product": "63d5c8b283232b66b534a90a",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 740,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8b583232b66b534a90d",
+    "name": "Cerveza Bierhaus Honey lata x473ml",
+    "product": "63d5c8b383232b66b534a90c",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 410,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8b583232b66b534a90f",
+    "name": "Cerveza Bierhaus IPA lata 473 mL",
+    "product": "63d5c8b583232b66b534a90e",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 468,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8b683232b66b534a911",
+    "name": "Cerveza Rabieta Wee Heavy 473ML",
+    "product": "63d5c8b583232b66b534a910",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 500,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8b683232b66b534a913",
+    "name": "Cerveza roja Rabieta Irish Red Ale Molly Otoole 710 cc.",
+    "product": "63d5c8b683232b66b534a912",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 670,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8b683232b66b534a915",
+    "name": "Cerveza Rabieta Helles Munich 710ML",
+    "product": "63d5c8b683232b66b534a914",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 670,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8b783232b66b534a917",
+    "name": "Six Pack Cerveza Rabieta Red Honey 473ml + Vaso De Regalo",
+    "product": "63d5c8b683232b66b534a916",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 2520,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8b783232b66b534a919",
+    "name": "Gin Tonic Maleficio American Dry 354ml",
+    "product": "63d5c8b783232b66b534a918",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 325,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8b883232b66b534a91b",
+    "name": "Six Pack Cerveza Rabieta Helles Munich 473ml + Vaso De Regalo",
+    "product": "63d5c8b783232b66b534a91a",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 2520,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8b983232b66b534a91d",
+    "name": "Cerveza Rabieta Apa Lata 473 cc",
+    "product": "63d5c8b883232b66b534a91c",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 500,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8b983232b66b534a91f",
+    "name": "Cerveza Rabieta Wee Heavy x 710 Ml",
+    "product": "63d5c8b983232b66b534a91e",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 740,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8ba83232b66b534a921",
+    "name": "Cerveza Rabieta APA 710ML",
+    "product": "63d5c8b983232b66b534a920",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 740,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8ba83232b66b534a923",
+    "name": "Cerveza Rabieta Oktoberfest 710cc",
+    "product": "63d5c8ba83232b66b534a922",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 740,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8bb83232b66b534a925",
+    "name": "Rabieta American Red IPA 710 ml",
+    "product": "63d5c8ba83232b66b534a924",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 740,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8bb83232b66b534a927",
+    "name": "Six Pack Cerveza Rabieta Ipa 473ml + Vaso De Regalo",
+    "product": "63d5c8bb83232b66b534a926",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 2700,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8bc83232b66b534a929",
+    "name": "Cerveza Antares Honey Beer 500 Ml",
+    "product": "63d5c8bb83232b66b534a928",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 474,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8bc83232b66b534a92b",
+    "name": "Cerveza Antares Porter 500 Ml",
+    "product": "63d5c8bc83232b66b534a92a",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 474,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8bd83232b66b534a92d",
+    "name": "Cerveza Bierhaus Mexican Lager lata x473ml",
+    "product": "63d5c8bc83232b66b534a92c",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 392,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8be83232b66b534a92f",
+    "name": "Cerveza Rabieta Witbier 710cc",
+    "product": "63d5c8bd83232b66b534a92e",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 740,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8be83232b66b534a931",
+    "name": "Cerveza Bierhaus Red IPA lata x473ml",
+    "product": "63d5c8be83232b66b534a930",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 468,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8bf83232b66b534a933",
+    "name": "Cerveza Artesanal Lit Irish Red Ale 473cc",
+    "product": "63d5c8be83232b66b534a932",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 323,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8bf83232b66b534a935",
+    "name": "Cerveza Bierhaus Scotch lata x473ml",
+    "product": "63d5c8bf83232b66b534a934",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 410,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8c083232b66b534a937",
+    "name": "Cerveza Artesanal 7 Cholas Ipa 473ml",
+    "product": "63d5c8bf83232b66b534a936",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 500,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8c083232b66b534a939",
+    "name": "Cerveza Siete Cholas Blonde Ale 473 Ml, Lata",
+    "product": "63d5c8c083232b66b534a938",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 470,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8c183232b66b534a93b",
+    "name": "Cerveza Dos Dingos Aussie Ipa 473 Ml",
+    "product": "63d5c8c083232b66b534a93a",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 526,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8c183232b66b534a93d",
+    "name": "Cerveza Dos Dingos Sunset Amber Ale 473 Ml",
+    "product": "63d5c8c183232b66b534a93c",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 505,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8c283232b66b534a93f",
+    "name": "Cerveza Calsberg Lata 500 Ml",
+    "product": "63d5c8c183232b66b534a93e",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 839,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8c283232b66b534a941",
+    "name": "Cerveza Dos Dingos Pils 473 Ml",
+    "product": "63d5c8c283232b66b534a940",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 476,
+            "date": "2023-01-29T01:13:54.434Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8c383232b66b534a943",
+    "name": "Vino Cordero Con Piel De Lobo Malbec X 750 Ml",
+    "product": "63d5c8c283232b66b534a942",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1366,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8c483232b66b534a945",
+    "name": "Vino tinto malbec Aimé 750 cc.",
+    "product": "63d5c8c383232b66b534a944",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 624,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8c583232b66b534a947",
+    "name": "Vino Blanco Cafayate Dulce Tardio 750 Cc",
+    "product": "63d5c8c483232b66b534a946",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 738,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8c583232b66b534a949",
+    "name": "Vino Sexy Fish Cabernet Franc 750 Ml",
+    "product": "63d5c8c583232b66b534a948",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 907,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8c683232b66b534a94b",
+    "name": "Vino Cafayate Malbec 750ML",
+    "product": "63d5c8c583232b66b534a94a",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 738,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8c683232b66b534a94d",
+    "name": "Vino Rosado Rose Syrah Santa Julia 750 mL",
+    "product": "63d5c8c683232b66b534a94c",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1158,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8c783232b66b534a94f",
+    "name": "Vino Blanco Uvita Tetra Brik- 1000ml",
+    "product": "63d5c8c683232b66b534a94e",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 449,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8c783232b66b534a951",
+    "name": "Vino Cafayate Syrah 750ML",
+    "product": "63d5c8c783232b66b534a950",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 738,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8c983232b66b534a953",
+    "name": "Santa Julia Tintillo Malbec Bonarda  X 269 Ml",
+    "product": "63d5c8c783232b66b534a952",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 452,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8ca83232b66b534a955",
+    "name": "Vino Tinto Malbec Cafayate Reseva 750 Cc.",
+    "product": "63d5c8c983232b66b534a954",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1234,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8ca83232b66b534a957",
+    "name": "Vino Blanco Dulce Natural Emilia 750 Cc.",
+    "product": "63d5c8ca83232b66b534a956",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1109,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8cb83232b66b534a959",
+    "name": "Vino Blanco Chardonnay Emilia 750 Cc.",
+    "product": "63d5c8ca83232b66b534a958",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1092,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8cc83232b66b534a95b",
+    "name": "Norton Elegido Chardonnay  750cc",
+    "product": "63d5c8cb83232b66b534a95a",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 729,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8cd83232b66b534a95d",
+    "name": "Callia Tardío Tinto 750 Ml",
+    "product": "63d5c8cc83232b66b534a95c",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 790,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8cd83232b66b534a95f",
+    "name": "Vino blanco chardonnay Aimé 750 cc.",
+    "product": "63d5c8cd83232b66b534a95e",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 794,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8ce83232b66b534a961",
+    "name": "Vino Perro Callejero 750Ml",
+    "product": "63d5c8cd83232b66b534a960",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 2164,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8ce83232b66b534a963",
+    "name": "Vino Tinto Cabernet Malbec Lote Negro Norton Botella 750 Ml",
+    "product": "63d5c8ce83232b66b534a962",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 5361,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8cf83232b66b534a965",
+    "name": "Norton Reserva Malbec 750Ml",
+    "product": "63d5c8ce83232b66b534a964",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1574,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8cf83232b66b534a967",
+    "name": "Vino Santa Julia Malbec Del Mercado 750Ml",
+    "product": "63d5c8cf83232b66b534a966",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1675,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8cf83232b66b534a969",
+    "name": "Vino Tinto Norton Perdriel Series Malbec 750 Ml",
+    "product": "63d5c8cf83232b66b534a968",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 2442,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8d083232b66b534a96b",
+    "name": "Vino Tinto Norton Altura Malbec 750 Ml",
+    "product": "63d5c8cf83232b66b534a96a",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 2442,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8d083232b66b534a96d",
+    "name": "Vino tinto syrah cabernet Callia esperado 750 cc.",
+    "product": "63d5c8d083232b66b534a96c",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 910,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8d283232b66b534a96f",
+    "name": "Vino Tinto Salentein Reserva Malbec 750ml",
+    "product": "63d5c8d083232b66b534a96e",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 2450,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8d283232b66b534a971",
+    "name": "Vino Santa Julia Flores Negras Pinot 750Ml",
+    "product": "63d5c8d283232b66b534a970",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1827,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8d383232b66b534a973",
+    "name": "Vino Tinto Callia Syrah Cabernet Sauvignon 750 Ml",
+    "product": "63d5c8d283232b66b534a972",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 850,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8d383232b66b534a975",
+    "name": "Vino Tinto Cabernet Sauvignon Magna Santa Julia 750 Ml",
+    "product": "63d5c8d383232b66b534a974",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 2114,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8d583232b66b534a977",
+    "name": "Vino Blanco Dulce Uvita 1 Lt",
+    "product": "63d5c8d383232b66b534a976",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 449,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8d583232b66b534a979",
+    "name": "Vino Tinto Magna X 750Ml",
+    "product": "63d5c8d583232b66b534a978",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 2114,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8d783232b66b534a97b",
+    "name": "Vino El Bautismo Blend de Blancas Dulces x 750 ml",
+    "product": "63d5c8d583232b66b534a97a",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 812,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8d883232b66b534a97d",
+    "name": "Vino La Celia Rosé 750 ml",
+    "product": "63d5c8d783232b66b534a97c",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1567,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8d883232b66b534a97f",
+    "name": "Vino Blanco Chardonnay Nieto Senetiner 750 Cc.",
+    "product": "63d5c8d883232b66b534a97e",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1515,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8d883232b66b534a981",
+    "name": "San Felipe Roble Malbec x 750 ml",
+    "product": "63d5c8d883232b66b534a980",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1255,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8d983232b66b534a983",
+    "name": "Vino Tinto Malbec San Felipe 750 Ml",
+    "product": "63d5c8d883232b66b534a982",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 949,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8d983232b66b534a985",
+    "name": "Vino tinto malbec Ruca Malen 750 cc.",
+    "product": "63d5c8d983232b66b534a984",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 2200,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8da83232b66b534a987",
+    "name": "Rutini Cabernet Malbec 750 mL",
+    "product": "63d5c8d983232b66b534a986",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 3712,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8da83232b66b534a989",
+    "name": "Vino Tinto Blend Killka 750 Cc.",
+    "product": "63d5c8da83232b66b534a988",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1500,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8db83232b66b534a98b",
+    "name": "Vino Pispi 750Ml",
+    "product": "63d5c8da83232b66b534a98a",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 3127,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8db83232b66b534a98d",
+    "name": "Vino Rutini 2017 750Ml",
+    "product": "63d5c8db83232b66b534a98c",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 3712,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8dc83232b66b534a98f",
+    "name": "Omnium Malbec 750 mL",
+    "product": "63d5c8db83232b66b534a98e",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1468,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8dc83232b66b534a991",
+    "name": "Vino Tinto Malbec Don David Reserva 750 Cc.",
+    "product": "63d5c8dc83232b66b534a990",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1975,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8dc83232b66b534a993",
+    "name": "Vino Tinto Reserva Cabernet Sauvignon Zuccardi Q Botella 750 Ml",
+    "product": "63d5c8dc83232b66b534a992",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 4758,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8dd83232b66b534a995",
+    "name": "Vino Novecento Cabernet Sauvignon 750 ml",
+    "product": "63d5c8dc83232b66b534a994",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 885,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8de83232b66b534a997",
+    "name": "Vino Blanco Chardonnay Reserva Santa Julia 750 ml",
+    "product": "63d5c8dd83232b66b534a996",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1429,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8de83232b66b534a999",
+    "name": "Vino Tinto Malbec Fuzion Alta 750Ml",
+    "product": "63d5c8de83232b66b534a998",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1434,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8df83232b66b534a99b",
+    "name": "Vino Novecento Blend de Blancas 750ml",
+    "product": "63d5c8de83232b66b534a99a",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 999,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8e083232b66b534a99d",
+    "name": "Vino Sapo De Otro Pozo 750 mL",
+    "product": "63d5c8df83232b66b534a99c",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 4205,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8e183232b66b534a99f",
+    "name": "Vino Perdriel Series Sauvignon Blanc 750 Ml.",
+    "product": "63d5c8e083232b66b534a99e",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 2088,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8e183232b66b534a9a1",
+    "name": "Vino Blanco Dulce Fuzion Alta 750Ml",
+    "product": "63d5c8e183232b66b534a9a0",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1434,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8e183232b66b534a9a3",
+    "name": "Vino Fuzion Alta Chardonnay 750ML",
+    "product": "63d5c8e183232b66b534a9a2",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1434,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8e283232b66b534a9a5",
+    "name": "Vino Mosquita Muerta 750Ml",
+    "product": "63d5c8e183232b66b534a9a4",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 5742,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8e283232b66b534a9a7",
+    "name": "Vino tinto cabernet sauvignon Santa Julia reserva 750 cc.",
+    "product": "63d5c8e283232b66b534a9a6",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1452,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8e383232b66b534a9a9",
+    "name": "Vino Omnium Cabernet Sauvignon 750 ml",
+    "product": "63d5c8e283232b66b534a9a8",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1468,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8e383232b66b534a9ab",
+    "name": "Vino Fuzion Alta Blend 750ML",
+    "product": "63d5c8e383232b66b534a9aa",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1434,
+            "date": "2023-01-29T01:13:54.941Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8e483232b66b534a9ad",
+    "name": "Aperitivo Aperol 750ml",
+    "product": "63d5c8e483232b66b534a9ac",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1607,
+            "date": "2023-01-29T01:13:55.258Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8e683232b66b534a9af",
+    "name": "Aperitivo Cazalis Leger 950 Cc",
+    "product": "63d5c8e483232b66b534a9ae",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 710,
+            "date": "2023-01-29T01:13:55.258Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8e883232b66b534a9b1",
+    "name": "Té en hebras Matcha Detox IntT 80gr",
+    "product": "63d5c8e783232b66b534a9b0",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1685,
+            "date": "2023-01-29T01:13:56.722Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8e983232b66b534a9b3",
+    "name": "Té en hebras Be Sweet InT 80gr",
+    "product": "63d5c8e883232b66b534a9b2",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1685,
+            "date": "2023-01-29T01:13:56.722Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c8e983232b66b534a9b5",
+    "name": "Té en hebras Blue Earl Gray InT 80gr",
+    "product": "63d5c8e983232b66b534a9b4",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1685,
+            "date": "2023-01-29T01:13:56.722Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c91283232b66b534a9b7",
+    "name": "Sopapa grande con cabo",
+    "product": "63d5c91283232b66b534a9b6",
+    "markets": [
+      {
+        "market": "63cd03baaa705832ee238b2b",
+        "prices": [
+          {
+            "price": 799,
+            "date": "2023-01-29T01:16:42.377Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c91483232b66b534a9b9",
+    "name": "Acondicionador Sedal bomba nutrición 650 cc.",
+    "product": "63d5c91483232b66b534a9b8",
+    "markets": [
+      {
+        "market": "63cd03baaa705832ee238b2b",
+        "prices": [
+          {
+            "price": 520,
+            "date": "2023-01-29T01:16:47.175Z"
+          }
+        ]
+      },
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 520,
+            "date": "2023-01-29T01:17:34.518Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c91683232b66b534a9bb",
+    "name": "Alcohol sanitizante Life Quality al 70% 65 cc.",
+    "product": "63d5c91683232b66b534a9ba",
+    "markets": [
+      {
+        "market": "63cd03baaa705832ee238b2b",
+        "prices": [
+          {
+            "price": 153.33,
+            "date": "2023-01-29T01:16:49.454Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c91b83232b66b534a9bd",
+    "name": "Jugo en polvo BC La Campagnola multifruta 7 g.",
+    "product": "63d5c91b83232b66b534a9bc",
+    "markets": [
+      {
+        "market": "63cd03baaa705832ee238b2b",
+        "prices": [
+          {
+            "price": 37.46,
+            "date": "2023-01-29T01:16:54.590Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c94483232b66b534a9bf",
+    "name": "Miel natural Néctar de los Dioses jarra 250 g.",
+    "product": "63d5c94483232b66b534a9be",
+    "markets": [
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 549,
+            "date": "2023-01-29T01:17:30.129Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c94883232b66b534a9c1",
+    "name": "Hamburguesa Huella Natural 2 u.",
+    "product": "63d5c94883232b66b534a9c0",
+    "markets": [
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 439,
+            "date": "2023-01-29T01:17:33.858Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c94983232b66b534a9c3",
+    "name": "Shampoo Pantene hidratación essentials 200 cc.",
+    "product": "63d5c94983232b66b534a9c2",
+    "markets": [
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 583,
+            "date": "2023-01-29T01:17:34.518Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c94983232b66b534a9c5",
+    "name": "Shamp. Algabo 300 Refrescante Detox Doy Pack",
+    "product": "63d5c94983232b66b534a9c4",
+    "markets": [
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 157,
+            "date": "2023-01-29T01:17:34.518Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c94a83232b66b534a9c7",
+    "name": "Jabón de tocador Next antibacterial cremoso 90 g. x 3 uni",
+    "product": "63d5c94a83232b66b534a9c6",
+    "markets": [
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 388,
+            "date": "2023-01-29T01:17:35.477Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c94a83232b66b534a9c9",
+    "name": "Jabón de tocador Next antibacterial cremoso 90 g.",
+    "product": "63d5c94a83232b66b534a9c8",
+    "markets": [
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 175.5,
+            "date": "2023-01-29T01:17:35.477Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c94c83232b66b534a9cb",
+    "name": "Crema Corporal Nivea Manteca de Karité 5en1 Piel Seca 250 ml",
+    "product": "63d5c94b83232b66b534a9ca",
+    "markets": [
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 739,
+            "date": "2023-01-29T01:17:35.477Z"
+          }
+        ]
+      },
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 739,
+            "date": "2023-01-29T01:19:30.394Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c94d83232b66b534a9cd",
+    "name": "Crema Corporal Nivea Aloe Vera 5en1 Piel Normal 250 ml",
+    "product": "63d5c94c83232b66b534a9cc",
+    "markets": [
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 570.96,
+            "date": "2023-01-29T01:17:35.477Z"
+          }
+        ]
+      },
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 570.96,
+            "date": "2023-01-29T01:19:30.394Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c94e83232b66b534a9cf",
+    "name": "Sanitizante líquido Lysoform floral 250 cc.",
+    "product": "63d5c94e83232b66b534a9ce",
+    "markets": [
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 408.75,
+            "date": "2023-01-29T01:17:36.886Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c95683232b66b534a9d1",
+    "name": "Jugo De Durazno Sendero Azul",
+    "product": "63d5c95683232b66b534a9d0",
+    "markets": [
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 445.9,
+            "date": "2023-01-29T01:17:42.064Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c95683232b66b534a9d3",
+    "name": "Jugo 100% vegetal La Serenísima arroz manzana 200 ml.",
+    "product": "63d5c95683232b66b534a9d2",
+    "markets": [
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 142,
+            "date": "2023-01-29T01:17:42.064Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c95783232b66b534a9d5",
+    "name": "Leche Entera Clasica La Serenisima Larga Vida 1LnLeche LS UAT Entera Clásica 2% (Ojo en caja)",
+    "product": "63d5c95783232b66b534a9d4",
+    "markets": [
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 332,
+            "date": "2023-01-29T01:17:42.575Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c95e83232b66b534a9d7",
+    "name": "Rollo Separata de arranque 30x40 cm.",
+    "product": "63d5c95e83232b66b534a9d6",
+    "markets": [
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 2770,
+            "date": "2023-01-29T01:17:47.249Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c96583232b66b534a9d9",
+    "name": "Zumuva Rosado Tetra De 1 L",
+    "product": "63d5c96583232b66b534a9d8",
+    "markets": [
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 369,
+            "date": "2023-01-29T01:17:51.410Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9a683232b66b534a9db",
+    "name": "Aderezo Balsámico Sueño Verde 200 G",
+    "product": "63d5c9a583232b66b534a9da",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 519,
+            "date": "2023-01-29T01:19:15.973Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9a883232b66b534a9dd",
+    "name": "Leche Infantil Nidina 1 0 a 6 meses 200 Ml.",
+    "product": "63d5c9a883232b66b534a9dc",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 178,
+            "date": "2023-01-29T01:19:16.654Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9a883232b66b534a9df",
+    "name": "Arroz Molinos Ala Gran Selecto Largo Fino 1 Kg.",
+    "product": "63d5c9a883232b66b534a9de",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 187.19,
+            "date": "2023-01-29T01:19:17.481Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9a883232b66b534a9e1",
+    "name": "Arroz Parboil Cañuelas 500 Gr.",
+    "product": "63d5c9a883232b66b534a9e0",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 140.39,
+            "date": "2023-01-29T01:19:17.481Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9a883232b66b534a9e3",
+    "name": "Arroz Preparado Gallo Queso 240 Gr.",
+    "product": "63d5c9a883232b66b534a9e2",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 305,
+            "date": "2023-01-29T01:19:17.481Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9a883232b66b534a9e5",
+    "name": "Arroz Integral DIA 1 Kg.",
+    "product": "63d5c9a883232b66b534a9e4",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 174,
+            "date": "2023-01-29T01:19:17.481Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9a883232b66b534a9e7",
+    "name": "Arroz Molinos Ala Gran Selecto Parboil 1 Kg.",
+    "product": "63d5c9a883232b66b534a9e6",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 215.69,
+            "date": "2023-01-29T01:19:17.481Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9a883232b66b534a9e9",
+    "name": "Arroz Integral Molinos Ala 500 Gr.",
+    "product": "63d5c9a883232b66b534a9e8",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 128.7,
+            "date": "2023-01-29T01:19:17.481Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9a983232b66b534a9eb",
+    "name": "Bananita Dolca 30 Gr.",
+    "product": "63d5c9a983232b66b534a9ea",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 128.24,
+            "date": "2023-01-29T01:19:17.764Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9a983232b66b534a9ed",
+    "name": "Pochoclo Marlom's Salado 100 Gr.",
+    "product": "63d5c9a983232b66b534a9ec",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 238,
+            "date": "2023-01-29T01:19:17.764Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9a983232b66b534a9ef",
+    "name": "Alfajor Glaseado DIA con Dulce de Leche 240 Gr. 6 Un.",
+    "product": "63d5c9a983232b66b534a9ee",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 510.7,
+            "date": "2023-01-29T01:19:17.764Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9a983232b66b534a9f1",
+    "name": "Alfajor Milka Oreo con Dulce de Leche 61 Gr.",
+    "product": "63d5c9a983232b66b534a9f0",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 203.68,
+            "date": "2023-01-29T01:19:17.764Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9a983232b66b534a9f3",
+    "name": "Alfajor Triple Milka Dulce de Leche 70 Gr.",
+    "product": "63d5c9a983232b66b534a9f2",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 211.33,
+            "date": "2023-01-29T01:19:17.764Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9a983232b66b534a9f5",
+    "name": "Chicles Beldent Frutilla 10 Gr.",
+    "product": "63d5c9a983232b66b534a9f4",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 103.24,
+            "date": "2023-01-29T01:19:17.764Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9a983232b66b534a9f7",
+    "name": "Alfajor Triple Max Turimar Blanco 80 Gr.",
+    "product": "63d5c9a983232b66b534a9f6",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 149,
+            "date": "2023-01-29T01:19:17.764Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9a983232b66b534a9f9",
+    "name": "Choco Barras Del Turista Leche y Almendras 20 Gr.",
+    "product": "63d5c9a983232b66b534a9f8",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 175,
+            "date": "2023-01-29T01:19:17.764Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9a983232b66b534a9fb",
+    "name": "Alfajor Cuquets Chocolate 38 Gr.",
+    "product": "63d5c9a983232b66b534a9fa",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 56.51,
+            "date": "2023-01-29T01:19:17.764Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9a983232b66b534a9fd",
+    "name": "Caramelo Butter Toffee Chocolate 140 Gr.",
+    "product": "63d5c9a983232b66b534a9fc",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 352.09,
+            "date": "2023-01-29T01:19:17.764Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9a983232b66b534a9ff",
+    "name": "Alfajor Triple PEPITOS 57 Gr.",
+    "product": "63d5c9a983232b66b534a9fe",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 211.33,
+            "date": "2023-01-29T01:19:17.764Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9a983232b66b534aa01",
+    "name": "Chocolate Nestlé medio amargo 90 Gr.",
+    "product": "63d5c9a983232b66b534aa00",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 356.66,
+            "date": "2023-01-29T01:19:17.764Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9a983232b66b534aa03",
+    "name": "Bombón Ferrero Rocher 3 Ud. 37,5 Gr.",
+    "product": "63d5c9a983232b66b534aa02",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 298.1,
+            "date": "2023-01-29T01:19:17.764Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9a983232b66b534aa05",
+    "name": "Chocolate Cadbury Yogurt con Frutilla 27 Gr.",
+    "product": "63d5c9a983232b66b534aa04",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 179.98,
+            "date": "2023-01-29T01:19:17.764Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9a983232b66b534aa07",
+    "name": "Alfajor Turimar Blanco 38 Gr.",
+    "product": "63d5c9a983232b66b534aa06",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 69,
+            "date": "2023-01-29T01:19:17.764Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9a983232b66b534aa09",
+    "name": "Chocolate con Maní DIA 80 Gr.",
+    "product": "63d5c9a983232b66b534aa08",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 175.76,
+            "date": "2023-01-29T01:19:17.764Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9a983232b66b534aa0b",
+    "name": "Yogubar de Arroz Gallo 22 Gr.",
+    "product": "63d5c9a983232b66b534aa0a",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 118.56,
+            "date": "2023-01-29T01:19:17.764Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9a983232b66b534aa0d",
+    "name": "Chocolate para Taza Bonafide 100 Gr.",
+    "product": "63d5c9a983232b66b534aa0c",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 295,
+            "date": "2023-01-29T01:19:17.764Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9a983232b66b534aa0f",
+    "name": "Turrón Arcor con Maní 25 Gr.",
+    "product": "63d5c9a983232b66b534aa0e",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 40.6,
+            "date": "2023-01-29T01:19:17.764Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9a983232b66b534aa11",
+    "name": "Chocolate DIA Relleno con Dulce de Leche 80 Gr.",
+    "product": "63d5c9a983232b66b534aa10",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 190.11,
+            "date": "2023-01-29T01:19:17.764Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9a983232b66b534aa13",
+    "name": "Obleas Rellenas Vainilla 100 Gr.",
+    "product": "63d5c9a983232b66b534aa12",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 159,
+            "date": "2023-01-29T01:19:17.764Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9a983232b66b534aa15",
+    "name": "Oblea de Arroz Lulemuu Frutilla 20 Gr.",
+    "product": "63d5c9a983232b66b534aa14",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 130,
+            "date": "2023-01-29T01:19:17.764Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9a983232b66b534aa17",
+    "name": "Alfajor de Arroz Vauquita Mousse Blanco con Dulce de Leche 28 Gr.",
+    "product": "63d5c9a983232b66b534aa16",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 140,
+            "date": "2023-01-29T01:19:17.764Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9a983232b66b534aa19",
+    "name": "Oblea Smack Chocolate y Maní 33 Gr.",
+    "product": "63d5c9a983232b66b534aa18",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 73,
+            "date": "2023-01-29T01:19:17.764Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9a983232b66b534aa1b",
+    "name": "Alfajores de Chocolate DIA 6 Un.",
+    "product": "63d5c9a983232b66b534aa1a",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 539.95,
+            "date": "2023-01-29T01:19:17.764Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9a983232b66b534aa1d",
+    "name": "Oblea Bon o Bon Chocolate Blanco 30 Gr.",
+    "product": "63d5c9a983232b66b534aa1c",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 102.29,
+            "date": "2023-01-29T01:19:17.764Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9a983232b66b534aa1f",
+    "name": "Chocobarra del Turista Marroc 20 Gr.",
+    "product": "63d5c9a983232b66b534aa1e",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 175,
+            "date": "2023-01-29T01:19:17.764Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9aa83232b66b534aa21",
+    "name": "Dulce de Leche Sancor 400 Gr.",
+    "product": "63d5c9aa83232b66b534aa20",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 330.93,
+            "date": "2023-01-29T01:19:18.091Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9aa83232b66b534aa23",
+    "name": "Yerba Mate Unión 4 Flex 1 Kg.",
+    "product": "63d5c9aa83232b66b534aa22",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 681,
+            "date": "2023-01-29T01:19:18.413Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9aa83232b66b534aa25",
+    "name": "Yerba Mate Amanda Tradicional 500 Gr.",
+    "product": "63d5c9aa83232b66b534aa24",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 398,
+            "date": "2023-01-29T01:19:18.413Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9aa83232b66b534aa27",
+    "name": "Edulcorante Líquido DIA Stevia 500 Gr.",
+    "product": "63d5c9aa83232b66b534aa26",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 405,
+            "date": "2023-01-29T01:19:18.413Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9aa83232b66b534aa29",
+    "name": "Mate Cocino Nobleza Gaucha 25 Un.",
+    "product": "63d5c9aa83232b66b534aa28",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 106.87,
+            "date": "2023-01-29T01:19:18.413Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9aa83232b66b534aa2b",
+    "name": "Café instantáneo Torrado Nescafé Dolca Suave Doypack 8 Gr.",
+    "product": "63d5c9aa83232b66b534aa2a",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 79.56,
+            "date": "2023-01-29T01:19:18.413Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9aa83232b66b534aa2d",
+    "name": "Café Instantáneo La Virginia Clásico 170 Gr.",
+    "product": "63d5c9aa83232b66b534aa2c",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 769.6,
+            "date": "2023-01-29T01:19:18.413Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9ab83232b66b534aa2f",
+    "name": "Yerba Mate Rosamonte Suave Edición 55 Aniversario 500 Gr.",
+    "product": "63d5c9ab83232b66b534aa2e",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 482.58,
+            "date": "2023-01-29T01:19:18.413Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9ab83232b66b534aa31",
+    "name": "Nescafé Dolca Suave Perfecto para batir 100 Gr.",
+    "product": "63d5c9ab83232b66b534aa30",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 1051.78,
+            "date": "2023-01-29T01:19:18.413Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9ab83232b66b534aa33",
+    "name": "Edulcorante Líquido DIA 250 Ml.",
+    "product": "63d5c9ab83232b66b534aa32",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 253,
+            "date": "2023-01-29T01:19:18.413Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9ab83232b66b534aa35",
+    "name": "Té Común La Virginia saquitos 50 Un.",
+    "product": "63d5c9ab83232b66b534aa34",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 178.36,
+            "date": "2023-01-29T01:19:18.413Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9ab83232b66b534aa37",
+    "name": "Edulcorante Líquido Dietético DIA Sucralosa 500 Ml.",
+    "product": "63d5c9ab83232b66b534aa36",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 379.6,
+            "date": "2023-01-29T01:19:18.413Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9ab83232b66b534aa39",
+    "name": "Cacao Chocolino Plus sin tacc 360 Gr.",
+    "product": "63d5c9ab83232b66b534aa38",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 460.69,
+            "date": "2023-01-29T01:19:18.413Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9ab83232b66b534aa3b",
+    "name": "Edulcorante líquido Hileret Clásico 250 Ml.",
+    "product": "63d5c9ab83232b66b534aa3a",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 303.75,
+            "date": "2023-01-29T01:19:18.413Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9ad83232b66b534aa3d",
+    "name": "Ricotta DIA Descremada 500 Gr.",
+    "product": "63d5c9ad83232b66b534aa3c",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 269.4,
+            "date": "2023-01-29T01:19:19.572Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9ae83232b66b534aa3f",
+    "name": "Ricotta DIA Entera 500 Gr.",
+    "product": "63d5c9ae83232b66b534aa3e",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 269.4,
+            "date": "2023-01-29T01:19:19.572Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9ae83232b66b534aa41",
+    "name": "Queso Cheddar Día 180 Gr.",
+    "product": "63d5c9ae83232b66b534aa40",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 448.2,
+            "date": "2023-01-29T01:19:19.572Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9b083232b66b534aa43",
+    "name": "Whisky Pride Blenders 1 Lt.",
+    "product": "63d5c9b083232b66b534aa42",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 1490,
+            "date": "2023-01-29T01:19:21.985Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9b083232b66b534aa45",
+    "name": "Whisky Pride Blenders 200 Ml.",
+    "product": "63d5c9b083232b66b534aa44",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 399,
+            "date": "2023-01-29T01:19:21.985Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9b683232b66b534aa47",
+    "name": "Yogur Yogurisimo Natural Endulzado 190 G",
+    "product": "63d5c9b483232b66b534aa46",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 171.6,
+            "date": "2023-01-29T01:19:25.280Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9b683232b66b534aa49",
+    "name": "Yogur Firme Descremado DIA Pack 2 Un 250 Gr.",
+    "product": "63d5c9b683232b66b534aa48",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 189,
+            "date": "2023-01-29T01:19:25.280Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9b783232b66b534aa4b",
+    "name": "Cubetera Apilable 12 Cubitos Superflex Deses Plast 2 Un.",
+    "product": "63d5c9b783232b66b534aa4a",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 559.99,
+            "date": "2023-01-29T01:19:26.222Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9ba83232b66b534aa4d",
+    "name": "Rollo De Cocina Golf 40 Metros 3 Un",
+    "product": "63d5c9b983232b66b534aa4c",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 319,
+            "date": "2023-01-29T01:19:27.404Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9bf83232b66b534aa4f",
+    "name": "Pañales Huggies Flexi Comfort TM 22 Un",
+    "product": "63d5c9be83232b66b534aa4e",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 909,
+            "date": "2023-01-29T01:19:30.876Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d5c9c083232b66b534aa51",
+    "name": "Pañales Huggies Flexi Comfort T Rn 34 Un",
+    "product": "63d5c9bf83232b66b534aa50",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 1889,
+            "date": "2023-01-29T01:19:30.876Z"
           }
         ]
       }
