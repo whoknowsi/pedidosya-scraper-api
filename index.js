@@ -1,7 +1,7 @@
 import { firefox } from 'playwright'
 import dotenv from 'dotenv'
 import { saveMarketStatic } from './db/local.js'
-import { randomBetween } from './utils/utils.js'
+import { randomBetween, parseProducts } from './utils/utils.js'
 
 dotenv.config()
 
@@ -20,7 +20,7 @@ const ScrapeData = async (browser, { marketName, partnerId }) => {
   const productLink = process.env.PEDIDOSYA_PRODUCT_URL.split('${}')
 
   const categories = await page.evaluate(
-    async ({ categoriesUrl, partnerId, marketName, productLink }) => {
+    async ({ categoriesUrl, partnerId, marketName, productLink, parseProducts }) => {
       try {
         const getCategoryUrl = (productId, partnerId) => productLink[0] + productId + productLink[1] + partnerId + productLink[2]
 
@@ -35,18 +35,7 @@ const ScrapeData = async (browser, { marketName, partnerId }) => {
           const response = await fetch(getCategoryUrl(categoryId, partnerId))
           const productsData = await response.json()
           console.log('products data', productsData)
-          const products = productsData.data.map((d) => {
-            return {
-              image: d.image,
-              name: d.name,
-              price: d.price,
-              stock: d.stock,
-              date: new Date(Date.now()),
-              barcode: d.integrationCode,
-              measurementUnit: d.measurementUnit,
-              pricePerMeasurementUnit: d.pricePerMeasurementUnit
-            }
-          })
+          const products = parseProducts(productsData.data)
 
           const categories = {
             name: marketName,
@@ -64,7 +53,7 @@ const ScrapeData = async (browser, { marketName, partnerId }) => {
         return []
       }
     },
-    { categoriesUrl, partnerId, marketName, productLink }
+    { categoriesUrl, partnerId, marketName, productLink, parseProducts }
   )
 
   categories.length === 0 && (result = `${marketName} - Error scrapping`)

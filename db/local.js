@@ -10,6 +10,8 @@ import dotenv from 'dotenv'
 dotenv.config()
 
 const saveImage = async (id, image) => {
+  if (process.env.VITEST) return null
+
   const baseUrl = process.env.PEDIDOSYA_IMG_BASE_URL
   if (!image) return
   const imageUrl = `${baseUrl}/${image}`
@@ -142,9 +144,10 @@ const saveMarketStatic = async (market, index) => {
     })
     return { ...product, prices: newPrices }
   })
-  productsLocal = preWriteData(productsLocal, productsWithStockReseted)
 
-  console.log(productsToResetStock.map(x => x.prices))
+  for (const product of productsWithStockReseted) {
+    productsLocal = preWriteData(productsLocal, product)
+  }
 
   for (const product of market.category.products) {
     const foundProduct =
@@ -194,6 +197,7 @@ const saveMarketStatic = async (market, index) => {
         .find((m) => m.market === foundMarket.id)
         .prices.push({ price: product.price, date: product.date })
     }
+
     productsLocal = preWriteData(productsLocal, foundProduct)
     historicalPricesLocal = preWriteData(historicalPricesLocal, foundHistoricalPrice)
   }
