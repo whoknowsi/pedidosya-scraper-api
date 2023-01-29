@@ -8,18 +8,21 @@
     "scrape": "node index.js",
     "scrape:images": "node db/fill-images.js",
     "dev:api": "wrangler dev api/server.js --local",
-    "publish:api": "wrangler publish api/server.js"
+    "publish:api": "wrangler publish api/server.js",
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "eslint": "^8.0.1",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "2.25.2",
     "eslint-plugin-n": "15.0.0",
     "eslint-plugin-promise": "6.0.0",
     "playwright": "^1.29.2",
+    "vitest": "^0.28.3",
     "wrangler": "2.7.1"
   },
   "dependencies": {

@@ -1,8 +1,8 @@
 import { writeFileSync, readFileSync, readdirSync } from 'node:fs'
 import path from 'node:path'
 
-const DB_PATH = path.join(process.cwd(), './assets/static/db')
-const IMG_PATH = path.join(process.cwd(), './assets/static/products')
+const DB_PATH = process.env.VITEST ? path.join(process.cwd(), './tests/assets/static/db') : path.join(process.cwd(), './assets/static/db')
+const IMG_PATH = process.env.VITEST ? path.join(process.cwd(), './tests/assets/static/products') : path.join(process.cwd(), './assets/static/products')
 
 const parseId = (id) => {
   return { $oid: id.toString() }
@@ -28,4 +28,4 @@ const getImagesNames = () => {
   return imagesIds
 }
 
-export { parseId, parseDate, sortByDate, write, read, IMG_PATH, getImagesNames }
+export { parseId, parseDate, sortByDate, write, read, IMG_PATH, DB_PATH, getImagesNames }
