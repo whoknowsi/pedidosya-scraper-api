@@ -4,10 +4,13 @@ const productSchema = new mongoose.Schema({
   name: {
     type: String
   },
-  category: [
+  categories: [
     {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: 'Category'
+      category: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Category'
+      },
+      name: { type: String }
     }
   ],
   barcode: {
