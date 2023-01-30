@@ -7,6 +7,7 @@ import fetch from 'node-fetch'
 import sharp from 'sharp'
 import * as fs from 'fs'
 import dotenv from 'dotenv'
+import product from '../models/product.js'
 dotenv.config()
 
 const saveImage = async (id, image) => {
@@ -45,7 +46,7 @@ const preWriteData = (prev, content) => {
 
 const createCategory = (category) => {
   const newMongoCategory = new Category({})
-  const newCategory = { id: newMongoCategory._id, name: category.name, products: [] }
+  const newCategory = { id: newMongoCategory._id, name: category.name, products: [], markets: [] }
   return newCategory
 }
 
@@ -62,10 +63,12 @@ const createProduct = async (product, foundCategory, foundMarket) => {
   const newProduct = {
     id: newMongoProduct._id,
     name: product.name,
-    categories: [{
-      id: foundCategory.id,
-      name: foundCategory.name
-    }],
+    categories: [
+      {
+        id: foundCategory.id,
+        name: foundCategory.name
+      }
+    ],
     image,
     barcode: product.barcode,
     measurementUnit: product.measurementUnit,
@@ -192,11 +195,35 @@ const saveMarketStatic = async (market, index) => {
         name: foundCategory.name
       })
 
-    const existCategoryOnMarket = foundMarket.categories.find((category) => foundCategory.id === category.id)
-    !existCategoryOnMarket && foundMarket.categories.push({
-      name: foundCategory.name,
-      id: foundCategory.id
-    })
+    const existCategoryOnMarket = foundMarket.categories?.find((category) => foundCategory.id === category.id)
+    if (!existCategoryOnMarket) {
+      foundMarket.categories
+        ? foundMarket.categories.push({
+          name: foundCategory.name,
+          id: foundCategory.id
+        })
+        : (foundMarket.markets = [
+            {
+              name: foundCategory.name,
+              id: foundCategory.id
+            }
+          ])
+    }
+
+    const existMarketOnCategory = foundCategory.markets?.find((market) => market.id === foundMarket.id)
+    if (!existMarketOnCategory) {
+      foundCategory.markets
+        ? foundCategory.markets.push({
+          name: foundMarket.name,
+          id: foundMarket.id
+        })
+        : (foundCategory.markets = [
+            {
+              name: foundMarket.name,
+              id: foundMarket.id
+            }
+          ])
+    }
 
     const existProductInMarket = foundMarket.products.find((productId) => productId === foundProduct.id)
     !existProductInMarket && foundMarket.products.push(foundProduct.id)
@@ -259,11 +286,14 @@ const fillImages = async () => {
     product.image = image
   }
 
-  write('products', products.map((product) => {
-    const modifyProduct = productsToFillImage.find((productMod) => productMod.id === product.id)
-    if (modifyProduct) return modifyProduct
-    return product
-  }))
+  write(
+    'products',
+    products.map((product) => {
+      const modifyProduct = productsToFillImage.find((productMod) => productMod.id === product.id)
+      if (modifyProduct) return modifyProduct
+      return product
+    })
+  )
 }
 
 export { saveMarketStatic, cleanUnusedAssets, fillImages }

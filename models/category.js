@@ -12,8 +12,11 @@ const categorySchema = new mongoose.Schema({
   ],
   markets: [
     {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: 'Market'
+      id: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Market'
+      },
+      name: { type: String }
     }
   ]
 })

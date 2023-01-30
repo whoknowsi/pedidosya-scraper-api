@@ -19,7 +19,7 @@ const ScrapeData = async (browser, { marketName, partnerId }) => {
 
   const productLink = process.env.PEDIDOSYA_PRODUCT_URL.split('${}')
 
-  const categories = await page.evaluate(
+  let categories = await page.evaluate(
     async ({ categoriesUrl, partnerId, marketName, productLink }) => {
       const parseProducts = (products) => {
         return products.map((p) => {
@@ -38,9 +38,9 @@ const ScrapeData = async (browser, { marketName, partnerId }) => {
 
       try {
         const getCategoryUrl = (productId, partnerId) => productLink[0] + productId + productLink[1] + partnerId + productLink[2]
-
         const response = await fetch(categoriesUrl)
         const categories = await response.json()
+        return categories
         const categoriesResponse = []
 
         for (const category of categories.data) {
@@ -48,6 +48,7 @@ const ScrapeData = async (browser, { marketName, partnerId }) => {
           const categoryName = category.name
 
           const response = await fetch(getCategoryUrl(categoryId, partnerId))
+          console.log(getCategoryUrl(categoryId, partnerId))
           const productsData = await response.json()
           console.log('products data', productsData)
           const products = parseProducts(productsData.data)
@@ -65,14 +66,18 @@ const ScrapeData = async (browser, { marketName, partnerId }) => {
 
         return categoriesResponse
       } catch (error) {
-        return []
+        return error
       }
     },
     { categoriesUrl, partnerId, marketName, productLink }
   )
 
-  categories.length === 0 && (result = `${marketName} - Error scrapping`)
+  console.log(categories)
 
+  if (typeof categories !== 'object') {
+    result = `${marketName} - ${categories}`
+    categories = []
+  }
   for (let i = 0; i < categories.length; i++) {
     const category = categories[i]
     await saveMarketStatic(category, i + 1)
