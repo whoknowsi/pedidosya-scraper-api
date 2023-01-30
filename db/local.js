@@ -51,7 +51,7 @@ const createCategory = (category) => {
 
 const createMarket = (market) => {
   const newMongoMarket = new Market({})
-  const newMarket = { id: newMongoMarket._id, name: market.name, products: [] }
+  const newMarket = { id: newMongoMarket._id, name: market.name, products: [], categories: [] }
   return newMarket
 }
 
@@ -63,7 +63,7 @@ const createProduct = async (product, foundCategory, foundMarket) => {
     id: newMongoProduct._id,
     name: product.name,
     categories: [{
-      category: foundCategory.id,
+      id: foundCategory.id,
       name: foundCategory.name
     }],
     image,
@@ -185,12 +185,18 @@ const saveMarketStatic = async (market, index) => {
         ]
       })
 
-    const existCategoryInProduct = foundProduct.categories.find((categoryId) => categoryId.category === foundCategory.id)
+    const existCategoryInProduct = foundProduct.categories.find((category) => category.id === foundCategory.id)
     !existCategoryInProduct &&
       foundProduct.categories.push({
-        category: foundCategory.id,
+        id: foundCategory.id,
         name: foundCategory.name
       })
+
+    const existCategoryOnMarket = foundMarket.categories.find((category) => foundCategory.id === category.id)
+    !existCategoryOnMarket && foundMarket.categories.push({
+      name: foundCategory.name,
+      id: foundCategory.id
+    })
 
     const existProductInMarket = foundMarket.products.find((productId) => productId === foundProduct.id)
     !existProductInMarket && foundMarket.products.push(foundProduct.id)
