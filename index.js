@@ -11,13 +11,13 @@ const ScrapeData = async (browser, { marketName, partnerId }) => {
   const baseUrl = process.env.BASE_URL
   await page.goto(baseUrl)
 
-  const categoryUrlSplit = process.env.PEDIDOSYA_CATEGORY_URL.split('${}')
+  const categoryUrlSplit = process.env.PEDIDOSYA_CATEGORY_URL.split('{}')
   const categoriesUrl =
     categoryUrlSplit[0] + randomBetween(100000, 999999) + categoryUrlSplit[1] + partnerId + categoryUrlSplit[2]
 
   console.log(marketName)
 
-  const productLink = process.env.PEDIDOSYA_PRODUCT_URL.split('${}')
+  const productLink = process.env.PEDIDOSYA_PRODUCT_URL.split('{}')
 
   let categories = await page.evaluate(
     async ({ categoriesUrl, partnerId, marketName, productLink }) => {
@@ -37,21 +37,31 @@ const ScrapeData = async (browser, { marketName, partnerId }) => {
       }
 
       try {
-        const getCategoryUrl = (productId, partnerId) => productLink[0] + productId + productLink[1] + partnerId + productLink[2]
+        const getCategoryUrl = (productId, partnerId, offset) =>
+          productLink[0] + productId + productLink[1] + partnerId + productLink[2] + offset
         const response = await fetch(categoriesUrl)
         const categories = await response.json()
-        return categories
         const categoriesResponse = []
 
         for (const category of categories.data) {
           const categoryId = category.id
           const categoryName = category.name
 
-          const response = await fetch(getCategoryUrl(categoryId, partnerId))
-          console.log(getCategoryUrl(categoryId, partnerId))
-          const productsData = await response.json()
-          console.log('products data', productsData)
-          const products = parseProducts(productsData.data)
+          let productsData = category.products
+          if (productsData.length === 100) {
+            let offset = 100
+            let totalProducts = 101
+            const panicButton = 1000
+            while (productsData.length < totalProducts && offset < panicButton) {
+              const response = await fetch(getCategoryUrl(categoryId, partnerId, offset))
+              const productsRaw = await response.json()
+              totalProducts = productsRaw.total
+              offset += 100
+              productsData = [...productsData, ...productsRaw.data]
+            }
+          }
+
+          const products = parseProducts(productsData)
 
           const categories = {
             name: marketName,
