@@ -169719,5 +169719,309 @@
         ]
       }
     ]
+  },
+  {
+    "id": "63d9930ab99a92bb703e3c99",
+    "name": "Alimento Seco Hop! Perro Adulto Raza Pequena 3 Kg",
+    "product": "63d99309b99a92bb703e3c98",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1100,
+            "date": "2023-01-31T22:15:26.358Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d9930ab99a92bb703e3c9b",
+    "name": "Alimento Seco Hop! Perro Adulto Raza Pequena 3 Kg",
+    "product": "63d9930ab99a92bb703e3c9a",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1329,
+            "date": "2023-01-31T22:15:26.358Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d99328b99a92bb703e3c9d",
+    "name": "Fideos de semolin 308 500g",
+    "product": "63d99328b99a92bb703e3c9c",
+    "markets": [
+      {
+        "market": "63cd03baaa705832ee238b2b",
+        "prices": [
+          {
+            "price": 192,
+            "date": "2023-01-31T22:15:29.871Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d99329b99a92bb703e3c9f",
+    "name": "Fideos de semolin 308 500g",
+    "product": "63d99328b99a92bb703e3c9e",
+    "markets": [
+      {
+        "market": "63cd03baaa705832ee238b2b",
+        "prices": [
+          {
+            "price": 138.9,
+            "date": "2023-01-31T22:15:29.871Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d9932ab99a92bb703e3ca1",
+    "name": "Ñoquis De Papa Carrefour 500 G.",
+    "product": "63d9932ab99a92bb703e3ca0",
+    "markets": [
+      {
+        "market": "63cd03baaa705832ee238b2b",
+        "prices": [
+          {
+            "price": 239,
+            "date": "2023-01-31T22:15:31.004Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d9932db99a92bb703e3ca3",
+    "name": "Ñoquis De Papa Carrefour 500 G.",
+    "product": "63d9932bb99a92bb703e3ca2",
+    "markets": [
+      {
+        "market": "63cd03baaa705832ee238b2b",
+        "prices": [
+          {
+            "price": 211,
+            "date": "2023-01-31T22:15:31.004Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d99330b99a92bb703e3ca5",
+    "name": "Yogur Ser Natur batido C/colchón 140 Gr",
+    "product": "63d9932fb99a92bb703e3ca4",
+    "markets": [
+      {
+        "market": "63cd03baaa705832ee238b2b",
+        "prices": [
+          {
+            "price": 320,
+            "date": "2023-01-31T22:15:31.005Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d99331b99a92bb703e3ca7",
+    "name": "Aceite De Girasol Pureza 1.5 L",
+    "product": "63d99330b99a92bb703e3ca6",
+    "markets": [
+      {
+        "market": "63cd04ffaa705832ee238f46",
+        "prices": [
+          {
+            "price": 962.46,
+            "date": "2023-01-31T22:15:32.785Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d99334b99a92bb703e3ca9",
+    "name": "Jabón En Barra Lux Botanicals Orquídea Negra 125gr",
+    "product": "63d99333b99a92bb703e3ca8",
+    "markets": [
+      {
+        "market": "63cd04ffaa705832ee238f46",
+        "prices": [
+          {
+            "price": 181.51,
+            "date": "2023-01-31T22:15:32.785Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d99334b99a92bb703e3cab",
+    "name": "Jabón de Tocador Plusbelle Frescura Vita Glicerina 120G",
+    "product": "63d99334b99a92bb703e3caa",
+    "markets": [
+      {
+        "market": "63cd04ffaa705832ee238f46",
+        "prices": [
+          {
+            "price": 189.62,
+            "date": "2023-01-31T22:15:32.785Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d99339b99a92bb703e3cad",
+    "name": "Leche Entera Clasica La Serenisima Sachet 1L",
+    "product": "63d99338b99a92bb703e3cac",
+    "markets": [
+      {
+        "market": "63cd04ffaa705832ee238f46",
+        "prices": [
+          {
+            "price": 251.36,
+            "date": "2023-01-31T22:15:32.785Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d9933ab99a92bb703e3caf",
+    "name": "Leche Entera Clasica La Serenisima Larga Vida 1L",
+    "product": "63d99339b99a92bb703e3cae",
+    "markets": [
+      {
+        "market": "63cd04ffaa705832ee238f46",
+        "prices": [
+          {
+            "price": 327.16,
+            "date": "2023-01-31T22:15:32.785Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d9933db99a92bb703e3cb1",
+    "name": "Fideos Tallarin Okey 500 Gr",
+    "product": "63d9933bb99a92bb703e3cb0",
+    "markets": [
+      {
+        "market": "63cd04ffaa705832ee238f46",
+        "prices": [
+          {
+            "price": 121.34,
+            "date": "2023-01-31T22:15:32.785Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d9933fb99a92bb703e3cb3",
+    "name": "Vino Tinto Malbec Santa Julia 750 Cc.",
+    "product": "63d9933eb99a92bb703e3cb2",
+    "markets": [
+      {
+        "market": "63cd04ffaa705832ee238f46",
+        "prices": [
+          {
+            "price": 744.87,
+            "date": "2023-01-31T22:15:32.785Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d99340b99a92bb703e3cb5",
+    "name": "Vino Tinto Cabernet Sauvignon Santa Julia 750 Cc.",
+    "product": "63d9933fb99a92bb703e3cb4",
+    "markets": [
+      {
+        "market": "63cd04ffaa705832ee238f46",
+        "prices": [
+          {
+            "price": 744.87,
+            "date": "2023-01-31T22:15:32.785Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d9934bb99a92bb703e3cb7",
+    "name": "Desodorante Antitranspirante Rexona Antibacterial Protection Aerosol 150 Ml",
+    "product": "63d9934ab99a92bb703e3cb6",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 323.54,
+            "date": "2023-01-31T22:15:34.896Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d9934bb99a92bb703e3cb9",
+    "name": "Desodorante Antitranspirante Rexona Antibacterial Protection Aerosol 150 Ml",
+    "product": "63d9934bb99a92bb703e3cb8",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 560,
+            "date": "2023-01-31T22:15:34.896Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d9934cb99a92bb703e3cbb",
+    "name": "Jabón De Tocador en Barra Lux Jazmín Cremoso 125gr",
+    "product": "63d9934bb99a92bb703e3cba",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 210.35,
+            "date": "2023-01-31T22:15:34.896Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d9934eb99a92bb703e3cbd",
+    "name": "Jabón De Tocador en Barra Lux Jazmín Cremoso 125gr",
+    "product": "63d9934cb99a92bb703e3cbc",
+    "markets": [
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 516.35,
+            "date": "2023-01-31T22:15:34.896Z"
+          }
+        ]
+      }
+    ]
   }
 ]
