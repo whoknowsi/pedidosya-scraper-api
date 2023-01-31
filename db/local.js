@@ -119,18 +119,17 @@ const createHistoricalPrice = (foundProduct, foundMarket) => {
 const checkImgAndResetStockOnProduct = async (product, imageUrl, newStock, marketId) => {
   if (product === undefined) return undefined
 
-  const imagesNames = getImagesNames()
-
-  const productImageName = product?.image?.includes('/') ? product.image.split('/').at(-1) : null
-  if (productImageName && imagesNames.includes(productImageName)) return product
-
-  const newImgUrl = await saveImage(product.id, imageUrl)
-
   const prices = product.prices.map(({ stock, ...price }) => {
     if (price.market === marketId) return { ...price, stock: newStock }
     return { ...price, stock }
   })
 
+  const imagesNames = getImagesNames()
+
+  const productImageName = product?.image?.includes('/') ? product.image.split('/').at(-1) : null
+  if (productImageName && imagesNames.includes(productImageName)) return { ...product, prices }
+
+  const newImgUrl = await saveImage(product.id, imageUrl)
   return { ...product, prices, image: newImgUrl }
 }
 
