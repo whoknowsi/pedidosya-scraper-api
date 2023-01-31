@@ -1848,9 +1848,261 @@
       "63d5c86583232b66b534a876",
       "63d5c94b83232b66b534a9ca",
       "63d5c9be83232b66b534aa4e",
-      "63d5c9bf83232b66b534aa50"
+      "63d5c9bf83232b66b534aa50",
+      "63cd095baa705832ee239e78",
+      "63d8f5ac25abd689be38e597",
+      "63d8f5af25abd689be38e599",
+      "63d8f5b125abd689be38e59b",
+      "63d8f5bb25abd689be38e59d",
+      "63ccfe83aa705832ee237abf",
+      "63ccfe9faa705832ee237b0f",
+      "63cd0064aa705832ee23810a",
+      "63cd09aeaa705832ee239ff1",
+      "63d8f5be25abd689be38e59f",
+      "63cd011baa705832ee238305",
+      "63d8f5c125abd689be38e5a1",
+      "63cf56e362a456d09f263100",
+      "63cd0469aa705832ee238dac",
+      "63d8f5c425abd689be38e5a3",
+      "63ccfebfaa705832ee237b98",
+      "63cf568562a456d09f263094",
+      "63d8f5c825abd689be38e5a5",
+      "63d8f5cb25abd689be38e5a7"
     ],
-    "categories": []
+    "categories": [
+      {
+        "name": "Aceites y Aderezos",
+        "id": "63ccfa15aa705832ee236777"
+      },
+      {
+        "name": "Conservas",
+        "id": "63ccfa28aa705832ee23682a"
+      },
+      {
+        "name": "Picadas",
+        "id": "63ccfa35aa705832ee236875"
+      },
+      {
+        "name": "Alimentación para bebés",
+        "id": "63ccfa59aa705832ee2368f4"
+      },
+      {
+        "name": "Gatos",
+        "id": "63ccfa5faa705832ee23690f"
+      },
+      {
+        "name": "Perros",
+        "id": "63ccfa64aa705832ee23691a"
+      },
+      {
+        "name": "Arroz y Legumbres",
+        "id": "63ccfa6faa705832ee23692d"
+      },
+      {
+        "name": "Golosinas y Alfajores",
+        "id": "63ccfa78aa705832ee23696e"
+      },
+      {
+        "name": "Para untar",
+        "id": "63ccfa96aa705832ee236a45"
+      },
+      {
+        "name": "Infusiones y Endulzantes",
+        "id": "63ccfaacaa705832ee236a98"
+      },
+      {
+        "name": "Repostería",
+        "id": "63ccfaefaa705832ee236b93"
+      },
+      {
+        "name": "Galletitas y Cereales",
+        "id": "63ccfb00aa705832ee236bea"
+      },
+      {
+        "name": "Panadería",
+        "id": "63ccfb31aa705832ee236d03"
+      },
+      {
+        "name": "Fiambrería",
+        "id": "63ccfb44aa705832ee236d78"
+      },
+      {
+        "name": "Harinas",
+        "id": "63ccfb77aa705832ee236e1d"
+      },
+      {
+        "name": "Leches",
+        "id": "63ccfb88aa705832ee236e66"
+      },
+      {
+        "name": "Comidas listas",
+        "id": "63ccfb92aa705832ee236e99"
+      },
+      {
+        "name": "Aguas",
+        "id": "63ccfb97aa705832ee236ebc"
+      },
+      {
+        "name": "Aperitivos",
+        "id": "63ccfba8aa705832ee236f23"
+      },
+      {
+        "name": "Jugos e Isotónicas",
+        "id": "63ccfbb2aa705832ee236f54"
+      },
+      {
+        "name": "Bebidas blancas y Licores",
+        "id": "63ccfbcdaa705832ee236fb1"
+      },
+      {
+        "name": "Cervezas",
+        "id": "63ccfbd2aa705832ee236fd4"
+      },
+      {
+        "name": "Gaseosas",
+        "id": "63ccfbd4aa705832ee236fed"
+      },
+      {
+        "name": "Bodega",
+        "id": "63ccfbdfaa705832ee237018"
+      },
+      {
+        "name": "Carnicería",
+        "id": "63ccfc1daa705832ee237111"
+      },
+      {
+        "name": "Rebozados",
+        "id": "63ccfc20aa705832ee237124"
+      },
+      {
+        "name": "Hamburguesas y Medallones",
+        "id": "63ccfc26aa705832ee237133"
+      },
+      {
+        "name": "Postres congelados",
+        "id": "63ccfc2aaa705832ee23714e"
+      },
+      {
+        "name": "Papas Congeladas",
+        "id": "63ccfc2eaa705832ee23716f"
+      },
+      {
+        "name": "Vegetales congelados",
+        "id": "63ccfc2faa705832ee237174"
+      },
+      {
+        "name": "Lácteos",
+        "id": "63ccfc30aa705832ee23717b"
+      },
+      {
+        "name": "Pastas Frescas",
+        "id": "63ccfc5aaa705832ee237232"
+      },
+      {
+        "name": "Frutas y Verduras",
+        "id": "63ccfc5eaa705832ee237279"
+      },
+      {
+        "name": "Cuidado del pelo",
+        "id": "63ccfc66aa705832ee2372a6"
+      },
+      {
+        "name": "Cocina",
+        "id": "63ccfc80aa705832ee23732b"
+      },
+      {
+        "name": "Librería",
+        "id": "63ccfc87aa705832ee237363"
+      },
+      {
+        "name": "Accesorios de limpieza",
+        "id": "63ccfc87aa705832ee237368"
+      },
+      {
+        "name": "Limpieza de cocina",
+        "id": "63ccfc8faa705832ee237389"
+      },
+      {
+        "name": "Papelería",
+        "id": "63ccfc9caa705832ee2373a8"
+      },
+      {
+        "name": "Desodorantes de ambiente",
+        "id": "63ccfc9eaa705832ee2373b7"
+      },
+      {
+        "name": "Insecticidas",
+        "id": "63ccfcadaa705832ee2373f2"
+      },
+      {
+        "name": "Ferretería",
+        "id": "63ccfcafaa705832ee23740f"
+      },
+      {
+        "name": "Limpiadores",
+        "id": "63ccfcb7aa705832ee237426"
+      },
+      {
+        "name": "Cuidado de la ropa",
+        "id": "63ccfccdaa705832ee237475"
+      },
+      {
+        "name": "Fósforos y Velas",
+        "id": "63ccfce1aa705832ee2374bc"
+      },
+      {
+        "name": "Cuidado del Bebé",
+        "id": "63ccfce1aa705832ee2374c7"
+      },
+      {
+        "name": "Cuidado Bucal",
+        "id": "63ccfce4aa705832ee2374d6"
+      },
+      {
+        "name": "Farmacia",
+        "id": "63ccfceaaa705832ee2374f7"
+      },
+      {
+        "name": "Cuidado Personal",
+        "id": "63ccfcecaa705832ee237508"
+      },
+      {
+        "name": "Jabones",
+        "id": "63ccfcfaaa705832ee237545"
+      },
+      {
+        "name": "Pañales",
+        "id": "63ccfd03aa705832ee237572"
+      },
+      {
+        "name": "Protección femenina",
+        "id": "63ccfd0faa705832ee237587"
+      },
+      {
+        "name": "Máquinas de afeitar",
+        "id": "63ccfd1aaa705832ee2375ba"
+      },
+      {
+        "name": "Pescadería",
+        "id": "63ccfd20aa705832ee2375d1"
+      },
+      {
+        "name": "Deco Hogar",
+        "id": "63ccfd24aa705832ee2375da"
+      },
+      {
+        "name": "Comidas congeladas",
+        "id": "63ccfd29aa705832ee2375e5"
+      },
+      {
+        "name": "Pastas Secas",
+        "id": "63ccfd2baa705832ee2375ea"
+      },
+      {
+        "name": "Bolsas",
+        "id": "63ccfd33aa705832ee237627"
+      }
+    ]
   },
   {
     "id": "63ccfd52aa705832ee237632",
@@ -5164,9 +5416,931 @@
       "63d68928baab866676b5434d",
       "63d68929baab866676b5434f",
       "63d6892cbaab866676b54351",
-      "63d6892ebaab866676b54353"
+      "63d6892ebaab866676b54353",
+      "63d8ec368fec2a4aa15cafb3",
+      "63d8f22e25abd689be38e17f",
+      "63d8ec3b8fec2a4aa15cafbd",
+      "63d8ec3e8fec2a4aa15cafc5",
+      "63d8f23025abd689be38e181",
+      "63d8f23225abd689be38e183",
+      "63d8f23425abd689be38e185",
+      "63d8f23625abd689be38e187",
+      "63d8f23825abd689be38e189",
+      "63d8f23a25abd689be38e18b",
+      "63d8f23b25abd689be38e18d",
+      "63d8f23d25abd689be38e18f",
+      "63d8f23e25abd689be38e191",
+      "63d8f24125abd689be38e193",
+      "63d8f24225abd689be38e195",
+      "63cd03c5aa705832ee238b58",
+      "63d8f24425abd689be38e197",
+      "63d8f24d25abd689be38e199",
+      "63d8ec378fec2a4aa15cafb5",
+      "63d8ec378fec2a4aa15cafb7",
+      "63d8f24e25abd689be38e19b",
+      "63cd0594aa705832ee239125",
+      "63d8f25125abd689be38e19d",
+      "63d8f25225abd689be38e19f",
+      "63ccfc71aa705832ee2372ed",
+      "63cd058caa705832ee23910f",
+      "63d8f25425abd689be38e1a1",
+      "63d8f25525abd689be38e1a3",
+      "63d8f25625abd689be38e1a5",
+      "63d8f25825abd689be38e1a7",
+      "63d8f25a25abd689be38e1a9",
+      "63d8f25b25abd689be38e1ab",
+      "63d8f25e25abd689be38e1ad",
+      "63d8f25f25abd689be38e1af",
+      "63d8f26025abd689be38e1b1",
+      "63d8f26125abd689be38e1b3",
+      "63d8f26325abd689be38e1b5",
+      "63d8f26425abd689be38e1b7",
+      "63d8f26625abd689be38e1b9",
+      "63d8f26825abd689be38e1bb",
+      "63d8f26a25abd689be38e1bd",
+      "63d8f26b25abd689be38e1bf",
+      "63d8f26e25abd689be38e1c1",
+      "63d8f26f25abd689be38e1c3",
+      "63d8f27125abd689be38e1c5",
+      "63d8f27325abd689be38e1c7",
+      "63d8f27425abd689be38e1c9",
+      "63d8f27625abd689be38e1cb",
+      "63d8f27725abd689be38e1cd",
+      "63d8f27925abd689be38e1cf",
+      "63d8f27a25abd689be38e1d1",
+      "63d8f27b25abd689be38e1d3",
+      "63d8f27d25abd689be38e1d5",
+      "63d8f27e25abd689be38e1d7",
+      "63cd03e0aa705832ee238bda",
+      "63d8f27f25abd689be38e1d9",
+      "63cd03deaa705832ee238bc8",
+      "63d8f28225abd689be38e1db",
+      "63d8f28525abd689be38e1dd",
+      "63d8f28825abd689be38e1df",
+      "63d8f28a25abd689be38e1e1",
+      "63cd03e9aa705832ee238bf2",
+      "63d8f28b25abd689be38e1e3",
+      "63cd03f9aa705832ee238c26",
+      "63ccfd0faa705832ee23758c",
+      "63d8f28d25abd689be38e1e5",
+      "63cd03f7aa705832ee238c22",
+      "63d8f28e25abd689be38e1e7",
+      "63d8f28f25abd689be38e1e9",
+      "63d8f29025abd689be38e1eb",
+      "63d8f29125abd689be38e1ed",
+      "63cd03eaaa705832ee238bf6",
+      "63cd03e9aa705832ee238bf0",
+      "63cd03f0aa705832ee238c0a",
+      "63cd060caa705832ee239268",
+      "63cd03feaa705832ee238c30",
+      "63cd0603aa705832ee239244",
+      "63cd0603aa705832ee23924a",
+      "63d8f29325abd689be38e1ef",
+      "63d8f29425abd689be38e1f1",
+      "63cd0735aa705832ee2395cf",
+      "63d8f29525abd689be38e1f3",
+      "63d8f29725abd689be38e1f5",
+      "63d8f29825abd689be38e1f7",
+      "63d8f29a25abd689be38e1f9",
+      "63cd03f0aa705832ee238c08",
+      "63d8f29c25abd689be38e1fb",
+      "63cd08e0aa705832ee239cc9",
+      "63cd03ffaa705832ee238c32",
+      "63cd0401aa705832ee238c3e",
+      "63cd03f0aa705832ee238c0c",
+      "63d8f29d25abd689be38e1fd",
+      "63d4881b15ee301d41f494da",
+      "63d4877015ee301d41f4941c",
+      "63d8f29f25abd689be38e1ff",
+      "63ccfcfbaa705832ee237548",
+      "63d8f2a025abd689be38e201",
+      "63ccfd1faa705832ee2375c7",
+      "63ccfd1aaa705832ee2375bb",
+      "63d8f2a225abd689be38e203",
+      "63d2c1fa7d98eba0ba163216",
+      "63d8f2a325abd689be38e205",
+      "63d8f2a525abd689be38e207",
+      "63d8f2a625abd689be38e209",
+      "63d8f2a725abd689be38e20b",
+      "63d8f2a925abd689be38e20d",
+      "63d8f2aa25abd689be38e20f",
+      "63d8f2ab25abd689be38e211",
+      "63ccfcf9aa705832ee237543",
+      "63d8f2ad25abd689be38e213",
+      "63cd03fbaa705832ee238c2e",
+      "63d8f2ae25abd689be38e215",
+      "63d8f2b225abd689be38e217",
+      "63d8f2b525abd689be38e219",
+      "63d8f2b625abd689be38e21b",
+      "63d8f2b725abd689be38e21d",
+      "63d8f2b825abd689be38e21f",
+      "63d8f2ba25abd689be38e221",
+      "63d8f2bb25abd689be38e223",
+      "63d8f2bd25abd689be38e225",
+      "63d8f2be25abd689be38e227",
+      "63d8f2bf25abd689be38e229",
+      "63d8f2c025abd689be38e22b",
+      "63cd03f0aa705832ee238c10",
+      "63d8f2c225abd689be38e22d",
+      "63d8f2c325abd689be38e22f",
+      "63d8f2c425abd689be38e231",
+      "63cd03f6aa705832ee238c20",
+      "63cf52b21e8f8d1ecc8cbfeb",
+      "63d8f2c725abd689be38e233",
+      "63cd03eaaa705832ee238bf4",
+      "63d8f2c825abd689be38e235",
+      "63d8f2c925abd689be38e237",
+      "63d8f2ca25abd689be38e239",
+      "63d8f2cc25abd689be38e23b",
+      "63d8f2cd25abd689be38e23d",
+      "63ccfd16aa705832ee2375a6",
+      "63d8f2cf25abd689be38e23f",
+      "63d8f2d025abd689be38e241",
+      "63cd0770aa705832ee2396a5",
+      "63d8f2d225abd689be38e243",
+      "63d8f2d325abd689be38e245",
+      "63d8f2d425abd689be38e247",
+      "63d8f2d525abd689be38e249",
+      "63ccfd11aa705832ee237594",
+      "63cd03faaa705832ee238c2a",
+      "63d8f2d625abd689be38e24b",
+      "63d8f2d825abd689be38e24d",
+      "63d8f2d925abd689be38e24f",
+      "63ccfcecaa705832ee237509",
+      "63d8f2da25abd689be38e251",
+      "63d8f2dc25abd689be38e253",
+      "63d8f2dd25abd689be38e255",
+      "63d8f2de25abd689be38e257",
+      "63ccfceeaa705832ee23750f",
+      "63d8f2df25abd689be38e259",
+      "63cd0583aa705832ee2390e2",
+      "63d8f2e025abd689be38e25b",
+      "63d8f2e225abd689be38e25d",
+      "63d8f2e325abd689be38e25f",
+      "63d8f2e525abd689be38e261",
+      "63d8f2e725abd689be38e263",
+      "63d8f2e925abd689be38e265",
+      "63d8f2ea25abd689be38e267",
+      "63d8f2eb25abd689be38e269",
+      "63d8f2ee25abd689be38e26b",
+      "63d8f2ee25abd689be38e26d",
+      "63d8f2f025abd689be38e26f",
+      "63d8f2f225abd689be38e271",
+      "63d8f2f425abd689be38e273",
+      "63d8f2f525abd689be38e275",
+      "63d8f2f725abd689be38e277",
+      "63d8f2f825abd689be38e279",
+      "63d8f2f925abd689be38e27b",
+      "63d8f2fc25abd689be38e27d",
+      "63d8f2fd25abd689be38e27f",
+      "63d8f2ff25abd689be38e281",
+      "63d8f30125abd689be38e283",
+      "63d8f30325abd689be38e285",
+      "63d8f30425abd689be38e287",
+      "63d8f30525abd689be38e289",
+      "63d8f30825abd689be38e28b",
+      "63d8f30925abd689be38e28d",
+      "63d8f30b25abd689be38e28f",
+      "63d8f30c25abd689be38e291",
+      "63d8f30e25abd689be38e293",
+      "63d8f30f25abd689be38e295",
+      "63d8f31025abd689be38e297",
+      "63cd057aaa705832ee2390c2",
+      "63d8f31125abd689be38e299",
+      "63d8f31225abd689be38e29b",
+      "63d8f31325abd689be38e29d",
+      "63d8f31425abd689be38e29f",
+      "63d8f31725abd689be38e2a1",
+      "63d8f31925abd689be38e2a3",
+      "63cd0401aa705832ee238c3a",
+      "63d8f31c25abd689be38e2a5",
+      "63d8f31d25abd689be38e2a7",
+      "63cd0584aa705832ee2390e8",
+      "63d8f31e25abd689be38e2a9",
+      "63d8f32025abd689be38e2ab",
+      "63d8f32125abd689be38e2ad",
+      "63d8f32225abd689be38e2af",
+      "63d8f32325abd689be38e2b1",
+      "63d8f32525abd689be38e2b3",
+      "63ccfd16aa705832ee2375a8",
+      "63d8f32625abd689be38e2b5",
+      "63d8f32825abd689be38e2b7",
+      "63d8f32925abd689be38e2b9",
+      "63d8f32c25abd689be38e2bb",
+      "63d8f32d25abd689be38e2bd",
+      "63d8f33025abd689be38e2bf",
+      "63d8f33125abd689be38e2c1",
+      "63d8f33225abd689be38e2c3",
+      "63d8f33525abd689be38e2c5",
+      "63cd0583aa705832ee2390e6",
+      "63d8f33625abd689be38e2c7",
+      "63d8f33825abd689be38e2c9",
+      "63cd03edaa705832ee238bfe",
+      "63d8f33925abd689be38e2cb",
+      "63d8f33a25abd689be38e2cd",
+      "63d8f33d25abd689be38e2cf",
+      "63d8f33e25abd689be38e2d1",
+      "63d8f33f25abd689be38e2d3",
+      "63d8f34525abd689be38e2d5",
+      "63d8f34625abd689be38e2d7",
+      "63d8f34825abd689be38e2d9",
+      "63d8f34925abd689be38e2db",
+      "63d8f34a25abd689be38e2dd",
+      "63d8f34d25abd689be38e2df",
+      "63d8f34f25abd689be38e2e1",
+      "63d8f35125abd689be38e2e3",
+      "63d8f35225abd689be38e2e5",
+      "63cd0411aa705832ee238c70",
+      "63d8f35425abd689be38e2e7",
+      "63d8f35625abd689be38e2e9",
+      "63d8f35725abd689be38e2eb",
+      "63d8f35925abd689be38e2ed",
+      "63d8f35b25abd689be38e2ef",
+      "63cd0416aa705832ee238c7e",
+      "63d8f35c25abd689be38e2f1",
+      "63d8f35d25abd689be38e2f3",
+      "63d8f36125abd689be38e2f5",
+      "63cfed550ea7bcdf4d128b15",
+      "63d8f36225abd689be38e2f7",
+      "63d8f36325abd689be38e2f9",
+      "63d8f36425abd689be38e2fb",
+      "63d8f36725abd689be38e2fd",
+      "63d8ec318fec2a4aa15cafab",
+      "63d8f36925abd689be38e2ff",
+      "63d8f36a25abd689be38e301",
+      "63d8f36c25abd689be38e303",
+      "63d8f36e25abd689be38e305",
+      "63d8f36f25abd689be38e307",
+      "63d8f37125abd689be38e309",
+      "63d8f37225abd689be38e30b",
+      "63d8f37325abd689be38e30d",
+      "63d8f37425abd689be38e30f",
+      "63ccfb42aa705832ee236d72",
+      "63d8f37525abd689be38e311",
+      "63cd0417aa705832ee238c86",
+      "63d8f37725abd689be38e313",
+      "63d8f37925abd689be38e315",
+      "63d8f37c25abd689be38e317",
+      "63d8f37d25abd689be38e319",
+      "63d8f37e25abd689be38e31b",
+      "63d8f38125abd689be38e31d",
+      "63d8f38225abd689be38e31f",
+      "63d8f38325abd689be38e321",
+      "63d8f38425abd689be38e323",
+      "63d8f38625abd689be38e325",
+      "63d8f38725abd689be38e327",
+      "63d8f38925abd689be38e329",
+      "63d8f38a25abd689be38e32b",
+      "63d8f38b25abd689be38e32d",
+      "63d8f38d25abd689be38e32f",
+      "63d8f38e25abd689be38e331",
+      "63d8f39025abd689be38e333",
+      "63d8f39225abd689be38e335",
+      "63d8f39425abd689be38e337",
+      "63d8f39525abd689be38e339",
+      "63d8f39725abd689be38e33b",
+      "63d8f39825abd689be38e33d",
+      "63d8f39a25abd689be38e33f",
+      "63d8f39b25abd689be38e341",
+      "63d8f39c25abd689be38e343",
+      "63d8f39d25abd689be38e345",
+      "63d8f39f25abd689be38e347",
+      "63d8f3a025abd689be38e349",
+      "63d8f3a125abd689be38e34b",
+      "63d8f3a325abd689be38e34d",
+      "63d8f3a525abd689be38e34f",
+      "63d8f3a725abd689be38e351",
+      "63d8f3a825abd689be38e353",
+      "63cd042daa705832ee238cda",
+      "63cd05f1aa705832ee239204",
+      "63d8f3aa25abd689be38e355",
+      "63d8ec258fec2a4aa15caf9d",
+      "63d8f3ad25abd689be38e357",
+      "63d8f3af25abd689be38e359",
+      "63d8f3b225abd689be38e35b",
+      "63d8f3b425abd689be38e35d",
+      "63d8f3b525abd689be38e35f",
+      "63d8f3b725abd689be38e361",
+      "63d8f3b825abd689be38e363",
+      "63d8f3ba25abd689be38e365",
+      "63d8f3bb25abd689be38e367",
+      "63d8f3bc25abd689be38e369",
+      "63d8f3be25abd689be38e36b",
+      "63d8f3bf25abd689be38e36d",
+      "63ccfa93aa705832ee236a29",
+      "63d8f3c125abd689be38e36f",
+      "63d8f3c325abd689be38e371",
+      "63d8f3c425abd689be38e373",
+      "63d8f3c525abd689be38e375",
+      "63d8f3c925abd689be38e377",
+      "63d8ec208fec2a4aa15caf97",
+      "63d8ec208fec2a4aa15caf99",
+      "63d8ec218fec2a4aa15caf9b",
+      "63d8f3ce25abd689be38e379",
+      "63d8f3d025abd689be38e37b",
+      "63d8f3d125abd689be38e37d",
+      "63d8f3d425abd689be38e37f",
+      "63d8f3d525abd689be38e381",
+      "63d8f3d725abd689be38e383",
+      "63d8f3d825abd689be38e385",
+      "63d8f3d925abd689be38e387",
+      "63d8f3db25abd689be38e389",
+      "63d8f3dc25abd689be38e38b",
+      "63d8f3e525abd689be38e38d",
+      "63d8f3e625abd689be38e38f",
+      "63d8f16925abd689be38e083",
+      "63d8f3e825abd689be38e391",
+      "63d8f1de25abd689be38e119",
+      "63d8f3e925abd689be38e393",
+      "63d8f3eb25abd689be38e395",
+      "63d8f3ec25abd689be38e397",
+      "63d8f3ee25abd689be38e399",
+      "63d8f3ef25abd689be38e39b",
+      "63d8f1d725abd689be38e111",
+      "63d8f3f125abd689be38e39d",
+      "63d8f3f225abd689be38e39f",
+      "63cd049faa705832ee238e56",
+      "63d8f3f325abd689be38e3a1",
+      "63d8f3f525abd689be38e3a3",
+      "63d8f3f725abd689be38e3a5",
+      "63d8f3f825abd689be38e3a7",
+      "63d8f3fa25abd689be38e3a9",
+      "63d8f3fb25abd689be38e3ab",
+      "63cd04a7aa705832ee238e7c",
+      "63d8f3fc25abd689be38e3ad",
+      "63d8f3fd25abd689be38e3af",
+      "63d8f3fe25abd689be38e3b1",
+      "63d8f40025abd689be38e3b3",
+      "63d8f19c25abd689be38e0c5",
+      "63d8f40125abd689be38e3b5",
+      "63d8f17125abd689be38e08d",
+      "63d8f40225abd689be38e3b7",
+      "63d8f1b825abd689be38e0eb",
+      "63d8f40425abd689be38e3b9",
+      "63d8f1f025abd689be38e133",
+      "63d8f40625abd689be38e3bb",
+      "63d8f40725abd689be38e3bd",
+      "63cd0492aa705832ee238e30",
+      "63d8f40825abd689be38e3bf",
+      "63d8f40a25abd689be38e3c1",
+      "63d8f40b25abd689be38e3c3",
+      "63d8f40d25abd689be38e3c5",
+      "63d8f40e25abd689be38e3c7",
+      "63d8f40f25abd689be38e3c9",
+      "63d8f41025abd689be38e3cb",
+      "63d8f41125abd689be38e3cd",
+      "63d8f41325abd689be38e3cf",
+      "63d8f41525abd689be38e3d1",
+      "63d8f41725abd689be38e3d3",
+      "63d8f41825abd689be38e3d5",
+      "63d8f17d25abd689be38e09b",
+      "63d8f41925abd689be38e3d7",
+      "63d8f41a25abd689be38e3d9",
+      "63d8f41c25abd689be38e3db",
+      "63d8f41e25abd689be38e3dd",
+      "63cd049daa705832ee238e4a",
+      "63d8f41f25abd689be38e3df",
+      "63d8f42025abd689be38e3e1",
+      "63d8f17525abd689be38e091",
+      "63cd04b9aa705832ee238e90",
+      "63d8f42125abd689be38e3e3",
+      "63d8f42225abd689be38e3e5",
+      "63d8f42425abd689be38e3e7",
+      "63cd048caa705832ee238e2a",
+      "63d8f42725abd689be38e3e9",
+      "63d8f18325abd689be38e0a3",
+      "63d8f1ab25abd689be38e0d9",
+      "63d8f42825abd689be38e3eb",
+      "63cd0487aa705832ee238e24",
+      "63d8f42b25abd689be38e3ed",
+      "63d8f42c25abd689be38e3ef",
+      "63d8f1c725abd689be38e0ff",
+      "63d8f19325abd689be38e0b7",
+      "63d8f42e25abd689be38e3f1",
+      "63d8f1c325abd689be38e0f7",
+      "63d8f18825abd689be38e0ab",
+      "63d8f42f25abd689be38e3f3",
+      "63d8f43125abd689be38e3f5",
+      "63d8f43325abd689be38e3f7",
+      "63d8f1bd25abd689be38e0f1",
+      "63d8f19925abd689be38e0c1",
+      "63d8f43525abd689be38e3f9",
+      "63cf52ec1e8f8d1ecc8cbfff",
+      "63d8f43725abd689be38e3fb",
+      "63d8f43825abd689be38e3fd",
+      "63d8f43925abd689be38e3ff",
+      "63d8f43a25abd689be38e401",
+      "63d8f43c25abd689be38e403",
+      "63cd0488aa705832ee238e28",
+      "63d8f43d25abd689be38e405",
+      "63cd04a0aa705832ee238e6e",
+      "63d8f20b25abd689be38e157",
+      "63d8f17825abd689be38e095",
+      "63cd04b5aa705832ee238e8a",
+      "63d8f43f25abd689be38e407",
+      "63d8f44225abd689be38e409",
+      "63d8f44325abd689be38e40b",
+      "63d8f21325abd689be38e161",
+      "63cd04a1aa705832ee238e76",
+      "63d8f44425abd689be38e40d",
+      "63d8f44625abd689be38e40f",
+      "63d8f44725abd689be38e411",
+      "63d8f44825abd689be38e413",
+      "63d8f44a25abd689be38e415",
+      "63d8f44c25abd689be38e417",
+      "63d8f44e25abd689be38e419",
+      "63d8f44f25abd689be38e41b",
+      "63d8f45225abd689be38e41d",
+      "63d8f20625abd689be38e151",
+      "63d8f45325abd689be38e41f",
+      "63d8f16e25abd689be38e089",
+      "63cf52ee1e8f8d1ecc8cc001",
+      "63d8f45625abd689be38e421",
+      "63d8f45725abd689be38e423",
+      "63d8f45825abd689be38e425",
+      "63d8f45925abd689be38e427",
+      "63d8f45b25abd689be38e429",
+      "63d8f45c25abd689be38e42b",
+      "63d8f45e25abd689be38e42d",
+      "63d8f46025abd689be38e42f",
+      "63d8f46125abd689be38e431",
+      "63d8f46325abd689be38e433",
+      "63d8f46525abd689be38e435",
+      "63d8f46625abd689be38e437",
+      "63d8f46725abd689be38e439",
+      "63d8f46825abd689be38e43b",
+      "63d8f46a25abd689be38e43d",
+      "63d8f46b25abd689be38e43f",
+      "63d8f1f425abd689be38e139",
+      "63d8f46e25abd689be38e441",
+      "63d8f47025abd689be38e443",
+      "63cf52e91e8f8d1ecc8cbffb",
+      "63d8f47225abd689be38e445",
+      "63d8f47325abd689be38e447",
+      "63d8f16c25abd689be38e085",
+      "63d8f47525abd689be38e449",
+      "63d8f47625abd689be38e44b",
+      "63cd049faa705832ee238e4c",
+      "63d8f47725abd689be38e44d",
+      "63cd049faa705832ee238e52",
+      "63d8f47925abd689be38e44f",
+      "63d8f47a25abd689be38e451",
+      "63d8f47b25abd689be38e453",
+      "63d8f47d25abd689be38e455",
+      "63d8f21625abd689be38e167",
+      "63d8f47e25abd689be38e457",
+      "63d8f48125abd689be38e459",
+      "63d8f48325abd689be38e45b",
+      "63d8f22425abd689be38e177",
+      "63d8f21525abd689be38e165",
+      "63d8f48425abd689be38e45d",
+      "63d8f1b325abd689be38e0e3",
+      "63d8f1a025abd689be38e0c9",
+      "63d8f48625abd689be38e45f",
+      "63d8f1c425abd689be38e0f9",
+      "63d8f19a25abd689be38e0c3",
+      "63d8f1e625abd689be38e125",
+      "63d8f48725abd689be38e461",
+      "63d8f18b25abd689be38e0ad",
+      "63d8f1fa25abd689be38e141",
+      "63d8f1b725abd689be38e0e9",
+      "63d8f19025abd689be38e0b3",
+      "63cd04a0aa705832ee238e66",
+      "63d5068d5ddc8fc079a7b229",
+      "63d8f48925abd689be38e463",
+      "63cd04a0aa705832ee238e68",
+      "63d8f48b25abd689be38e465",
+      "63d8f1d825abd689be38e113",
+      "63d8f48c25abd689be38e467",
+      "63d8f21b25abd689be38e16d",
+      "63d8f17b25abd689be38e099",
+      "63d8f48d25abd689be38e469",
+      "63d8f48f25abd689be38e46b",
+      "63d8f49025abd689be38e46d",
+      "63cd049faa705832ee238e5a",
+      "63d8f20825abd689be38e153",
+      "63d8f49125abd689be38e46f",
+      "63d8f49225abd689be38e471",
+      "63d8f1b625abd689be38e0e7",
+      "63d8f1f725abd689be38e13b",
+      "63d8f17925abd689be38e097",
+      "63d8f1ed25abd689be38e12f",
+      "63d8f17f25abd689be38e09d",
+      "63d8f49425abd689be38e473",
+      "63d8f1a125abd689be38e0cb",
+      "63d8f19d25abd689be38e0c7",
+      "63d8f49525abd689be38e475",
+      "63d8f1e925abd689be38e129",
+      "63d8f1a225abd689be38e0cd",
+      "63d8f1a525abd689be38e0d1",
+      "63cd047eaa705832ee238e04",
+      "63d8f49725abd689be38e477",
+      "63d8f49925abd689be38e479",
+      "63d8f49a25abd689be38e47b",
+      "63cd0480aa705832ee238e12",
+      "63d8f49b25abd689be38e47d",
+      "63cd04a0aa705832ee238e6c",
+      "63d8f49c25abd689be38e47f",
+      "63d8f49e25abd689be38e481",
+      "63d8f20125abd689be38e149",
+      "63d8f49f25abd689be38e483",
+      "63d8f1a725abd689be38e0d3",
+      "63d8f4a025abd689be38e485",
+      "63d8f4a125abd689be38e487",
+      "63d8f4a225abd689be38e489",
+      "63d8f4a425abd689be38e48b",
+      "63d8f4a525abd689be38e48d",
+      "63d8f4a625abd689be38e48f",
+      "63d8f4a825abd689be38e491",
+      "63d8f1ec25abd689be38e12d",
+      "63d8f4ab25abd689be38e493",
+      "63d8f4ad25abd689be38e495",
+      "63d8f1ff25abd689be38e147",
+      "63d8f1ba25abd689be38e0ed",
+      "63d8f4ae25abd689be38e497",
+      "63d8f1a425abd689be38e0cf",
+      "63d8f1c525abd689be38e0fb",
+      "63cd04c2aa705832ee238ea2",
+      "63d8f4b025abd689be38e499",
+      "63cd049daa705832ee238e42",
+      "63d8f4b125abd689be38e49b",
+      "63d8f4b225abd689be38e49d",
+      "63d8f4b425abd689be38e49f",
+      "63d8f4b625abd689be38e4a1",
+      "63d8f1bc25abd689be38e0ef",
+      "63d8f4b725abd689be38e4a3",
+      "63d8f4b825abd689be38e4a5",
+      "63d5068c5ddc8fc079a7b227",
+      "63d8f4ba25abd689be38e4a7",
+      "63d8f1b025abd689be38e0e1",
+      "63d8f4bd25abd689be38e4a9",
+      "63d8f4bf25abd689be38e4ab",
+      "63cd0491aa705832ee238e2e",
+      "63d8f4c025abd689be38e4ad",
+      "63d8f4c225abd689be38e4af",
+      "63d8f20d25abd689be38e159",
+      "63d8f4c325abd689be38e4b1",
+      "63d4882815ee301d41f494e4",
+      "63d8f4c425abd689be38e4b3",
+      "63d8f4c625abd689be38e4b5",
+      "63d8f4c725abd689be38e4b7",
+      "63d8f1cd25abd689be38e107",
+      "63d8f4c925abd689be38e4b9",
+      "63d8f1e425abd689be38e121",
+      "63d8f1e325abd689be38e11f",
+      "63d8f1c125abd689be38e0f5",
+      "63d8f4ca25abd689be38e4bb",
+      "63d8f21925abd689be38e16b",
+      "63d8f4cb25abd689be38e4bd",
+      "63cd049daa705832ee238e44",
+      "63d8f4cd25abd689be38e4bf",
+      "63d8f1f925abd689be38e13f",
+      "63cd0488aa705832ee238e26",
+      "63d8f4ce25abd689be38e4c1",
+      "63d8f4d025abd689be38e4c3",
+      "63d8f4d125abd689be38e4c5",
+      "63d8f4d325abd689be38e4c7",
+      "63d8f4d525abd689be38e4c9",
+      "63d8f21f25abd689be38e173",
+      "63cf52eb1e8f8d1ecc8cbffd",
+      "63d8f4d625abd689be38e4cb",
+      "63d8f4d725abd689be38e4cd",
+      "63d8f4d825abd689be38e4cf",
+      "63d8f4dc25abd689be38e4d1",
+      "63cf52ef1e8f8d1ecc8cc003",
+      "63d8f22225abd689be38e175",
+      "63d8f4de25abd689be38e4d3",
+      "63d8f18525abd689be38e0a7",
+      "63d8f4e025abd689be38e4d5",
+      "63cd04c0aa705832ee238e9c",
+      "63d8f19825abd689be38e0bf",
+      "63d8f1af25abd689be38e0df",
+      "63d8f18425abd689be38e0a5",
+      "63d8f4e225abd689be38e4d7",
+      "63d8f1d925abd689be38e115",
+      "63d8f4e525abd689be38e4d9",
+      "63d8f4e625abd689be38e4db",
+      "63d8f4e725abd689be38e4dd",
+      "63d8f4e925abd689be38e4df",
+      "63d8f4ec25abd689be38e4e1",
+      "63d8f4ed25abd689be38e4e3",
+      "63cd04a0aa705832ee238e6a",
+      "63d8f4ef25abd689be38e4e5",
+      "63d8f4f025abd689be38e4e7",
+      "63d8f1cf25abd689be38e109",
+      "63d8f4f125abd689be38e4e9",
+      "63d8f4f325abd689be38e4eb",
+      "63cd047eaa705832ee238e06",
+      "63d8f4f425abd689be38e4ed",
+      "63d8f4f525abd689be38e4ef",
+      "63cd0497aa705832ee238e36",
+      "63d8f4f725abd689be38e4f1",
+      "63cd0483aa705832ee238e1c",
+      "63d8f4f925abd689be38e4f3",
+      "63d8f4fa25abd689be38e4f5",
+      "63d8f4fd25abd689be38e4f7",
+      "63d8f4fe25abd689be38e4f9",
+      "63d8f4ff25abd689be38e4fb",
+      "63d8f50025abd689be38e4fd",
+      "63d8f18d25abd689be38e0af",
+      "63d8f19225abd689be38e0b5",
+      "63cd04a1aa705832ee238e74",
+      "63d8f50225abd689be38e4ff",
+      "63d8f50425abd689be38e501",
+      "63d8f50525abd689be38e503",
+      "63d8f50625abd689be38e505",
+      "63d8f50725abd689be38e507",
+      "63cd0494aa705832ee238e32",
+      "63d8f21c25abd689be38e16f",
+      "63d8f50925abd689be38e509",
+      "63d8f50a25abd689be38e50b",
+      "63d8f20425abd689be38e14d",
+      "63d8f50c25abd689be38e50d",
+      "63d8f16d25abd689be38e087",
+      "63d8f18025abd689be38e09f",
+      "63d8f19425abd689be38e0b9",
+      "63d8f1e525abd689be38e123",
+      "63cd049faa705832ee238e5c",
+      "63d8f1a925abd689be38e0d7",
+      "63cd04a5aa705832ee238e78",
+      "63d8f50f25abd689be38e50f",
+      "63d8f51025abd689be38e511",
+      "63d8f51125abd689be38e513",
+      "63d8f51325abd689be38e515",
+      "63d8f51425abd689be38e517",
+      "63d8f51625abd689be38e519",
+      "63d8f51725abd689be38e51b",
+      "63d8f51825abd689be38e51d",
+      "63d8f22725abd689be38e17b",
+      "63d8f51925abd689be38e51f",
+      "63d8f51b25abd689be38e521",
+      "63d8f22825abd689be38e17d",
+      "63d8f51e25abd689be38e523",
+      "63d8f52025abd689be38e525",
+      "63d8f52125abd689be38e527",
+      "63cd04c9aa705832ee238ebc",
+      "63d8f52325abd689be38e529",
+      "63d8f52425abd689be38e52b",
+      "63d8f52525abd689be38e52d",
+      "63d8f52725abd689be38e52f",
+      "63d8f52925abd689be38e531",
+      "63d8f52a25abd689be38e533",
+      "63d8f52c25abd689be38e535",
+      "63d8f52e25abd689be38e537",
+      "63ccfb4daa705832ee236dab",
+      "63ccfb64aa705832ee236def",
+      "63d8f53025abd689be38e539",
+      "63d8f53125abd689be38e53b",
+      "63d8f53325abd689be38e53d",
+      "63d8f53425abd689be38e53f",
+      "63d8f53825abd689be38e541",
+      "63d8f53925abd689be38e543",
+      "63d8f53a25abd689be38e545",
+      "63d8f53d25abd689be38e547",
+      "63d8f54125abd689be38e549",
+      "63d8f54425abd689be38e54b",
+      "63d8f54525abd689be38e54d",
+      "63d8f54825abd689be38e54f",
+      "63d8f54a25abd689be38e551",
+      "63d8f54d25abd689be38e553",
+      "63d8f54e25abd689be38e555",
+      "63d8f54f25abd689be38e557",
+      "63d8f55125abd689be38e559",
+      "63d8f55225abd689be38e55b",
+      "63d8f55425abd689be38e55d",
+      "63d8f55525abd689be38e55f",
+      "63d8f55725abd689be38e561",
+      "63d8f55825abd689be38e563",
+      "63cd05d8aa705832ee2391c7",
+      "63d8f55a25abd689be38e565",
+      "63d8f55b25abd689be38e567",
+      "63d8f55d25abd689be38e569",
+      "63d8f55e25abd689be38e56b",
+      "63d8f56025abd689be38e56d",
+      "63d8f56125abd689be38e56f",
+      "63d8f56325abd689be38e571",
+      "63d8ec3b8fec2a4aa15cafbb",
+      "63d8ec3c8fec2a4aa15cafbf",
+      "63d8f56625abd689be38e573",
+      "63d8f56725abd689be38e575",
+      "63d8f56825abd689be38e577",
+      "63d8f56925abd689be38e579",
+      "63d8f56a25abd689be38e57b",
+      "63d8f56b25abd689be38e57d",
+      "63d8f56d25abd689be38e57f",
+      "63d8f57125abd689be38e581",
+      "63d8f57225abd689be38e583",
+      "63d8f57425abd689be38e585",
+      "63d8f57725abd689be38e587",
+      "63d8f57825abd689be38e589",
+      "63ccfa19aa705832ee2367be",
+      "63d8f57a25abd689be38e58b",
+      "63d8f57b25abd689be38e58d",
+      "63cd04ceaa705832ee238ed6",
+      "63d8f57d25abd689be38e58f",
+      "63d8f57e25abd689be38e591",
+      "63d8f58025abd689be38e593",
+      "63ccfa19aa705832ee2367c4",
+      "63cd04cdaa705832ee238ed0"
     ],
-    "categories": []
+    "categories": [
+      {
+        "name": "Aceites",
+        "id": "63ccfd52aa705832ee237633"
+      },
+      {
+        "name": "Aguas",
+        "id": "63ccfb97aa705832ee236ebc"
+      },
+      {
+        "name": "Alimentos saludables",
+        "id": "63ccfd71aa705832ee23768c"
+      },
+      {
+        "name": "Arroz y granos",
+        "id": "63ccfda9aa705832ee237745"
+      },
+      {
+        "name": "Artículos de limpieza",
+        "id": "63ccfdb5aa705832ee23777c"
+      },
+      {
+        "name": "Azúcar y endulzantes",
+        "id": "63ccfdcfaa705832ee2377eb"
+      },
+      {
+        "name": "Bebidas con alcohol",
+        "id": "63ccfdd8aa705832ee23781c"
+      },
+      {
+        "name": "Café",
+        "id": "63ccfde2aa705832ee23786b"
+      },
+      {
+        "name": "Carnes y pescados",
+        "id": "63ccfdf6aa705832ee2378bc"
+      },
+      {
+        "name": "Cereales y avenas",
+        "id": "63ccfe1baa705832ee23793f"
+      },
+      {
+        "name": "Cervezas",
+        "id": "63ccfbd2aa705832ee236fd4"
+      },
+      {
+        "name": "Comidas preparadas",
+        "id": "63ccfe52aa705832ee237a16"
+      },
+      {
+        "name": "Congelados",
+        "id": "63ccfe54aa705832ee237a1b"
+      },
+      {
+        "name": "Cuidado capilar",
+        "id": "63ccfe7faa705832ee237ab0"
+      },
+      {
+        "name": "Cuidado dental",
+        "id": "63ccfeb9aa705832ee237b69"
+      },
+      {
+        "name": "Cuidado personal",
+        "id": "63ccfecbaa705832ee237bd0"
+      },
+      {
+        "name": "Dulce de leche y mermeladas",
+        "id": "63ccff04aa705832ee237c83"
+      },
+      {
+        "name": "Enlatados y conservas",
+        "id": "63ccff20aa705832ee237cd0"
+      },
+      {
+        "name": "Farmacia",
+        "id": "63ccfceaaa705832ee2374f7"
+      },
+      {
+        "name": "Frescos",
+        "id": "63ccff5baa705832ee237d9f"
+      },
+      {
+        "name": "Frutas y verduras",
+        "id": "63ccff92aa705832ee237e2e"
+      },
+      {
+        "name": "Galletas",
+        "id": "63ccffa8aa705832ee237e6f"
+      },
+      {
+        "name": "Gaseosas",
+        "id": "63ccfbd4aa705832ee236fed"
+      },
+      {
+        "name": "Golosinas",
+        "id": "63ccffeaaa705832ee237f96"
+      },
+      {
+        "name": "Harinas y premezclas",
+        "id": "63cd002aaa705832ee238057"
+      },
+      {
+        "name": "Helados y postres",
+        "id": "63cd004faa705832ee2380bc"
+      },
+      {
+        "name": "Hogar y librería",
+        "id": "63cd005baa705832ee2380db"
+      },
+      {
+        "name": "Insecticidas",
+        "id": "63ccfcadaa705832ee2373f2"
+      },
+      {
+        "name": "Insecticidas y repelentes",
+        "id": "63cd0083aa705832ee238148"
+      },
+      {
+        "name": "Jugos",
+        "id": "63cd0093aa705832ee238181"
+      },
+      {
+        "name": "Leches",
+        "id": "63ccfb88aa705832ee236e66"
+      },
+      {
+        "name": "Limpieza de la casa",
+        "id": "63cd00e9aa705832ee23826e"
+      },
+      {
+        "name": "Limpieza de la cocina",
+        "id": "63cd0121aa705832ee238321"
+      },
+      {
+        "name": "Limpieza de la ropa",
+        "id": "63cd0138aa705832ee23838a"
+      },
+      {
+        "name": "Limpieza del baño",
+        "id": "63cd015daa705832ee23840b"
+      },
+      {
+        "name": "Mascotas",
+        "id": "63cd0169aa705832ee238434"
+      },
+      {
+        "name": "Mundo bebé",
+        "id": "63cd01a0aa705832ee2384eb"
+      },
+      {
+        "name": "Otras bebidas",
+        "id": "63cd01c6aa705832ee238540"
+      },
+      {
+        "name": "Panadería",
+        "id": "63ccfb31aa705832ee236d03"
+      },
+      {
+        "name": "Papeles",
+        "id": "63cd01f9aa705832ee238621"
+      },
+      {
+        "name": "Pastas",
+        "id": "63cd020caa705832ee238662"
+      },
+      {
+        "name": "Productos Carrefour",
+        "id": "63cd0248aa705832ee2386f7"
+      },
+      {
+        "name": "Puré, comidas listas y sopas",
+        "id": "63cd0279aa705832ee2387c0"
+      },
+      {
+        "name": "Quesos y fiambres",
+        "id": "63cd0284aa705832ee2387d7"
+      },
+      {
+        "name": "Salsas, aderezos y condimentos",
+        "id": "63cd02c9aa705832ee23887c"
+      },
+      {
+        "name": "Snacks",
+        "id": "63cd0310aa705832ee238923"
+      },
+      {
+        "name": "Té, yerba e infusiones",
+        "id": "63cd0348aa705832ee2389a2"
+      },
+      {
+        "name": "Vinos",
+        "id": "63cd0365aa705832ee238a0d"
+      },
+      {
+        "name": "Yogures",
+        "id": "63cd0377aa705832ee238a86"
+      }
+    ]
   },
   {
     "id": "63cd03baaa705832ee238b2b",
@@ -6478,9 +7652,353 @@
       "63cd0251aa705832ee23873a",
       "63d506b95ddc8fc079a7b231",
       "63d688dbbaab866676b5433d",
-      "63d688dcbaab866676b5433f"
+      "63d688dcbaab866676b5433f",
+      "63d8ec378fec2a4aa15cafb5",
+      "63d8ec258fec2a4aa15caf9d",
+      "63d8f16925abd689be38e083",
+      "63d8f16c25abd689be38e085",
+      "63d8f16d25abd689be38e087",
+      "63d8f16e25abd689be38e089",
+      "63d8f17025abd689be38e08b",
+      "63cd0254aa705832ee23874e",
+      "63d8f17125abd689be38e08d",
+      "63d8f17325abd689be38e08f",
+      "63d8f17525abd689be38e091",
+      "63d8f17625abd689be38e093",
+      "63d8f17825abd689be38e095",
+      "63cd0249aa705832ee23870e",
+      "63d8f17925abd689be38e097",
+      "63d8f17b25abd689be38e099",
+      "63d8f17d25abd689be38e09b",
+      "63d8f17f25abd689be38e09d",
+      "63cd0260aa705832ee23876c",
+      "63d8f18025abd689be38e09f",
+      "63d8f18225abd689be38e0a1",
+      "63d8f18325abd689be38e0a3",
+      "63d8f18425abd689be38e0a5",
+      "63d8f18525abd689be38e0a7",
+      "63d8f18725abd689be38e0a9",
+      "63d8f18825abd689be38e0ab",
+      "63d8f18b25abd689be38e0ad",
+      "63d8f18d25abd689be38e0af",
+      "63cd0260aa705832ee238770",
+      "63d8f18e25abd689be38e0b1",
+      "63d8f19025abd689be38e0b3",
+      "63cd0265aa705832ee23878c",
+      "63d8f19225abd689be38e0b5",
+      "63cd0264aa705832ee238780",
+      "63d8f19325abd689be38e0b7",
+      "63cd025caa705832ee238766",
+      "63d8f19425abd689be38e0b9",
+      "63d8f19525abd689be38e0bb",
+      "63d8f19625abd689be38e0bd",
+      "63d8f19825abd689be38e0bf",
+      "63d8f19925abd689be38e0c1",
+      "63d8f19a25abd689be38e0c3",
+      "63d8f19c25abd689be38e0c5",
+      "63d8f19d25abd689be38e0c7",
+      "63cd0249aa705832ee238710",
+      "63d8f1a025abd689be38e0c9",
+      "63d8f1a125abd689be38e0cb",
+      "63d8f1a225abd689be38e0cd",
+      "63d8f1a425abd689be38e0cf",
+      "63cd0261aa705832ee238778",
+      "63d8f1a525abd689be38e0d1",
+      "63d8f1a725abd689be38e0d3",
+      "63d8f1a825abd689be38e0d5",
+      "63d8f1a925abd689be38e0d7",
+      "63d8f1ab25abd689be38e0d9",
+      "63d8f1ac25abd689be38e0db",
+      "63cd0264aa705832ee238784",
+      "63cd024aaa705832ee238714",
+      "63d506bb5ddc8fc079a7b233",
+      "63cfbd12a4faee9013841dba",
+      "63d8f1ad25abd689be38e0dd",
+      "63d8f1af25abd689be38e0df",
+      "63d8f1b025abd689be38e0e1",
+      "63cd024faa705832ee238730",
+      "63d8f1b325abd689be38e0e3",
+      "63d8f1b525abd689be38e0e5",
+      "63d8f1b625abd689be38e0e7",
+      "63d8f1b725abd689be38e0e9",
+      "63d8f1b825abd689be38e0eb",
+      "63d8f1ba25abd689be38e0ed",
+      "63d8f1bc25abd689be38e0ef",
+      "63d8f1bd25abd689be38e0f1",
+      "63d8f1be25abd689be38e0f3",
+      "63d8f1c125abd689be38e0f5",
+      "63d68928baab866676b5434d",
+      "63d68929baab866676b5434f",
+      "63d8f1c325abd689be38e0f7",
+      "63d8f1c425abd689be38e0f9",
+      "63d8f1c525abd689be38e0fb",
+      "63d8f1c625abd689be38e0fd",
+      "63d8f1c725abd689be38e0ff",
+      "63d8f1c825abd689be38e101",
+      "63d8f1ca25abd689be38e103",
+      "63d8f1cc25abd689be38e105",
+      "63cd024caa705832ee238724",
+      "63d8f1cd25abd689be38e107",
+      "63d8f1cf25abd689be38e109",
+      "63d8f1d125abd689be38e10b",
+      "63d8f1d225abd689be38e10d",
+      "63d8f1d425abd689be38e10f",
+      "63d8f1d725abd689be38e111",
+      "63d8f1d825abd689be38e113",
+      "63d8f1d925abd689be38e115",
+      "63d8f1dc25abd689be38e117",
+      "63d8f1de25abd689be38e119",
+      "63d8f1df25abd689be38e11b",
+      "63d8f1e225abd689be38e11d",
+      "63cf55da62a456d09f263058",
+      "63d8f1e325abd689be38e11f",
+      "63d8f1e425abd689be38e121",
+      "63d8f1e525abd689be38e123",
+      "63d8f1e625abd689be38e125",
+      "63cd026daa705832ee2387a2",
+      "63d8f1e825abd689be38e127",
+      "63d8f1e925abd689be38e129",
+      "63d8f1ea25abd689be38e12b",
+      "63d8f1ec25abd689be38e12d",
+      "63d8f1ed25abd689be38e12f",
+      "63cd0250aa705832ee238732",
+      "63d8f1ee25abd689be38e131",
+      "63d8f1f025abd689be38e133",
+      "63d8f1f125abd689be38e135",
+      "63d8f1f225abd689be38e137",
+      "63d8f1f425abd689be38e139",
+      "63d8f1f725abd689be38e13b",
+      "63cd025baa705832ee238758",
+      "63d8f1f825abd689be38e13d",
+      "63d8f1f925abd689be38e13f",
+      "63d8f1fa25abd689be38e141",
+      "63d8f1fc25abd689be38e143",
+      "63d8f1fd25abd689be38e145",
+      "63d8f1ff25abd689be38e147",
+      "63d8f20125abd689be38e149",
+      "63cd024caa705832ee238728",
+      "63d8f20225abd689be38e14b",
+      "63d8f20425abd689be38e14d",
+      "63d8f20525abd689be38e14f",
+      "63d8f20625abd689be38e151",
+      "63d8f20825abd689be38e153",
+      "63d8f20925abd689be38e155",
+      "63d8f20b25abd689be38e157",
+      "63d8f20d25abd689be38e159",
+      "63cd0251aa705832ee23873c",
+      "63d8f20e25abd689be38e15b",
+      "63d8f20f25abd689be38e15d",
+      "63d8f21125abd689be38e15f",
+      "63d8f21325abd689be38e161",
+      "63d8f21425abd689be38e163",
+      "63d68924baab866676b54349",
+      "63d8f21525abd689be38e165",
+      "63d8f21625abd689be38e167",
+      "63d8f21825abd689be38e169",
+      "63cfbd14a4faee9013841dbc",
+      "63d8f21925abd689be38e16b",
+      "63d8f21b25abd689be38e16d",
+      "63d8f21c25abd689be38e16f",
+      "63d8f21e25abd689be38e171",
+      "63d8f21f25abd689be38e173",
+      "63cd0266aa705832ee238792",
+      "63d68926baab866676b5434b",
+      "63d8f22225abd689be38e175",
+      "63d8f22425abd689be38e177",
+      "63d8f22625abd689be38e179",
+      "63d8f22725abd689be38e17b",
+      "63d8f22825abd689be38e17d"
     ],
-    "categories": []
+    "categories": [
+      {
+        "name": "Aceites",
+        "id": "63ccfd52aa705832ee237633"
+      },
+      {
+        "name": "Aguas",
+        "id": "63ccfb97aa705832ee236ebc"
+      },
+      {
+        "name": "Alimentos saludables",
+        "id": "63ccfd71aa705832ee23768c"
+      },
+      {
+        "name": "Arroz y granos",
+        "id": "63ccfda9aa705832ee237745"
+      },
+      {
+        "name": "Artículos de limpieza",
+        "id": "63ccfdb5aa705832ee23777c"
+      },
+      {
+        "name": "Azúcar y endulzantes",
+        "id": "63ccfdcfaa705832ee2377eb"
+      },
+      {
+        "name": "Bebidas con alcohol",
+        "id": "63ccfdd8aa705832ee23781c"
+      },
+      {
+        "name": "Café",
+        "id": "63ccfde2aa705832ee23786b"
+      },
+      {
+        "name": "Cereales y avenas",
+        "id": "63ccfe1baa705832ee23793f"
+      },
+      {
+        "name": "Cervezas",
+        "id": "63ccfbd2aa705832ee236fd4"
+      },
+      {
+        "name": "Comidas preparadas",
+        "id": "63ccfe52aa705832ee237a16"
+      },
+      {
+        "name": "Congelados",
+        "id": "63ccfe54aa705832ee237a1b"
+      },
+      {
+        "name": "Cuidado capilar",
+        "id": "63ccfe7faa705832ee237ab0"
+      },
+      {
+        "name": "Cuidado dental",
+        "id": "63ccfeb9aa705832ee237b69"
+      },
+      {
+        "name": "Cuidado personal",
+        "id": "63ccfecbaa705832ee237bd0"
+      },
+      {
+        "name": "Dulce de leche y mermeladas",
+        "id": "63ccff04aa705832ee237c83"
+      },
+      {
+        "name": "Enlatados y conservas",
+        "id": "63ccff20aa705832ee237cd0"
+      },
+      {
+        "name": "Farmacia",
+        "id": "63ccfceaaa705832ee2374f7"
+      },
+      {
+        "name": "Frescos",
+        "id": "63ccff5baa705832ee237d9f"
+      },
+      {
+        "name": "Frutas y verduras",
+        "id": "63ccff92aa705832ee237e2e"
+      },
+      {
+        "name": "Galletas",
+        "id": "63ccffa8aa705832ee237e6f"
+      },
+      {
+        "name": "Gaseosas",
+        "id": "63ccfbd4aa705832ee236fed"
+      },
+      {
+        "name": "Golosinas",
+        "id": "63ccffeaaa705832ee237f96"
+      },
+      {
+        "name": "Harinas y premezclas",
+        "id": "63cd002aaa705832ee238057"
+      },
+      {
+        "name": "Helados y postres",
+        "id": "63cd004faa705832ee2380bc"
+      },
+      {
+        "name": "Hogar y librería",
+        "id": "63cd005baa705832ee2380db"
+      },
+      {
+        "name": "Insecticidas y repelentes",
+        "id": "63cd0083aa705832ee238148"
+      },
+      {
+        "name": "Jugos",
+        "id": "63cd0093aa705832ee238181"
+      },
+      {
+        "name": "Leches",
+        "id": "63ccfb88aa705832ee236e66"
+      },
+      {
+        "name": "Limpieza de la casa",
+        "id": "63cd00e9aa705832ee23826e"
+      },
+      {
+        "name": "Limpieza de la cocina",
+        "id": "63cd0121aa705832ee238321"
+      },
+      {
+        "name": "Limpieza de la ropa",
+        "id": "63cd0138aa705832ee23838a"
+      },
+      {
+        "name": "Limpieza del baño",
+        "id": "63cd015daa705832ee23840b"
+      },
+      {
+        "name": "Mascotas",
+        "id": "63cd0169aa705832ee238434"
+      },
+      {
+        "name": "Mundo bebé",
+        "id": "63cd01a0aa705832ee2384eb"
+      },
+      {
+        "name": "Otras bebidas",
+        "id": "63cd01c6aa705832ee238540"
+      },
+      {
+        "name": "Panadería",
+        "id": "63ccfb31aa705832ee236d03"
+      },
+      {
+        "name": "Papeles",
+        "id": "63cd01f9aa705832ee238621"
+      },
+      {
+        "name": "Pastas",
+        "id": "63cd020caa705832ee238662"
+      },
+      {
+        "name": "Productos Carrefour",
+        "id": "63cd0248aa705832ee2386f7"
+      },
+      {
+        "name": "Puré, comidas listas y sopas",
+        "id": "63cd0279aa705832ee2387c0"
+      },
+      {
+        "name": "Quesos y fiambres",
+        "id": "63cd0284aa705832ee2387d7"
+      },
+      {
+        "name": "Salsas, aderezos y condimentos",
+        "id": "63cd02c9aa705832ee23887c"
+      },
+      {
+        "name": "Snacks",
+        "id": "63cd0310aa705832ee238923"
+      },
+      {
+        "name": "Té, yerba e infusiones",
+        "id": "63cd0348aa705832ee2389a2"
+      },
+      {
+        "name": "Vinos",
+        "id": "63cd0365aa705832ee238a0d"
+      },
+      {
+        "name": "Yogures",
+        "id": "63cd0377aa705832ee238a86"
+      }
+    ]
   },
   {
     "id": "63cd04ffaa705832ee238f46",
@@ -7707,9 +9225,227 @@
       "63d2c3d3d4f14199012fb50d",
       "63d2c3d8d4f14199012fb515",
       "63d483ed4f6582831ab720ae",
-      "63d2c3f2d4f14199012fb52f"
+      "63d2c3f2d4f14199012fb52f",
+      "63d8f58825abd689be38e595"
     ],
-    "categories": []
+    "categories": [
+      {
+        "name": "Aceites",
+        "id": "63ccfd52aa705832ee237633"
+      },
+      {
+        "name": "Aguas",
+        "id": "63ccfb97aa705832ee236ebc"
+      },
+      {
+        "name": "Aguas Saborizadas",
+        "id": "63cd0505aa705832ee238f53"
+      },
+      {
+        "name": "Alfajores",
+        "id": "63cd050aaa705832ee238f62"
+      },
+      {
+        "name": "Arroces",
+        "id": "63cd0512aa705832ee238f73"
+      },
+      {
+        "name": "Azúcar y Endulzantes",
+        "id": "63cd0514aa705832ee238f80"
+      },
+      {
+        "name": "Bebidas con Alcohol",
+        "id": "63cd0517aa705832ee238f93"
+      },
+      {
+        "name": "Bebidas sin Alcohol",
+        "id": "63cd0520aa705832ee238fb8"
+      },
+      {
+        "name": "Cacaos",
+        "id": "63cd0523aa705832ee238fbd"
+      },
+      {
+        "name": "Caramelos & Chupetines",
+        "id": "63cd0523aa705832ee238fc2"
+      },
+      {
+        "name": "Cereales",
+        "id": "63cd0523aa705832ee238fc3"
+      },
+      {
+        "name": "Cervezas",
+        "id": "63ccfbd2aa705832ee236fd4"
+      },
+      {
+        "name": "Chocolates",
+        "id": "63cd0525aa705832ee238fd8"
+      },
+      {
+        "name": "Condimentos",
+        "id": "63cd052baa705832ee238fe1"
+      },
+      {
+        "name": "Congelados",
+        "id": "63ccfe54aa705832ee237a1b"
+      },
+      {
+        "name": "Conservas",
+        "id": "63ccfa28aa705832ee23682a"
+      },
+      {
+        "name": "Cuidado Personal",
+        "id": "63ccfcecaa705832ee237508"
+      },
+      {
+        "name": "Cuidado de la Ropa",
+        "id": "63cd0585aa705832ee2390ec"
+      },
+      {
+        "name": "Cuidado del Bebe",
+        "id": "63cd0588aa705832ee239101"
+      },
+      {
+        "name": "Cuidado del Cabello",
+        "id": "63cd0589aa705832ee239108"
+      },
+      {
+        "name": "Cuidado del Hogar",
+        "id": "63cd059caa705832ee23914f"
+      },
+      {
+        "name": "Deco & Organización",
+        "id": "63cd05b1aa705832ee239182"
+      },
+      {
+        "name": "Desodorantes",
+        "id": "63cd05b2aa705832ee239189"
+      },
+      {
+        "name": "Detergentes",
+        "id": "63cd05beaa705832ee23919c"
+      },
+      {
+        "name": "Embutidos",
+        "id": "63cd05c0aa705832ee2391a1"
+      },
+      {
+        "name": "Farmacia",
+        "id": "63ccfceaaa705832ee2374f7"
+      },
+      {
+        "name": "Ferretería",
+        "id": "63ccfcafaa705832ee23740f"
+      },
+      {
+        "name": "Fiambres",
+        "id": "63cd05d6aa705832ee2391c0"
+      },
+      {
+        "name": "Galletitas",
+        "id": "63cd05d9aa705832ee2391cd"
+      },
+      {
+        "name": "Gaseosas",
+        "id": "63ccfbd4aa705832ee236fed"
+      },
+      {
+        "name": "Harinas",
+        "id": "63ccfb77aa705832ee236e1d"
+      },
+      {
+        "name": "Higiene Bucal",
+        "id": "63cd05fdaa705832ee23922a"
+      },
+      {
+        "name": "Higiene Femenina",
+        "id": "63cd0600aa705832ee239239"
+      },
+      {
+        "name": "Infusiones",
+        "id": "63cd0614aa705832ee239272"
+      },
+      {
+        "name": "Insecticidas",
+        "id": "63ccfcadaa705832ee2373f2"
+      },
+      {
+        "name": "Jugos",
+        "id": "63cd0093aa705832ee238181"
+      },
+      {
+        "name": "Lavandinas",
+        "id": "63cd0643aa705832ee2392ff"
+      },
+      {
+        "name": "Legumbres",
+        "id": "63cd0644aa705832ee239304"
+      },
+      {
+        "name": "Limpiadores",
+        "id": "63ccfcb7aa705832ee237426"
+      },
+      {
+        "name": "Lácteos y Huevos",
+        "id": "63cd0647aa705832ee23931b"
+      },
+      {
+        "name": "Masas",
+        "id": "63cd0667aa705832ee239382"
+      },
+      {
+        "name": "Mascotas",
+        "id": "63cd0169aa705832ee238434"
+      },
+      {
+        "name": "Menaje",
+        "id": "63cd066faa705832ee239397"
+      },
+      {
+        "name": "Mermeladas y Dulces",
+        "id": "63cd0671aa705832ee23939c"
+      },
+      {
+        "name": "Panificados",
+        "id": "63cd067baa705832ee2393c9"
+      },
+      {
+        "name": "Papeles",
+        "id": "63cd01f9aa705832ee238621"
+      },
+      {
+        "name": "Pastas",
+        "id": "63cd020caa705832ee238662"
+      },
+      {
+        "name": "Pañales",
+        "id": "63ccfd03aa705832ee237572"
+      },
+      {
+        "name": "Postres & Turrones",
+        "id": "63cd06b0aa705832ee23943a"
+      },
+      {
+        "name": "Quesos",
+        "id": "63cd06beaa705832ee23945f"
+      },
+      {
+        "name": "Snacks & Cereales",
+        "id": "63cd06bfaa705832ee239464"
+      },
+      {
+        "name": "Sopas & Puré",
+        "id": "63cd06d0aa705832ee239493"
+      },
+      {
+        "name": "Vinagres",
+        "id": "63cd06d2aa705832ee2394a8"
+      },
+      {
+        "name": "Vinos",
+        "id": "63cd0365aa705832ee238a0d"
+      }
+    ]
   },
   {
     "id": "63cd071daa705832ee239505",
