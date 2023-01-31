@@ -19,7 +19,7 @@ const ScrapeData = async (browser, { marketName, partnerId }) => {
 
   const productLink = process.env.PEDIDOSYA_PRODUCT_URL.split('{}')
 
-  let categories = await page.evaluate(
+  const { categories, error, fetchCount } = await page.evaluate(
     async ({ categoriesUrl, partnerId, marketName, productLink }) => {
       const parseProducts = (products) => {
         return products.map((p) => {
@@ -36,10 +36,13 @@ const ScrapeData = async (browser, { marketName, partnerId }) => {
         })
       }
 
+      let fetchCount = 0
+
       try {
         const getCategoryUrl = (productId, partnerId, offset) =>
           productLink[0] + productId + productLink[1] + partnerId + productLink[2] + offset
         const response = await fetch(categoriesUrl)
+        fetchCount++
         const categories = await response.json()
         const categoriesResponse = []
 
@@ -54,6 +57,7 @@ const ScrapeData = async (browser, { marketName, partnerId }) => {
             const panicButton = 1000
             while (productsData.length < totalProducts && offset < panicButton) {
               const response = await fetch(getCategoryUrl(categoryId, partnerId, offset))
+              fetchCount++
               const productsRaw = await response.json()
               totalProducts = productsRaw.total
               offset += 100
@@ -74,20 +78,26 @@ const ScrapeData = async (browser, { marketName, partnerId }) => {
           categoriesResponse.push(categories)
         }
 
-        return categoriesResponse
+        return {
+          categories: categoriesResponse,
+          error: null,
+          fetchCount
+        }
       } catch (error) {
-        return error
+        return {
+          categories: [],
+          error,
+          fetchCount
+        }
       }
     },
     { categoriesUrl, partnerId, marketName, productLink }
   )
 
-  console.log(categories)
+  result = error
+    ? `${marketName} - error fetching with total of ${fetchCount} fetchs - error: ${error.message}`
+    : `${marketName} - all fetched with total of ${fetchCount} fetchs`
 
-  if (typeof categories !== 'object') {
-    result = `${marketName} - ${categories}`
-    categories = []
-  }
   for (let i = 0; i < categories.length; i++) {
     const category = categories[i]
     await saveMarketStatic(category, i + 1)
