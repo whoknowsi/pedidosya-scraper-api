@@ -38,10 +38,10 @@ const ScrapeData = async (page, { marketName, partnerId }) => {
           productLink[0] + productId + productLink[1] + partnerId + productLink[2] + offset
         const response = await fetch(categoriesUrl)
         fetchCount++
-        const categories = await response.json()
-        const categoriesResponse = []
+        const categoriesRaw = await response.json()
+        const categories = []
 
-        for (const category of categories.data) {
+        for (const category of categoriesRaw.data) {
           const categoryId = category.id
           const categoryName = category.name
 
@@ -62,19 +62,14 @@ const ScrapeData = async (page, { marketName, partnerId }) => {
 
           const products = parseProducts(productsData)
 
-          const categories = {
-            name: marketName,
-            category: {
-              name: categoryName,
-              products
-            }
-          }
-
-          categoriesResponse.push(categories)
+          categories.push({
+            name: categoryName,
+            products
+          })
         }
 
         return {
-          categories: categoriesResponse,
+          categories,
           error: null,
           fetchCount
         }
@@ -93,7 +88,7 @@ const ScrapeData = async (page, { marketName, partnerId }) => {
     ? `${marketName} - error fetching with total of ${fetchCount} fetchs - error: ${error.message}`
     : `${marketName} - all fetched with total of ${fetchCount} fetchs`
 
-  return { result, categories }
+  return { result, marketName, categories }
 }
 
 ;(async () => {
@@ -106,22 +101,21 @@ const ScrapeData = async (page, { marketName, partnerId }) => {
 
   const dataMarkets = JSON.parse(process.env.DATA_MARKETS)
   const results = []
-  const marketCategories = []
+  const markets = []
 
   for (const data of dataMarkets) {
-    const { result, categories } = await ScrapeData(page, data)
+    const { result, categories, marketName } = await ScrapeData(page, data)
     results.push(result)
-    marketCategories.push(categories)
+    markets.push({
+      name: marketName,
+      categories
+    })
   }
 
   console.log('results:', results)
 
-  for (const categories of marketCategories) {
-    console.log(categories[0]?.name)
-    for (let i = 0; i < categories.length; i++) {
-      const category = categories[i]
-      await saveMarketStatic(category, i + 1)
-    }
+  for (const market of markets) {
+    await saveMarketStatic(market)
   }
 
   await browser.close()

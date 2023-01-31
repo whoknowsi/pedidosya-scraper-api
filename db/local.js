@@ -7,7 +7,7 @@ import fetch from 'node-fetch'
 import sharp from 'sharp'
 import * as fs from 'fs'
 import dotenv from 'dotenv'
-import product from '../models/product.js'
+
 dotenv.config()
 
 const saveImage = async (id, image) => {
@@ -41,6 +41,13 @@ const preWriteData = (prev, content) => {
       }))
     : prev.push(content)
 
+  return prev
+}
+
+const preWriteArrayOfData = (prev, arrayContent) => {
+  for (const content of arrayContent) {
+    prev = preWriteData(prev, content)
+  }
   return prev
 }
 
@@ -127,125 +134,126 @@ const checkImgAndResetStockOnProduct = async (product, imageUrl, newStock, marke
   return { ...product, prices, image: newImgUrl }
 }
 
-const saveMarketStatic = async (market, index) => {
+const resetStockOfMarket = (market, products) => {
+  const productsOnMarket = market.products.map((id) => {
+    const product = products.find((product) => product.id === id)
+    product.prices.find((price) => price.market === market.id).stock = -1
+    return product
+  })
+
+  return preWriteArrayOfData(products, productsOnMarket)
+}
+
+const saveMarketStatic = async (market) => {
   let marketsLocal = read('markets')
   let productsLocal = read('products')
   let categoriesLocal = read('categories')
   let historicalPricesLocal = read('historicalprices')
 
   const foundMarket = marketsLocal.find((m) => m.name === market.name) || createMarket(market)
+  productsLocal = resetStockOfMarket(foundMarket, productsLocal)
 
-  const foundCategory = categoriesLocal.find((c) => c.name === market.category.name) || createCategory(market.category)
-  console.log(` ${index} - `, foundCategory.name)
+  console.log(market.name)
 
-  const productsOnMarketAndCategory = foundMarket.products.filter((p) => foundCategory.products.includes(p))
-  const productsToResetStock = productsLocal.filter((p) => productsOnMarketAndCategory.includes(p.id))
-  const productsWithStockReseted = productsToResetStock.map(({ prices, ...product }) => {
-    const newPrices = prices.map((price) => {
-      if (price.market === foundMarket.id) {
-        const newPrice = { ...price, stock: -1 }
-        return newPrice
+  for (let i = 0; i < market.categories.length; i++) {
+    const category = market.categories[i]
+    const foundCategory = categoriesLocal.find((c) => c.name === category.name) || createCategory(category)
+
+    console.log(` ${i + 1} - `, foundCategory.name)
+
+    for (const product of category.products) {
+      const foundProduct =
+        (await checkImgAndResetStockOnProduct(
+          productsLocal.find((p) => p.name === product.name),
+          product.image,
+          product.stock,
+          foundMarket.id
+        )) || (await createProduct(product, foundCategory, foundMarket))
+
+      const foundHistoricalPrice =
+        historicalPricesLocal.find(({ product }) => product === foundProduct.id) ||
+        createHistoricalPrice(foundProduct, foundMarket)
+
+      const existMarketInProduct = foundProduct.prices.find((m) => m.market === foundMarket.id)
+      !existMarketInProduct &&
+        foundProduct.prices.push({
+          market: foundMarket.id,
+          price: product.price,
+          date: product.date,
+          stock: product.stock
+        })
+
+      const existMarketInHistorical = foundHistoricalPrice.markets.find((m) => m.market === foundMarket.id)
+      !existMarketInHistorical &&
+        foundHistoricalPrice.markets.push({
+          market: foundMarket.id,
+          prices: [
+            {
+              price: product.price,
+              date: product.date
+            }
+          ]
+        })
+
+      const existCategoryInProduct = foundProduct.categories.find((category) => category.id === foundCategory.id)
+      !existCategoryInProduct &&
+        foundProduct.categories.push({
+          id: foundCategory.id,
+          name: foundCategory.name
+        })
+
+      const existCategoryOnMarket = foundMarket.categories?.find((category) => foundCategory.id === category.id)
+      if (!existCategoryOnMarket) {
+        foundMarket.categories
+          ? foundMarket.categories.push({
+            name: foundCategory.name,
+            id: foundCategory.id
+          })
+          : (foundMarket.markets = [
+              {
+                name: foundCategory.name,
+                id: foundCategory.id
+              }
+            ])
       }
-      return price
-    })
-    return { ...product, prices: newPrices }
-  })
 
-  for (const product of productsWithStockReseted) {
-    productsLocal = preWriteData(productsLocal, product)
+      const existMarketOnCategory = foundCategory.markets?.find((market) => market.id === foundMarket.id)
+      if (!existMarketOnCategory) {
+        foundCategory.markets
+          ? foundCategory.markets.push({
+            name: foundMarket.name,
+            id: foundMarket.id
+          })
+          : (foundCategory.markets = [
+              {
+                name: foundMarket.name,
+                id: foundMarket.id
+              }
+            ])
+      }
+
+      const existProductInMarket = foundMarket.products.find((productId) => productId === foundProduct.id)
+      !existProductInMarket && foundMarket.products.push(foundProduct.id)
+
+      const existProductInCategory = foundCategory.products.find((productId) => productId === foundProduct.id)
+      !existProductInCategory && foundCategory.products.push(foundProduct.id)
+
+      const priceHasChanged = foundProduct.prices.find((m) => m.market === foundMarket.id).price !== product.price
+      if (priceHasChanged) {
+        foundProduct.prices.find((m) => m.market === foundMarket.id).price = product.price
+        foundProduct.prices.find((m) => m.market === foundMarket.id).date = product.date
+
+        foundHistoricalPrice.markets
+          .find((m) => m.market === foundMarket.id)
+          .prices.push({ price: product.price, date: product.date })
+      }
+
+      productsLocal = preWriteData(productsLocal, foundProduct)
+      historicalPricesLocal = preWriteData(historicalPricesLocal, foundHistoricalPrice)
+    }
+    categoriesLocal = preWriteData(categoriesLocal, foundCategory)
+    marketsLocal = preWriteData(marketsLocal, foundMarket)
   }
-
-  for (const product of market.category.products) {
-    const foundProduct =
-      (await checkImgAndResetStockOnProduct(
-        productsLocal.find((p) => p.name === product.name),
-        product.image,
-        product.stock,
-        foundMarket.id
-      )) || (await createProduct(product, foundCategory, foundMarket))
-
-    const foundHistoricalPrice =
-      historicalPricesLocal.find(({ product }) => product === foundProduct.id) || createHistoricalPrice(foundProduct, foundMarket)
-
-    const existMarketInProduct = foundProduct.prices.find((m) => m.market === foundMarket.id)
-    !existMarketInProduct &&
-      foundProduct.prices.push({
-        market: foundMarket.id,
-        price: product.price,
-        date: product.date,
-        stock: product.stock
-      })
-
-    const existMarketInHistorical = foundHistoricalPrice.markets.find((m) => m.market === foundMarket.id)
-    !existMarketInHistorical &&
-      foundHistoricalPrice.markets.push({
-        market: foundMarket.id,
-        prices: [
-          {
-            price: product.price,
-            date: product.date
-          }
-        ]
-      })
-
-    const existCategoryInProduct = foundProduct.categories.find((category) => category.id === foundCategory.id)
-    !existCategoryInProduct &&
-      foundProduct.categories.push({
-        id: foundCategory.id,
-        name: foundCategory.name
-      })
-
-    const existCategoryOnMarket = foundMarket.categories?.find((category) => foundCategory.id === category.id)
-    if (!existCategoryOnMarket) {
-      foundMarket.categories
-        ? foundMarket.categories.push({
-          name: foundCategory.name,
-          id: foundCategory.id
-        })
-        : (foundMarket.markets = [
-            {
-              name: foundCategory.name,
-              id: foundCategory.id
-            }
-          ])
-    }
-
-    const existMarketOnCategory = foundCategory.markets?.find((market) => market.id === foundMarket.id)
-    if (!existMarketOnCategory) {
-      foundCategory.markets
-        ? foundCategory.markets.push({
-          name: foundMarket.name,
-          id: foundMarket.id
-        })
-        : (foundCategory.markets = [
-            {
-              name: foundMarket.name,
-              id: foundMarket.id
-            }
-          ])
-    }
-
-    const existProductInMarket = foundMarket.products.find((productId) => productId === foundProduct.id)
-    !existProductInMarket && foundMarket.products.push(foundProduct.id)
-
-    const existProductInCategory = foundCategory.products.find((productId) => productId === foundProduct.id)
-    !existProductInCategory && foundCategory.products.push(foundProduct.id)
-
-    const priceHasChanged = foundProduct.prices.find((m) => m.market === foundMarket.id).price !== product.price
-    if (priceHasChanged) {
-      foundProduct.prices.find((m) => m.market === foundMarket.id).price = product.price
-      foundProduct.prices.find((m) => m.market === foundMarket.id).date = product.date
-
-      foundHistoricalPrice.markets
-        .find((m) => m.market === foundMarket.id)
-        .prices.push({ price: product.price, date: product.date })
-    }
-
-    productsLocal = preWriteData(productsLocal, foundProduct)
-    historicalPricesLocal = preWriteData(historicalPricesLocal, foundHistoricalPrice)
-  }
-  categoriesLocal = preWriteData(categoriesLocal, foundCategory)
-  marketsLocal = preWriteData(marketsLocal, foundMarket)
 
   write('categories', categoriesLocal)
   write('historicalprices', historicalPricesLocal)
