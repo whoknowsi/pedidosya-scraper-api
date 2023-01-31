@@ -169765,6 +169765,15 @@
             "date": "2023-01-31T22:15:29.871Z"
           }
         ]
+      },
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 173.5,
+            "date": "2023-01-31T22:22:51.475Z"
+          }
+        ]
       }
     ]
   },
@@ -169797,6 +169806,15 @@
             "date": "2023-01-31T22:15:31.004Z"
           }
         ]
+      },
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 199,
+            "date": "2023-01-31T22:22:53.898Z"
+          }
+        ]
       }
     ]
   },
@@ -169811,6 +169829,15 @@
           {
             "price": 211,
             "date": "2023-01-31T22:15:31.004Z"
+          }
+        ]
+      },
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 211,
+            "date": "2023-01-31T22:22:53.898Z"
           }
         ]
       }
@@ -169973,6 +170000,15 @@
             "date": "2023-01-31T22:15:34.896Z"
           }
         ]
+      },
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 323.54,
+            "date": "2023-01-31T22:22:50.562Z"
+          }
+        ]
       }
     ]
   },
@@ -169987,6 +170023,15 @@
           {
             "price": 560,
             "date": "2023-01-31T22:15:34.896Z"
+          }
+        ]
+      },
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 335.5,
+            "date": "2023-01-31T22:22:50.562Z"
           }
         ]
       }
@@ -170005,6 +170050,15 @@
             "date": "2023-01-31T22:15:34.896Z"
           }
         ]
+      },
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 209,
+            "date": "2023-01-31T22:22:50.562Z"
+          }
+        ]
       }
     ]
   },
@@ -170019,6 +170073,95 @@
           {
             "price": 516.35,
             "date": "2023-01-31T22:15:34.896Z"
+          }
+        ]
+      },
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 530,
+            "date": "2023-01-31T22:22:50.562Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d994c6b97688216d5cf371",
+    "name": "Morcilla Tipo Criolla Magret 400 G.",
+    "product": "63d994c5b97688216d5cf370",
+    "markets": [
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 692,
+            "date": "2023-01-31T22:22:48.465Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d994c8b97688216d5cf373",
+    "name": "Morcilla Tipo Criolla Magret 400 G.",
+    "product": "63d994c6b97688216d5cf372",
+    "markets": [
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 939,
+            "date": "2023-01-31T22:22:48.465Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d994cdb97688216d5cf375",
+    "name": "Jabón De Tocador en Barra Lux Jazmín Cremoso 125gr",
+    "product": "63d994ccb97688216d5cf374",
+    "markets": [
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 547,
+            "date": "2023-01-31T22:22:50.562Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d994d4b97688216d5cf377",
+    "name": "Gaseosa 7Up Sin Azúcar Lima Limón 1.5 l",
+    "product": "63d994d2b97688216d5cf376",
+    "markets": [
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 183.98,
+            "date": "2023-01-31T22:22:50.985Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d994e2b97688216d5cf379",
+    "name": "Queso Mozzarella Sin Sal 500 Gr.",
+    "product": "63d994e1b97688216d5cf378",
+    "markets": [
+      {
+        "market": "63ccfd52aa705832ee237632",
+        "prices": [
+          {
+            "price": 1160,
+            "date": "2023-01-31T22:22:54.430Z"
           }
         ]
       }
