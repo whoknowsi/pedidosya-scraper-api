@@ -117,6 +117,7 @@ const ScrapeData = async (page, { marketName, partnerId }) => {
   console.log('results:', results)
 
   for (const categories of marketCategories) {
+    console.log(categories[0]?.name)
     for (let i = 0; i < categories.length; i++) {
       const category = categories[i]
       await saveMarketStatic(category, i + 1)
