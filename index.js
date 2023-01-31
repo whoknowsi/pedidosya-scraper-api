@@ -93,12 +93,7 @@ const ScrapeData = async (page, { marketName, partnerId }) => {
     ? `${marketName} - error fetching with total of ${fetchCount} fetchs - error: ${error.message}`
     : `${marketName} - all fetched with total of ${fetchCount} fetchs`
 
-  for (let i = 0; i < categories.length; i++) {
-    const category = categories[i]
-    await saveMarketStatic(category, i + 1)
-  }
-
-  return result
+  return { result, categories }
 }
 
 ;(async () => {
@@ -111,11 +106,22 @@ const ScrapeData = async (page, { marketName, partnerId }) => {
 
   const dataMarkets = JSON.parse(process.env.DATA_MARKETS)
   const results = []
+  const marketCategories = []
+
   for (const data of dataMarkets) {
-    results.push(await ScrapeData(page, data))
+    const { result, categories } = await ScrapeData(page, data)
+    results.push(result)
+    marketCategories.push(categories)
   }
 
   console.log('results:', results)
+
+  for (const categories of marketCategories) {
+    for (let i = 0; i < categories.length; i++) {
+      const category = categories[i]
+      await saveMarketStatic(category, i + 1)
+    }
+  }
 
   await browser.close()
 
