@@ -5,12 +5,7 @@ import { randomBetween } from './utils/utils.js'
 
 dotenv.config()
 
-const ScrapeData = async (browser, { marketName, partnerId }) => {
-  let result = `${marketName} - Scrapped correctly`
-  const page = await browser.newPage()
-  const baseUrl = process.env.BASE_URL
-  await page.goto(baseUrl)
-
+const ScrapeData = async (page, { marketName, partnerId }) => {
   const categoryUrlSplit = process.env.PEDIDOSYA_CATEGORY_URL.split('{}')
   const categoriesUrl =
     categoryUrlSplit[0] + randomBetween(100000, 999999) + categoryUrlSplit[1] + partnerId + categoryUrlSplit[2]
@@ -94,7 +89,7 @@ const ScrapeData = async (browser, { marketName, partnerId }) => {
     { categoriesUrl, partnerId, marketName, productLink }
   )
 
-  result = error
+  const result = error
     ? `${marketName} - error fetching with total of ${fetchCount} fetchs - error: ${error.message}`
     : `${marketName} - all fetched with total of ${fetchCount} fetchs`
 
@@ -103,7 +98,6 @@ const ScrapeData = async (browser, { marketName, partnerId }) => {
     await saveMarketStatic(category, i + 1)
   }
 
-  await page.close()
   return result
 }
 
@@ -111,10 +105,14 @@ const ScrapeData = async (browser, { marketName, partnerId }) => {
   const browser = await firefox.launch()
   const initalTime = Date.now()
 
+  const page = await browser.newPage()
+  const baseUrl = process.env.BASE_URL
+  await page.goto(baseUrl)
+
   const dataMarkets = JSON.parse(process.env.DATA_MARKETS)
   const results = []
   for (const data of dataMarkets) {
-    results.push(await ScrapeData(browser, data))
+    results.push(await ScrapeData(page, data))
   }
 
   console.log('results:', results)
