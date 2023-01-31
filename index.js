@@ -85,7 +85,7 @@ const ScrapeData = async (page, { marketName, partnerId }) => {
   )
 
   const result = error
-    ? `${marketName} - error fetching with total of ${fetchCount} fetchs - error: ${error.message}`
+    ? `${marketName} - error fetching with total of ${fetchCount} fetchs - error: ${error.toString()}`
     : `${marketName} - all fetched with total of ${fetchCount} fetchs`
 
   return { result, marketName, categories }
