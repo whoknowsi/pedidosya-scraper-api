@@ -7,6 +7,7 @@ import fetch from 'node-fetch'
 import sharp from 'sharp'
 import * as fs from 'fs'
 import dotenv from 'dotenv'
+import { parseBarcode } from '../utils/utils.js'
 
 dotenv.config()
 
@@ -77,7 +78,7 @@ const createProduct = async (product, foundCategory, foundMarket) => {
       }
     ],
     image,
-    barcode: product.barcode,
+    barcode: parseBarcode(product.barcode),
     measurementUnit: product.measurementUnit,
     pricePerMeasurementUnit: product.pricePerMeasurementUnit,
     prices: [
@@ -163,7 +164,7 @@ const saveMarketStatic = async (market) => {
     for (const product of category.products) {
       const foundProduct =
         (await checkImgAndResetStockOnProduct(
-          productsLocal.find((p) => p.name === product.name),
+          productsLocal.find((p) => p.name === product.name && p.barcode === parseBarcode(product.barcode)),
           product.image,
           product.stock,
           foundMarket.id

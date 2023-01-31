@@ -1,5 +1,10 @@
 export const randomBetween = (min, max) => Math.floor(Math.random() * (max - min) + min)
 
+const parseBarcode = (barcode) => {
+  if (barcode.length > 13) return barcode.replace(/^0/, '')
+  return barcode
+}
+
 const parseProducts = (products) => {
   return products.map((p) => {
     return {
@@ -15,4 +20,4 @@ const parseProducts = (products) => {
   })
 }
 
-export { parseProducts }
+export { parseProducts, parseBarcode }
