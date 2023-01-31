@@ -12083,6 +12083,15 @@
             "date": "2023-01-28T11:28:34.802Z"
           }
         ]
+      },
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 357,
+            "date": "2023-01-31T10:22:38.108Z"
+          }
+        ]
       }
     ]
   },
@@ -14154,6 +14163,15 @@
           {
             "price": 325.52,
             "date": "2023-01-28T11:28:34.802Z"
+          }
+        ]
+      },
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 357,
+            "date": "2023-01-31T10:22:38.108Z"
           }
         ]
       }
@@ -16545,6 +16563,15 @@
             "date": "2023-01-22T08:55:35.700Z"
           }
         ]
+      },
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 540,
+            "date": "2023-01-31T10:22:38.395Z"
+          }
+        ]
       }
     ]
   },
@@ -17002,6 +17029,10 @@
           {
             "price": 333,
             "date": "2023-01-22T09:51:06.080Z"
+          },
+          {
+            "price": 343,
+            "date": "2023-01-31T10:22:38.395Z"
           }
         ]
       }
@@ -54763,6 +54794,15 @@
             "date": "2023-01-22T09:09:21.592Z"
           }
         ]
+      },
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 260,
+            "date": "2023-01-31T10:22:38.108Z"
+          }
+        ]
       }
     ]
   },
@@ -56975,6 +57015,10 @@
           {
             "price": 148,
             "date": "2023-01-22T09:50:45.661Z"
+          },
+          {
+            "price": 153,
+            "date": "2023-01-31T10:22:37.767Z"
           }
         ]
       }
@@ -57433,6 +57477,10 @@
           {
             "price": 237,
             "date": "2023-01-22T09:50:40.655Z"
+          },
+          {
+            "price": 244,
+            "date": "2023-01-31T10:22:37.767Z"
           }
         ]
       }
@@ -59130,6 +59178,15 @@
           {
             "price": 124.98,
             "date": "2023-01-22T09:36:47.458Z"
+          }
+        ]
+      },
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 129,
+            "date": "2023-01-31T10:22:38.108Z"
           }
         ]
       }
@@ -62885,6 +62942,15 @@
           {
             "price": 57.6,
             "date": "2023-01-22T09:36:48.355Z"
+          }
+        ]
+      },
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 59,
+            "date": "2023-01-31T10:22:38.109Z"
           }
         ]
       }
@@ -78159,6 +78225,15 @@
             "date": "2023-01-22T09:36:54.511Z"
           }
         ]
+      },
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 591,
+            "date": "2023-01-31T10:22:38.108Z"
+          }
+        ]
       }
     ]
   },
@@ -89611,6 +89686,10 @@
           {
             "price": 109,
             "date": "2023-01-22T09:50:47.563Z"
+          },
+          {
+            "price": 122,
+            "date": "2023-01-31T10:22:37.767Z"
           }
         ]
       }
@@ -94298,6 +94377,15 @@
             "date": "2023-01-26T15:33:20.550Z"
           }
         ]
+      },
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 359,
+            "date": "2023-01-31T10:22:38.108Z"
+          }
+        ]
       }
     ]
   },
@@ -94616,6 +94704,15 @@
             "date": "2023-01-22T09:36:47.458Z"
           }
         ]
+      },
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 209,
+            "date": "2023-01-31T10:22:38.108Z"
+          }
+        ]
       }
     ]
   },
@@ -94721,6 +94818,15 @@
           {
             "price": 183,
             "date": "2023-01-26T15:33:20.550Z"
+          }
+        ]
+      },
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 207,
+            "date": "2023-01-31T10:22:38.108Z"
           }
         ]
       }
@@ -95082,6 +95188,15 @@
           {
             "price": 234.83,
             "date": "2023-01-22T09:42:14.050Z"
+          }
+        ]
+      },
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 207,
+            "date": "2023-01-31T10:22:38.108Z"
           }
         ]
       }
@@ -106798,6 +106913,15 @@
             "date": "2023-01-22T09:42:14.050Z"
           }
         ]
+      },
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 308,
+            "date": "2023-01-31T10:22:38.108Z"
+          }
+        ]
       }
     ]
   },
@@ -115157,6 +115281,10 @@
           {
             "price": 1100,
             "date": "2023-01-29T14:52:59.000Z"
+          },
+          {
+            "price": 1329,
+            "date": "2023-01-31T10:22:37.767Z"
           }
         ]
       }
@@ -145120,6 +145248,15 @@
             "date": "2023-01-26T15:33:20.550Z"
           }
         ]
+      },
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 519,
+            "date": "2023-01-31T10:22:38.108Z"
+          }
+        ]
       }
     ]
   },
@@ -155696,6 +155833,1078 @@
           {
             "price": 1085,
             "date": "2023-01-29T14:55:56.193Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ebf38fec2a4aa15caf59",
+    "name": "Jabón Líquido para Ropa Woolite Extra Blanca en Máquina Repuesto 900ml",
+    "product": "63d8ebf28fec2a4aa15caf58",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 726,
+            "date": "2023-01-31T10:22:37.767Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ebf58fec2a4aa15caf5b",
+    "name": "Tabletas Heladas De Menta Not IcecreamÂ® 6 X 300 G",
+    "product": "63d8ebf58fec2a4aa15caf5a",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1299,
+            "date": "2023-01-31T10:22:37.767Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ebf78fec2a4aa15caf5d",
+    "name": "Helado de Frutillas con crema Not IceCream® x 330 G",
+    "product": "63d8ebf58fec2a4aa15caf5c",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1112,
+            "date": "2023-01-31T10:22:37.767Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ebf88fec2a4aa15caf5f",
+    "name": "Tostadas De Arroz Tosti 110G",
+    "product": "63d8ebf78fec2a4aa15caf5e",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 235,
+            "date": "2023-01-31T10:22:37.767Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ebf98fec2a4aa15caf61",
+    "name": "Paño Multiuso Amarillo Task 3 Un",
+    "product": "63d8ebf98fec2a4aa15caf60",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 395,
+            "date": "2023-01-31T10:22:37.767Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ebfb8fec2a4aa15caf63",
+    "name": "Dulce de frutos del bosque Patagonia Berries 352 g.",
+    "product": "63d8ebfa8fec2a4aa15caf62",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1649,
+            "date": "2023-01-31T10:22:37.767Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec038fec2a4aa15caf66",
+    "name": "Tequeño 6 Un",
+    "product": "63d8ec018fec2a4aa15caf65",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 267,
+            "date": "2023-01-31T10:22:37.768Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec048fec2a4aa15caf68",
+    "name": "Galletitas Frutigran Avena Y Pasas De Uva 500 G.",
+    "product": "63d8ec048fec2a4aa15caf67",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 446,
+            "date": "2023-01-31T10:22:38.108Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec058fec2a4aa15caf6a",
+    "name": "Galletitas Donuts Bonafide Chocolate Semiamargo Naranja 78G",
+    "product": "63d8ec048fec2a4aa15caf69",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 313,
+            "date": "2023-01-31T10:22:38.108Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec068fec2a4aa15caf6c",
+    "name": "Galletas De Arroz Mini Arrocitas Chocolate 53 G",
+    "product": "63d8ec058fec2a4aa15caf6b",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 244,
+            "date": "2023-01-31T10:22:38.108Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec078fec2a4aa15caf6e",
+    "name": "Galletitas Frutigran Semillas De Chia Y Lino 240 G.",
+    "product": "63d8ec068fec2a4aa15caf6d",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 388,
+            "date": "2023-01-31T10:22:38.108Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec078fec2a4aa15caf70",
+    "name": "Oblea Bauducco Frutilla 140gr",
+    "product": "63d8ec078fec2a4aa15caf6f",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 246,
+            "date": "2023-01-31T10:22:38.108Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec098fec2a4aa15caf72",
+    "name": "Galletitas Gallo Snacks Chocolate 100G",
+    "product": "63d8ec078fec2a4aa15caf71",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 349,
+            "date": "2023-01-31T10:22:38.108Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec0a8fec2a4aa15caf74",
+    "name": "Galletitas Hojalmar Veggies Larguitas de Hojaldre 150G",
+    "product": "63d8ec098fec2a4aa15caf73",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 277,
+            "date": "2023-01-31T10:22:38.108Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec0b8fec2a4aa15caf76",
+    "name": "Palmeritas Hojalmar Veggies 150G",
+    "product": "63d8ec0a8fec2a4aa15caf75",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 298,
+            "date": "2023-01-31T10:22:38.108Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec0d8fec2a4aa15caf78",
+    "name": "Tostadas Tosti Dulces 200g",
+    "product": "63d8ec0b8fec2a4aa15caf77",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 289,
+            "date": "2023-01-31T10:22:38.108Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec0e8fec2a4aa15caf7a",
+    "name": "Galletitas Snack De Arroz Jamón 50G",
+    "product": "63d8ec0d8fec2a4aa15caf79",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 179,
+            "date": "2023-01-31T10:22:38.108Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec0f8fec2a4aa15caf7c",
+    "name": "Galleta Oblea Vainilla 140 G Bauducco",
+    "product": "63d8ec0e8fec2a4aa15caf7b",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 277,
+            "date": "2023-01-31T10:22:38.108Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec0f8fec2a4aa15caf7e",
+    "name": "Galletitas Hojalmar Veggies Triangulos de Hojaldre 150G",
+    "product": "63d8ec0f8fec2a4aa15caf7d",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 268,
+            "date": "2023-01-31T10:22:38.108Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec118fec2a4aa15caf80",
+    "name": "Galletita Bauducco Rellenita Chocolate 104G",
+    "product": "63d8ec0f8fec2a4aa15caf7f",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 251,
+            "date": "2023-01-31T10:22:38.108Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec128fec2a4aa15caf82",
+    "name": "Galletitas Duquesa Vainilla 115 G.",
+    "product": "63d8ec118fec2a4aa15caf81",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 168,
+            "date": "2023-01-31T10:22:38.108Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec138fec2a4aa15caf84",
+    "name": "Galletas De Arroz Mini Arrocitas Caramel 53 G",
+    "product": "63d8ec128fec2a4aa15caf83",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 229,
+            "date": "2023-01-31T10:22:38.108Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec138fec2a4aa15caf86",
+    "name": "Galletitas Mana Sabor Chocolatada 136G",
+    "product": "63d8ec138fec2a4aa15caf85",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 189,
+            "date": "2023-01-31T10:22:38.108Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec148fec2a4aa15caf88",
+    "name": "Pepas Breviss Membrillo 400G",
+    "product": "63d8ec138fec2a4aa15caf87",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 353,
+            "date": "2023-01-31T10:22:38.108Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec148fec2a4aa15caf8a",
+    "name": "Galletitas Dulces Coquitas Coco Rallado 157 G",
+    "product": "63d8ec148fec2a4aa15caf89",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 249,
+            "date": "2023-01-31T10:22:38.108Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec158fec2a4aa15caf8c",
+    "name": "Galletitas Snack De Arroz Jamón 150G",
+    "product": "63d8ec148fec2a4aa15caf8b",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 489,
+            "date": "2023-01-31T10:22:38.108Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec168fec2a4aa15caf8e",
+    "name": "Galletitas 9 De Oro Dulces Brigitte Chocolate 120G",
+    "product": "63d8ec158fec2a4aa15caf8d",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 240,
+            "date": "2023-01-31T10:22:38.108Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec168fec2a4aa15caf90",
+    "name": "Galletitas Rellenitas Sabor Vainilla Rellena De Frutos Rojos 120 Gr",
+    "product": "63d8ec168fec2a4aa15caf8f",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 228,
+            "date": "2023-01-31T10:22:38.108Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec178fec2a4aa15caf92",
+    "name": "Cookies Almendra Y Naranja Beepure 180G",
+    "product": "63d8ec168fec2a4aa15caf91",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 974,
+            "date": "2023-01-31T10:22:38.108Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec198fec2a4aa15caf94",
+    "name": "Fideos Listos Mama cocina Con Salsa Fileto Box X 64 Gr",
+    "product": "63d8ec188fec2a4aa15caf93",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 299,
+            "date": "2023-01-31T10:22:38.108Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec1c8fec2a4aa15caf96",
+    "name": "Milanesas De Cerdo Unión Ganadera 500 G.",
+    "product": "63d8ec1b8fec2a4aa15caf95",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1276,
+            "date": "2023-01-31T10:22:38.108Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec208fec2a4aa15caf98",
+    "name": "Bebida vegetal Not Milk® Original x 1 lt",
+    "product": "63d8ec208fec2a4aa15caf97",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 580,
+            "date": "2023-01-31T10:22:38.108Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec218fec2a4aa15caf9a",
+    "name": "Bebida vegetal Not Milk® Chocolate x 1 lt",
+    "product": "63d8ec208fec2a4aa15caf99",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 623,
+            "date": "2023-01-31T10:22:38.108Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec228fec2a4aa15caf9c",
+    "name": "Bebida Vegetal NotMilk® Sin Azucares 1 L",
+    "product": "63d8ec218fec2a4aa15caf9b",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 594,
+            "date": "2023-01-31T10:22:38.108Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec278fec2a4aa15caf9e",
+    "name": "Chicle Beldent Globo Qi Poseidon 10G",
+    "product": "63d8ec258fec2a4aa15caf9d",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 146,
+            "date": "2023-01-31T10:22:38.109Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec2a8fec2a4aa15cafa0",
+    "name": "Gomitas Mogul Dientes X 150 Grs",
+    "product": "63d8ec288fec2a4aa15caf9f",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 389,
+            "date": "2023-01-31T10:22:38.109Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec2e8fec2a4aa15cafa2",
+    "name": "Galletas Mini Crackers Leiva Salvado 250g",
+    "product": "63d8ec2d8fec2a4aa15cafa1",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 257,
+            "date": "2023-01-31T10:22:38.395Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec2f8fec2a4aa15cafa4",
+    "name": "Galletitas Leiva Salvado Tripack 345G",
+    "product": "63d8ec2e8fec2a4aa15cafa3",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 379,
+            "date": "2023-01-31T10:22:38.395Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec2f8fec2a4aa15cafa6",
+    "name": "Tostaditas De Arroz Leiva 125 G",
+    "product": "63d8ec2f8fec2a4aa15cafa5",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 268,
+            "date": "2023-01-31T10:22:38.395Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec308fec2a4aa15cafa8",
+    "name": "Galletas Mini Crackers Leiva Chia 250g",
+    "product": "63d8ec2f8fec2a4aa15cafa7",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 311,
+            "date": "2023-01-31T10:22:38.395Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec318fec2a4aa15cafaa",
+    "name": "Tostadas Dulces Paseo 200 g",
+    "product": "63d8ec308fec2a4aa15cafa9",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 278,
+            "date": "2023-01-31T10:22:38.395Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec338fec2a4aa15cafac",
+    "name": "Tostaditas Breviss Clásicas Con Fitoesteroles 110G",
+    "product": "63d8ec318fec2a4aa15cafab",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 358,
+            "date": "2023-01-31T10:22:38.395Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec338fec2a4aa15cafae",
+    "name": "Tostadas Clasicas C/Fitoesteroles Breviss 200 g",
+    "product": "63d8ec338fec2a4aa15cafad",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 323,
+            "date": "2023-01-31T10:22:38.395Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec348fec2a4aa15cafb0",
+    "name": "Tostadas Light C/Fitoesteroles Breviss 200 Gr",
+    "product": "63d8ec338fec2a4aa15cafaf",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 323,
+            "date": "2023-01-31T10:22:38.395Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec348fec2a4aa15cafb2",
+    "name": "Breviss Tostaditas De Arroz 110 Grs",
+    "product": "63d8ec348fec2a4aa15cafb1",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 202,
+            "date": "2023-01-31T10:22:38.395Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec378fec2a4aa15cafb4",
+    "name": "Hamburguesa Unión Ganadera de carne 4 u.",
+    "product": "63d8ec368fec2a4aa15cafb3",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 941,
+            "date": "2023-01-31T10:22:38.395Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec378fec2a4aa15cafb6",
+    "name": "Medallón Premium Not Burger® Flowpack 2 x 160 G",
+    "product": "63d8ec378fec2a4aa15cafb5",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 665,
+            "date": "2023-01-31T10:22:38.395Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec388fec2a4aa15cafb8",
+    "name": "Medallón Premium Not Burger® Flowpack 4 x 320 G",
+    "product": "63d8ec378fec2a4aa15cafb7",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1210,
+            "date": "2023-01-31T10:22:38.395Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec398fec2a4aa15cafba",
+    "name": "Jugo Tutti Durazno 1 L",
+    "product": "63d8ec388fec2a4aa15cafb9",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 257,
+            "date": "2023-01-31T10:22:38.395Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec3b8fec2a4aa15cafbc",
+    "name": "Aderezo Not Mayo® Original Doypack x 200 G",
+    "product": "63d8ec3b8fec2a4aa15cafbb",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 222,
+            "date": "2023-01-31T10:22:38.395Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec3c8fec2a4aa15cafbe",
+    "name": "Aderezo Not Mayo Light Doypack 200 G",
+    "product": "63d8ec3b8fec2a4aa15cafbd",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 222,
+            "date": "2023-01-31T10:22:38.395Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec3c8fec2a4aa15cafc0",
+    "name": "Aderezo Not Mayo Original Doypack 350 G",
+    "product": "63d8ec3c8fec2a4aa15cafbf",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 355,
+            "date": "2023-01-31T10:22:38.395Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec3d8fec2a4aa15cafc2",
+    "name": "Not Mayo Garlic Squeeze 325G",
+    "product": "63d8ec3c8fec2a4aa15cafc1",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 538,
+            "date": "2023-01-31T10:22:38.395Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec3e8fec2a4aa15cafc4",
+    "name": "NotMayo Spicy 325 g",
+    "product": "63d8ec3d8fec2a4aa15cafc3",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 538,
+            "date": "2023-01-31T10:22:38.395Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec3f8fec2a4aa15cafc6",
+    "name": "Aderezo Not Mayo Original 325G",
+    "product": "63d8ec3e8fec2a4aa15cafc5",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 459,
+            "date": "2023-01-31T10:22:38.395Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec418fec2a4aa15cafc9",
+    "name": "Ensalada Caesar 1 Un",
+    "product": "63d8ec418fec2a4aa15cafc8",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 959,
+            "date": "2023-01-31T10:22:38.395Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec428fec2a4aa15cafcb",
+    "name": "Ensalada Del Cheff 1 Un",
+    "product": "63d8ec418fec2a4aa15cafca",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 959,
+            "date": "2023-01-31T10:22:38.395Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec428fec2a4aa15cafcd",
+    "name": "Roll Crocante Jamón Y Queso X Un",
+    "product": "63d8ec428fec2a4aa15cafcc",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 879,
+            "date": "2023-01-31T10:22:38.395Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec438fec2a4aa15cafcf",
+    "name": "Roll Crocante Pollo Criollo X Un",
+    "product": "63d8ec428fec2a4aa15cafce",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 879,
+            "date": "2023-01-31T10:22:38.395Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec448fec2a4aa15cafd1",
+    "name": "Roll Crocante Veggie X Un",
+    "product": "63d8ec438fec2a4aa15cafd0",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 879,
+            "date": "2023-01-31T10:22:38.395Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec458fec2a4aa15cafd3",
+    "name": "Roll Crocante Ternera Baseada X Un",
+    "product": "63d8ec448fec2a4aa15cafd2",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 959,
+            "date": "2023-01-31T10:22:38.395Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec458fec2a4aa15cafd5",
+    "name": "Wrap De Pollo 1 Un",
+    "product": "63d8ec458fec2a4aa15cafd4",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 799,
+            "date": "2023-01-31T10:22:38.395Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec478fec2a4aa15cafd7",
+    "name": "Aderezo Onneg Babaganush x 220g",
+    "product": "63d8ec468fec2a4aa15cafd6",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 881,
+            "date": "2023-01-31T10:22:38.395Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec488fec2a4aa15cafd9",
+    "name": "Morcilla criolla Cabaña Argentina x 400 g.",
+    "product": "63d8ec478fec2a4aa15cafd8",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 888,
+            "date": "2023-01-31T10:22:38.395Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec4e8fec2a4aa15cafdb",
+    "name": "Queso Cremoso Tregar Unidad Aprox. 450Grs.",
+    "product": "63d8ec4d8fec2a4aa15cafda",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 757,
+            "date": "2023-01-31T10:22:38.395Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec528fec2a4aa15cafdd",
+    "name": "Empanada De Jamon Y Queso 3 Un",
+    "product": "63d8ec528fec2a4aa15cafdc",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 413,
+            "date": "2023-01-31T10:22:38.395Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d8ec538fec2a4aa15cafdf",
+    "name": "Tarta De Pollo Light 1 Un",
+    "product": "63d8ec528fec2a4aa15cafde",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 599,
+            "date": "2023-01-31T10:22:38.395Z"
           }
         ]
       }

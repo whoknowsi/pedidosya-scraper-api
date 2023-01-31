@@ -10919,8 +10919,557 @@
       "63d68887baab866676b54333",
       "63d68895baab866676b54335",
       "63d68898baab866676b54337",
-      "63d6889ebaab866676b54339"
+      "63d6889ebaab866676b54339",
+      "63d8ebf28fec2a4aa15caf58",
+      "63d8ebf58fec2a4aa15caf5a",
+      "63d8ebf58fec2a4aa15caf5c",
+      "63d8ebf78fec2a4aa15caf5e",
+      "63d8ebf98fec2a4aa15caf60",
+      "63d8ebfa8fec2a4aa15caf62",
+      "63d8ec018fec2a4aa15caf65",
+      "63d8ec048fec2a4aa15caf67",
+      "63d8ec048fec2a4aa15caf69",
+      "63ccfb31aa705832ee236cf9",
+      "63ccffc4aa705832ee237ee6",
+      "63ccfb0daa705832ee236c33",
+      "63d8ec058fec2a4aa15caf6b",
+      "63d29d97364059d618589cb3",
+      "63cd042daa705832ee238cd8",
+      "63d8ec068fec2a4aa15caf6d",
+      "63d8ec078fec2a4aa15caf6f",
+      "63d8ec078fec2a4aa15caf71",
+      "63d8ec098fec2a4aa15caf73",
+      "63d8ec0a8fec2a4aa15caf75",
+      "63d8ec0b8fec2a4aa15caf77",
+      "63d8ec0d8fec2a4aa15caf79",
+      "63d8ec0e8fec2a4aa15caf7b",
+      "63d8ec0f8fec2a4aa15caf7d",
+      "63d8ec0f8fec2a4aa15caf7f",
+      "63d8ec118fec2a4aa15caf81",
+      "63d8ec128fec2a4aa15caf83",
+      "63d8ec138fec2a4aa15caf85",
+      "63cd0437aa705832ee238cf2",
+      "63cd0427aa705832ee238ccc",
+      "63cd0422aa705832ee238cb4",
+      "63d8ec138fec2a4aa15caf87",
+      "63d8ec148fec2a4aa15caf89",
+      "63d8ec148fec2a4aa15caf8b",
+      "63cd05f4aa705832ee23920c",
+      "63d8ec158fec2a4aa15caf8d",
+      "63d8ec168fec2a4aa15caf8f",
+      "63d8ec168fec2a4aa15caf91",
+      "63d8ec188fec2a4aa15caf93",
+      "63cd01fbaa705832ee238638",
+      "63d8ec1b8fec2a4aa15caf95",
+      "63ccff25aa705832ee237ce7",
+      "63d8ec208fec2a4aa15caf97",
+      "63d8ec208fec2a4aa15caf99",
+      "63d8ec218fec2a4aa15caf9b",
+      "63cd0024aa705832ee238041",
+      "63d8ec258fec2a4aa15caf9d",
+      "63d8ec288fec2a4aa15caf9f",
+      "63d8ec2d8fec2a4aa15cafa1",
+      "63d8ec2e8fec2a4aa15cafa3",
+      "63d8ec2f8fec2a4aa15cafa5",
+      "63d8ec2f8fec2a4aa15cafa7",
+      "63d8ec308fec2a4aa15cafa9",
+      "63d8ec318fec2a4aa15cafab",
+      "63d8ec338fec2a4aa15cafad",
+      "63d8ec338fec2a4aa15cafaf",
+      "63d8ec348fec2a4aa15cafb1",
+      "63d8ec368fec2a4aa15cafb3",
+      "63d8ec378fec2a4aa15cafb5",
+      "63d8ec378fec2a4aa15cafb7",
+      "63d8ec388fec2a4aa15cafb9",
+      "63d8ec3b8fec2a4aa15cafbb",
+      "63d8ec3b8fec2a4aa15cafbd",
+      "63d8ec3c8fec2a4aa15cafbf",
+      "63d8ec3c8fec2a4aa15cafc1",
+      "63d8ec3d8fec2a4aa15cafc3",
+      "63d8ec3e8fec2a4aa15cafc5",
+      "63d8ec418fec2a4aa15cafc8",
+      "63d8ec418fec2a4aa15cafca",
+      "63d8ec428fec2a4aa15cafcc",
+      "63d8ec428fec2a4aa15cafce",
+      "63d8ec438fec2a4aa15cafd0",
+      "63d8ec448fec2a4aa15cafd2",
+      "63d8ec458fec2a4aa15cafd4",
+      "63d8ec468fec2a4aa15cafd6",
+      "63d8ec478fec2a4aa15cafd8",
+      "63d8ec4d8fec2a4aa15cafda",
+      "63ccfb68aa705832ee236df9",
+      "63d8ec528fec2a4aa15cafdc",
+      "63d8ec528fec2a4aa15cafde"
     ],
-    "categories": []
+    "categories": [
+      {
+        "name": "Desayuno y Merienda",
+        "id": "63cd0728aa705832ee23956b"
+      },
+      {
+        "name": "Caramelos y Chupetines",
+        "id": "63cd071daa705832ee239509"
+      },
+      {
+        "name": "Cuidado menstrual",
+        "id": "63cd0735aa705832ee2395c0"
+      },
+      {
+        "name": "Colaciones y Frutos secos",
+        "id": "63cd0721aa705832ee239532"
+      },
+      {
+        "name": "Cuidado femenino",
+        "id": "63cd071daa705832ee239506"
+      },
+      {
+        "name": "Bebidas Naturales",
+        "id": "63cd0739aa705832ee2395df"
+      },
+      {
+        "name": "Alimentos para perros",
+        "id": "63cd073baa705832ee2395e6"
+      },
+      {
+        "name": "Chocolates y Bombones",
+        "id": "63cd0748aa705832ee23961b"
+      },
+      {
+        "name": "Lavado de ropa",
+        "id": "63cd075eaa705832ee23964a"
+      },
+      {
+        "name": "Cremas",
+        "id": "63cd0766aa705832ee239667"
+      },
+      {
+        "name": "Cuidado de la piel",
+        "id": "63cd0767aa705832ee23966c"
+      },
+      {
+        "name": "Helados y Postres",
+        "id": "63cd077faa705832ee2396df"
+      },
+      {
+        "name": "Otros snacks salados",
+        "id": "63cd0791aa705832ee23971c"
+      },
+      {
+        "name": "Cuidado del cabello",
+        "id": "63cd079baa705832ee239753"
+      },
+      {
+        "name": "Hielo",
+        "id": "63cf568862a456d09f263096"
+      },
+      {
+        "name": "Accesorios de limpieza",
+        "id": "63ccfc87aa705832ee237368"
+      },
+      {
+        "name": "Dulces y Mermeladas",
+        "id": "63cd07b9aa705832ee2397c4"
+      },
+      {
+        "name": "Energizantes",
+        "id": "63cd07d2aa705832ee23980d"
+      },
+      {
+        "name": "Repostería y Postres",
+        "id": "63cd07d2aa705832ee239812"
+      },
+      {
+        "name": "Papas congeladas",
+        "id": "63cd07daaa705832ee23983b"
+      },
+      {
+        "name": "Frutos secos",
+        "id": "63cd07dbaa705832ee239844"
+      },
+      {
+        "name": "Postres",
+        "id": "63cd07e2aa705832ee239861"
+      },
+      {
+        "name": "Alimentos para gatos",
+        "id": "63cd07e2aa705832ee239862"
+      },
+      {
+        "name": "Detergentes y Lavavajillas",
+        "id": "63cd07e8aa705832ee23988d"
+      },
+      {
+        "name": "Leches y Fórmulas",
+        "id": "63cd07ecaa705832ee23989a"
+      },
+      {
+        "name": "Yogurts",
+        "id": "63cd07f3aa705832ee2398b3"
+      },
+      {
+        "name": "Bebidas deportivas",
+        "id": "63cd07f6aa705832ee2398cc"
+      },
+      {
+        "name": "Papas fritas",
+        "id": "63cd07f6aa705832ee2398cd"
+      },
+      {
+        "name": "Otras comidas",
+        "id": "63d8ec018fec2a4aa15caf64"
+      },
+      {
+        "name": "Galletitas dulces",
+        "id": "63cd0806aa705832ee23990c"
+      },
+      {
+        "name": "Otros accesorios",
+        "id": "63cd0818aa705832ee239979"
+      },
+      {
+        "name": "Pilas",
+        "id": "63cd081aaa705832ee23997c"
+      },
+      {
+        "name": "Fideos y Pastas secas",
+        "id": "63cd081aaa705832ee239983"
+      },
+      {
+        "name": "Papeles y Pañuelos",
+        "id": "63cd0823aa705832ee2399ba"
+      },
+      {
+        "name": "Salud sexual",
+        "id": "63cd082daa705832ee2399cb"
+      },
+      {
+        "name": "Mantecas y Margarinas",
+        "id": "63cd0837aa705832ee239a06"
+      },
+      {
+        "name": "Panes envasados",
+        "id": "63cd0838aa705832ee239a0f"
+      },
+      {
+        "name": "Rebozados",
+        "id": "63ccfc20aa705832ee237124"
+      },
+      {
+        "name": "Magdalenas y Budines",
+        "id": "63cd083faa705832ee239a34"
+      },
+      {
+        "name": "Otros productos",
+        "id": "63cd0851aa705832ee239a5d"
+      },
+      {
+        "name": "Facturas y Confitería",
+        "id": "63cd0851aa705832ee239a62"
+      },
+      {
+        "name": "Enlatados y Conservas",
+        "id": "63cd0852aa705832ee239a6b"
+      },
+      {
+        "name": "Harinas y Pan rallado",
+        "id": "63cd086baa705832ee239ae6"
+      },
+      {
+        "name": "Aceites y Vinagres",
+        "id": "63cd086faa705832ee239b07"
+      },
+      {
+        "name": "Cerdo",
+        "id": "63cd087aaa705832ee239b2b"
+      },
+      {
+        "name": "Semillas",
+        "id": "63cd087caa705832ee239b38"
+      },
+      {
+        "name": "Yerba",
+        "id": "63cd0884aa705832ee239b5d"
+      },
+      {
+        "name": "Leches vegetales",
+        "id": "63cd088eaa705832ee239b88"
+      },
+      {
+        "name": "Carne vacuna",
+        "id": "63cd0890aa705832ee239b8f"
+      },
+      {
+        "name": "Carbón y Leña",
+        "id": "63cd0897aa705832ee239b9c"
+      },
+      {
+        "name": "Azúcar y Endulzantes",
+        "id": "63cd0514aa705832ee238f80"
+      },
+      {
+        "name": "Embutidos",
+        "id": "63cd05c0aa705832ee2391a1"
+      },
+      {
+        "name": "Aguas",
+        "id": "63ccfb97aa705832ee236ebc"
+      },
+      {
+        "name": "Barritas y Obleas",
+        "id": "63cd08a8aa705832ee239be9"
+      },
+      {
+        "name": "Chicles",
+        "id": "63cd08b6aa705832ee239c32"
+      },
+      {
+        "name": "Arroz y Legumbres",
+        "id": "63ccfa6faa705832ee23692d"
+      },
+      {
+        "name": "Gomitas y Pastillas",
+        "id": "63cd08cbaa705832ee239c7d"
+      },
+      {
+        "name": "Frutas",
+        "id": "63cd08dbaa705832ee239cb6"
+      },
+      {
+        "name": "Jabones",
+        "id": "63ccfcfaaa705832ee237545"
+      },
+      {
+        "name": "Cuidado bucal",
+        "id": "63cd08e9aa705832ee239ced"
+      },
+      {
+        "name": "Alfajores",
+        "id": "63cd050aaa705832ee238f62"
+      },
+      {
+        "name": "Galletitas saladas",
+        "id": "63cd090eaa705832ee239d6a"
+      },
+      {
+        "name": "Papillas y Cereales",
+        "id": "63cd0934aa705832ee239df5"
+      },
+      {
+        "name": "Desodorantes y Talcos",
+        "id": "63cd0934aa705832ee239df6"
+      },
+      {
+        "name": "Verduras",
+        "id": "63cd0940aa705832ee239e25"
+      },
+      {
+        "name": "Quesos untables",
+        "id": "63cd0957aa705832ee239e5d"
+      },
+      {
+        "name": "Hamburguesas",
+        "id": "63cd095caa705832ee239e7e"
+      },
+      {
+        "name": "Jugos",
+        "id": "63cd0093aa705832ee238181"
+      },
+      {
+        "name": "Sal, Pimienta y Especias",
+        "id": "63cd0968aa705832ee239ec5"
+      },
+      {
+        "name": "Accesorios e Higiene",
+        "id": "63cd097baa705832ee239f08"
+      },
+      {
+        "name": "Salsas y Aderezos",
+        "id": "63cd097daa705832ee239f19"
+      },
+      {
+        "name": "Accesorios",
+        "id": "63d487b415ee301d41f49476"
+      },
+      {
+        "name": "Botiquín",
+        "id": "63cd0996aa705832ee239f8a"
+      },
+      {
+        "name": "Fiambres",
+        "id": "63cd05d6aa705832ee2391c0"
+      },
+      {
+        "name": "Comidas preparadas",
+        "id": "63ccfe52aa705832ee237a16"
+      },
+      {
+        "name": "Salchichas",
+        "id": "63cd099faa705832ee239fab"
+      },
+      {
+        "name": "Lavandinas",
+        "id": "63cd0643aa705832ee2392ff"
+      },
+      {
+        "name": "Depilación y Afeitado",
+        "id": "63cd09a6aa705832ee239fba"
+      },
+      {
+        "name": "Frutas y Verduras",
+        "id": "63ccfc5eaa705832ee237279"
+      },
+      {
+        "name": "Ensaladas",
+        "id": "63d8ec418fec2a4aa15cafc7"
+      },
+      {
+        "name": "Sandwiches y Wrapps",
+        "id": "63d487c515ee301d41f4948b"
+      },
+      {
+        "name": "Maní y Palitos",
+        "id": "63cd09a7aa705832ee239fc7"
+      },
+      {
+        "name": "Dips",
+        "id": "63cf56c862a456d09f2630df"
+      },
+      {
+        "name": "Achuras y Chorizos",
+        "id": "63cd09acaa705832ee239fe2"
+      },
+      {
+        "name": "Insecticidas",
+        "id": "63ccfcadaa705832ee2373f2"
+      },
+      {
+        "name": "Librería",
+        "id": "63ccfc87aa705832ee237363"
+      },
+      {
+        "name": "Café, Cacao y Té",
+        "id": "63cd09aeaa705832ee239ff5"
+      },
+      {
+        "name": "Aguas saborizadas",
+        "id": "63cd09c5aa705832ee23a052"
+      },
+      {
+        "name": "Gaseosas",
+        "id": "63ccfbd4aa705832ee236fed"
+      },
+      {
+        "name": "Servilletas y Papeles",
+        "id": "63cd09d7aa705832ee23a08d"
+      },
+      {
+        "name": "Tortas y Postres",
+        "id": "63d487d115ee301d41f49498"
+      },
+      {
+        "name": "Cereal, Avena y Semillas",
+        "id": "63cd09dcaa705832ee23a096"
+      },
+      {
+        "name": "Pañales y Toallitas",
+        "id": "63cd09faaa705832ee23a0eb"
+      },
+      {
+        "name": "Ceras y Lustramuebles",
+        "id": "63cd09feaa705832ee23a0fe"
+      },
+      {
+        "name": "Leches y Leches saborizadas",
+        "id": "63cd09ffaa705832ee23a105"
+      },
+      {
+        "name": "Quesos duros y blandos",
+        "id": "63cd0a14aa705832ee23a114"
+      },
+      {
+        "name": "Sopas, Caldos y Purés",
+        "id": "63cd0a1aaa705832ee23a12b"
+      },
+      {
+        "name": "Pollo",
+        "id": "63cd0a1eaa705832ee23a13e"
+      },
+      {
+        "name": "Ferretería y Automóvil",
+        "id": "63cd0a21aa705832ee23a14b"
+      },
+      {
+        "name": "Levaduras y Premezclas",
+        "id": "63cd0a26aa705832ee23a15a"
+      },
+      {
+        "name": "Nachos y Chizitos",
+        "id": "63cd0a2baa705832ee23a175"
+      },
+      {
+        "name": "Desodorantes y Desinfectantes",
+        "id": "63cd0a2faa705832ee23a18e"
+      },
+      {
+        "name": "Quesos rallados",
+        "id": "63cd0a32aa705832ee23a19d"
+      },
+      {
+        "name": "Huevos",
+        "id": "63cd0a35aa705832ee23a1a8"
+      },
+      {
+        "name": "Otras golosinas",
+        "id": "63cd0a38aa705832ee23a1b7"
+      },
+      {
+        "name": "Limpiadores y Cremas",
+        "id": "63cd0a3baa705832ee23a1c6"
+      },
+      {
+        "name": "Tartas y Empanadas",
+        "id": "63d487f715ee301d41f494cd"
+      },
+      {
+        "name": "Pescados y Mariscos",
+        "id": "63cd0a52aa705832ee23a20d"
+      },
+      {
+        "name": "Bazar",
+        "id": "63cd0a53aa705832ee23a212"
+      },
+      {
+        "name": "Suplementos y Vitaminas",
+        "id": "63cd0a57aa705832ee23a229"
+      },
+      {
+        "name": "Cotillón",
+        "id": "63cd0a57aa705832ee23a230"
+      },
+      {
+        "name": "Cuidado Personal",
+        "id": "63ccfcecaa705832ee237508"
+      },
+      {
+        "name": "Otras Mascotas",
+        "id": "63cd0a5caa705832ee23a23f"
+      },
+      {
+        "name": "Frutas y Verduras congeladas",
+        "id": "63cd0a5daa705832ee23a244"
+      },
+      {
+        "name": "Cuidado y Aseo",
+        "id": "63cd0a5daa705832ee23a249"
+      },
+      {
+        "name": "Higiene y cuidado",
+        "id": "63cd0a62aa705832ee23a25a"
+      },
+      {
+        "name": "Desayuno y merienda",
+        "id": "63cd0a65aa705832ee23a261"
+      }
+    ]
   }
 ]
