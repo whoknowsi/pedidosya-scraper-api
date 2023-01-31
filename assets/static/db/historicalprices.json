@@ -36225,6 +36225,14 @@
           {
             "price": 560,
             "date": "2023-01-31T11:14:08.684Z"
+          },
+          {
+            "price": 323.54,
+            "date": "2023-01-31T18:12:53.963Z"
+          },
+          {
+            "price": 560,
+            "date": "2023-01-31T18:12:53.963Z"
           }
         ]
       },
@@ -36311,6 +36319,14 @@
           {
             "price": 323.54,
             "date": "2023-01-31T11:14:02.603Z"
+          },
+          {
+            "price": 335.5,
+            "date": "2023-01-31T18:12:45.967Z"
+          },
+          {
+            "price": 323.54,
+            "date": "2023-01-31T18:12:45.967Z"
           }
         ]
       }
@@ -36778,6 +36794,14 @@
           {
             "price": 516.35,
             "date": "2023-01-31T11:14:08.684Z"
+          },
+          {
+            "price": 210.35,
+            "date": "2023-01-31T18:12:53.963Z"
+          },
+          {
+            "price": 516.35,
+            "date": "2023-01-31T18:12:53.963Z"
           }
         ]
       },
@@ -36807,6 +36831,18 @@
           {
             "price": 547,
             "date": "2023-01-31T11:14:02.603Z"
+          },
+          {
+            "price": 209,
+            "date": "2023-01-31T18:12:45.967Z"
+          },
+          {
+            "price": 530,
+            "date": "2023-01-31T18:12:45.967Z"
+          },
+          {
+            "price": 547,
+            "date": "2023-01-31T18:12:45.967Z"
           }
         ]
       }
@@ -46229,6 +46265,14 @@
           {
             "price": 939,
             "date": "2023-01-31T11:14:01.440Z"
+          },
+          {
+            "price": 692,
+            "date": "2023-01-31T18:12:44.667Z"
+          },
+          {
+            "price": 939,
+            "date": "2023-01-31T18:12:44.667Z"
           }
         ]
       }
@@ -47742,6 +47786,15 @@
           {
             "price": 462,
             "date": "2023-01-26T15:33:15.439Z"
+          }
+        ]
+      },
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 448,
+            "date": "2023-01-31T18:12:37.301Z"
           }
         ]
       }
@@ -79992,6 +80045,14 @@
           {
             "price": 138.9,
             "date": "2023-01-31T11:13:57.920Z"
+          },
+          {
+            "price": 192,
+            "date": "2023-01-31T18:12:39.445Z"
+          },
+          {
+            "price": 138.9,
+            "date": "2023-01-31T18:12:39.445Z"
           }
         ]
       }
@@ -89215,6 +89276,15 @@
             "date": "2023-01-31T10:44:49.455Z"
           }
         ]
+      },
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 682,
+            "date": "2023-01-31T18:12:37.301Z"
+          }
+        ]
       }
     ]
   },
@@ -95185,6 +95255,15 @@
           {
             "price": 220.5,
             "date": "2023-01-22T09:36:47.458Z"
+          }
+        ]
+      },
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 249,
+            "date": "2023-01-31T18:12:37.085Z"
           }
         ]
       }
@@ -116810,6 +116889,14 @@
           {
             "price": 1329,
             "date": "2023-01-31T11:13:54.930Z"
+          },
+          {
+            "price": 1100,
+            "date": "2023-01-31T18:12:36.668Z"
+          },
+          {
+            "price": 1329,
+            "date": "2023-01-31T18:12:36.668Z"
           }
         ]
       }
@@ -122424,6 +122511,15 @@
           {
             "price": 1039,
             "date": "2023-01-22T09:50:48.430Z"
+          }
+        ]
+      },
+      {
+        "market": "63ccfa15aa705832ee236776",
+        "prices": [
+          {
+            "price": 1170,
+            "date": "2023-01-31T18:12:53.061Z"
           }
         ]
       }
@@ -140906,6 +141002,14 @@
           {
             "price": 211,
             "date": "2023-01-31T11:13:58.576Z"
+          },
+          {
+            "price": 239,
+            "date": "2023-01-31T18:12:40.620Z"
+          },
+          {
+            "price": 211,
+            "date": "2023-01-31T18:12:40.620Z"
           }
         ]
       },
@@ -140927,6 +141031,14 @@
           {
             "price": 199,
             "date": "2023-01-31T11:14:05.303Z"
+          },
+          {
+            "price": 211,
+            "date": "2023-01-31T18:12:49.103Z"
+          },
+          {
+            "price": 199,
+            "date": "2023-01-31T18:12:49.103Z"
           }
         ]
       }
@@ -170200,6 +170312,262 @@
           {
             "price": 806,
             "date": "2023-01-31T10:44:52.143Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d95a2a1196d9bf29a1d4da",
+    "name": "Te Inti Zén Herbal Mix 15 U.",
+    "product": "63d95a281196d9bf29a1d4d9",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 715,
+            "date": "2023-01-31T18:12:36.668Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d95a2c1196d9bf29a1d4dc",
+    "name": "Conito Cachafaz Chocolate Negro Con Dulce De Leche 38 Gr",
+    "product": "63d95a2b1196d9bf29a1d4db",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 218,
+            "date": "2023-01-31T18:12:36.668Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d95a301196d9bf29a1d4de",
+    "name": "Fancy Feast Pouch Gato Casserole Atún Y Salmón 85 Gr",
+    "product": "63d95a2f1196d9bf29a1d4dd",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 380,
+            "date": "2023-01-31T18:12:36.668Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d95a321196d9bf29a1d4e0",
+    "name": "Yogur Ser Essential Parcialmente Descremado Frutos Rojos​ Con Cereales 158g",
+    "product": "63d95a311196d9bf29a1d4df",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 171,
+            "date": "2023-01-31T18:12:36.668Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d95a361196d9bf29a1d4e2",
+    "name": "Fideos Mama cocina Con Salsa Bolognesa Box 64 G",
+    "product": "63d95a341196d9bf29a1d4e1",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 299,
+            "date": "2023-01-31T18:12:37.085Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d95a391196d9bf29a1d4e4",
+    "name": "Aceite De Girasol Cañuelas 900 Cc.",
+    "product": "63d95a381196d9bf29a1d4e3",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 244,
+            "date": "2023-01-31T18:12:37.085Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d95a3b1196d9bf29a1d4e6",
+    "name": "Norton Cosecha Especial Extra Brut 750Ml",
+    "product": "63d95a3a1196d9bf29a1d4e5",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1730,
+            "date": "2023-01-31T18:12:37.085Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d95a411196d9bf29a1d4e8",
+    "name": "Desodorante Barra Secret Classic Cocoa Butter, 2.6 Oz",
+    "product": "63d95a3f1196d9bf29a1d4e7",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1428,
+            "date": "2023-01-31T18:12:37.301Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d95a451196d9bf29a1d4ea",
+    "name": "Cerveza Stella Artois Blanche 473Cc",
+    "product": "63d95a441196d9bf29a1d4e9",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 368,
+            "date": "2023-01-31T18:12:37.301Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d95a461196d9bf29a1d4ec",
+    "name": "Cerveza Patagonia 24.7 Session Ipa 730 mL",
+    "product": "63d95a451196d9bf29a1d4eb",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 588,
+            "date": "2023-01-31T18:12:37.301Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d95a471196d9bf29a1d4ee",
+    "name": "Cerveza honey Pampa brewing lata 473 cc.",
+    "product": "63d95a461196d9bf29a1d4ed",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 370,
+            "date": "2023-01-31T18:12:37.301Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d95a491196d9bf29a1d4f0",
+    "name": "Vino Tinto Malbec Callia Esperado 750 Ml",
+    "product": "63d95a481196d9bf29a1d4ef",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 910,
+            "date": "2023-01-31T18:12:37.301Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d95a4b1196d9bf29a1d4f2",
+    "name": "Sobre Figuritas Panini Mundial Catar 2022",
+    "product": "63d95a4a1196d9bf29a1d4f1",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 150,
+            "date": "2023-01-31T18:12:37.301Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d95a4f1196d9bf29a1d4f4",
+    "name": "Pastel Box De Papas Con Carne Cañuelas box 49G",
+    "product": "63d95a4e1196d9bf29a1d4f3",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 349,
+            "date": "2023-01-31T18:12:37.301Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d95a501196d9bf29a1d4f6",
+    "name": "Suprema de Pollo Fresca Granja Tres Arroyos Bandeja Atm. controlada x 800g",
+    "product": "63d95a4f1196d9bf29a1d4f5",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1140,
+            "date": "2023-01-31T18:12:37.301Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63d95a521196d9bf29a1d4f8",
+    "name": "Conito Cachafaz Chocolate Negro Caja 6 Un",
+    "product": "63d95a511196d9bf29a1d4f7",
+    "markets": [
+      {
+        "market": "63cd071daa705832ee239505",
+        "prices": [
+          {
+            "price": 1423,
+            "date": "2023-01-31T18:12:37.301Z"
           }
         ]
       }

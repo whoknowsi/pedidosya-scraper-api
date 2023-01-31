@@ -1867,7 +1867,8 @@
       "63ccfebfaa705832ee237b98",
       "63cf568562a456d09f263094",
       "63d8f5c825abd689be38e5a5",
-      "63d8f5cb25abd689be38e5a7"
+      "63d8f5cb25abd689be38e5a7",
+      "63cd07f6aa705832ee2398d0"
     ],
     "categories": [
       {
@@ -12741,7 +12742,26 @@
       "63d8ee41283fd20d9379320d",
       "63ccfecbaa705832ee237bdd",
       "63d8ee48283fd20d9379320f",
-      "63cd0109aa705832ee2382e7"
+      "63cd0109aa705832ee2382e7",
+      "63d95a281196d9bf29a1d4d9",
+      "63d95a2b1196d9bf29a1d4db",
+      "63d95a2f1196d9bf29a1d4dd",
+      "63d95a311196d9bf29a1d4df",
+      "63cd0420aa705832ee238cac",
+      "63d95a341196d9bf29a1d4e1",
+      "63d95a381196d9bf29a1d4e3",
+      "63d95a3a1196d9bf29a1d4e5",
+      "63d95a3f1196d9bf29a1d4e7",
+      "63d95a441196d9bf29a1d4e9",
+      "63d95a451196d9bf29a1d4eb",
+      "63d95a461196d9bf29a1d4ed",
+      "63ccfe32aa705832ee23798e",
+      "63d95a481196d9bf29a1d4ef",
+      "63cd0373aa705832ee238a68",
+      "63d95a4a1196d9bf29a1d4f1",
+      "63d95a4e1196d9bf29a1d4f3",
+      "63d95a4f1196d9bf29a1d4f5",
+      "63d95a511196d9bf29a1d4f7"
     ],
     "categories": [
       {
@@ -13211,6 +13231,30 @@
       {
         "name": "Desayuno y merienda",
         "id": "63cd0a65aa705832ee23a261"
+      },
+      {
+        "name": "Aperitivos sin alcohol",
+        "id": "63cff0d6d672b25f97807d81"
+      },
+      {
+        "name": "Bebidas blancas",
+        "id": "63cff0e1d672b25f97807d88"
+      },
+      {
+        "name": "Champagne y Espumantes",
+        "id": "63cff107d672b25f97807db9"
+      },
+      {
+        "name": "Cervezas",
+        "id": "63ccfbd2aa705832ee236fd4"
+      },
+      {
+        "name": "Vinos",
+        "id": "63cd0365aa705832ee238a0d"
+      },
+      {
+        "name": "Aperitivos",
+        "id": "63ccfba8aa705832ee236f23"
       }
     ]
   }
