@@ -29,15 +29,14 @@ jobs:
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config pull.rebase true
           git add .
           git commit -m "[bot] Update PedidosYa scraper database"
-          git pull
           git push https://$USERNAME:$REPO_KEY@github.com/whoknowsi/pedidosya-scraper-api.git
         env:
           REPO_KEY: ${{ secrets.GH_TOKEN }}
           USERNAME: github-actions[bot]
   job2:
+    needs: job1
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -51,6 +50,8 @@ jobs:
         with:
           version: 7.26.0
           run_install: true
+      - name: Pull
+        run: git pull
       - name: Run scrape
         run: npm run scrape
         env:
@@ -63,11 +64,9 @@ jobs:
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config pull.rebase true
           git add .
-          git commit -m "[bot] Update PedidosYa scraper database"
-          git pull
-          git push https://$USERNAME:$REPO_KEY@github.com/whoknowsi/pedidosya-scraper-api.git
+          git commit --amend --no-edit
+          git push https://${{secrets.GH_TOKEN}}@github.com/whoknowsi/pedidosya-scraper-api.git --force
         env:
           REPO_KEY: ${{ secrets.GH_TOKEN }}
           USERNAME: github-actions[bot]
