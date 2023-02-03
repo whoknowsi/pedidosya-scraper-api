@@ -14,7 +14,7 @@ specifiers:
   playwright: ^1.29.2
   sharp: ^0.31.3
   vitest: ^0.28.3
-  wrangler: 2.7.1
+  wrangler: 2.9.0
 
 dependencies:
   dotenv: 16.0.3
@@ -32,7 +32,7 @@ devDependencies:
   eslint-plugin-promise: 6.0.0_eslint@8.0.1
   playwright: 1.29.2
   vitest: 0.28.3
-  wrangler: 2.7.1
+  wrangler: 2.9.0
 
 packages:
 
@@ -3960,8 +3960,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /wrangler/2.7.1:
-    resolution: {integrity: sha512-SKoe+UTOCX0J+RfEDE6MEdnNy1lDSnB1BfpAEblgvDHjmEunPFu0w6GxcyOYAl/fTl3/VjXZO3p+Ybm9zenzWg==}
+  /wrangler/2.9.0:
+    resolution: {integrity: sha512-5nyyR4bXKG/Rwz0dH+nOx4SWvJWmTZVSbceLyTV+ZOH1sd2vvPnnW14NUzTNEjY3XaT93XH+28mc5+UNSYsFHw==}
     engines: {node: '>=16.13.0'}
     hasBin: true
     dependencies:

@@ -23,7 +23,7 @@
     "eslint-plugin-promise": "6.0.0",
     "playwright": "^1.29.2",
     "vitest": "^0.28.3",
-    "wrangler": "2.7.1"
+    "wrangler": "2.9.0"
   },
   "dependencies": {
     "dotenv": "^16.0.3",
