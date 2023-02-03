@@ -1,10 +1,11 @@
-name: "Deploy api"
+name: "Deploy API"
 
 on: workflow_dispatch
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v3
         with:
@@ -17,8 +18,6 @@ jobs:
         with:
           version: 7.18.2
           run_install: true
-      - name: Pull
-        run: git pull
       - uses: cloudflare/wrangler-action@2.0.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
