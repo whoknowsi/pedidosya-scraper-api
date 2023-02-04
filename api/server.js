@@ -65,8 +65,8 @@ app.get('/markets/:id', (c) => {
   let { name, categories } = marketsData.find((market) => market.id === id)
   categories ??= []
 
-  const filledCategories = categories.map((categoryId) => {
-    const { id, name } = categoriesData.find((category) => category.id === categoryId)
+  const filledCategories = categories.map((currCategory) => {
+    const { id, name } = categoriesData.find((category) => category.id === currCategory.id)
     return { id, name }
   })
 
