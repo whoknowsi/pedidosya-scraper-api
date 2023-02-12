@@ -1,9 +1,12 @@
 import { Hono } from 'hono'
+import { cors } from 'hono/cors'
 import { serveStatic } from 'hono/serve-static.module'
 import productsData from '../assets/static/db/products.json'
 import categoriesData from '../assets/static/db/categories.json'
 import marketsData from '../assets/static/db/markets.json'
 const app = new Hono()
+
+app.use('/*', cors())
 
 app.get('/products', (c) => {
   let { offset, limit, marketId } = c.req.query()
