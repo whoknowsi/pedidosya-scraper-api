@@ -9,35 +9,53 @@ const app = new Hono()
 app.use('/*', cors())
 
 app.get('/products', (c) => {
-  let { offset, limit, marketId } = c.req.query()
+  let { offset, limit, marketId, categoryId } = c.req.query()
   offset = offset ? Number(offset) : 0
   limit = limit ? Number(limit) : 10
 
-  let max = productsData.length
   let productsToSend = productsData
 
   if (marketId) {
-    const productsIdByMarket = marketsData.find((market) => market.id === marketId)?.products || []
-    max = productsIdByMarket.length
+    const market = marketsData.find((market) => market.id === marketId)
+    const productsIdByMarket = market?.products || []
     productsToSend = productsToSend
       .filter((product) => productsIdByMarket.includes(product.id))
       .map((product) => {
-        const { prices, ...prod } = product
-        return { ...prod, price: prices.find((price) => price.market === marketId)?.price || null }
+        const { prices, categories, ...prod } = product
+        const category = categoriesData.find((category) => JSON.stringify(category.markets).includes(marketId))
+        return {
+          ...prod,
+          price: prices.find((price) => price.market === marketId)?.price || null,
+          category: {
+            id: category.id,
+            name: category.name
+          },
+          market: {
+            id: market.id,
+            name: market.name
+          },
+          product: { ...prod, prices, categories }
+        }
       })
   }
+
+  if (categoryId) {
+    const productsByCategory = categoriesData.find((category) => category.id === categoryId)?.products || []
+    productsToSend = productsToSend
+      .filter((product) => productsByCategory.includes(product.id))
+  }
+
+  const max = productsToSend.length
 
   productsToSend = productsToSend.slice(offset, offset + limit)
 
   const prev = max > offset && offset > 0
-    ? `/products?limit=${limit}&offset=${Math.max(0, offset - limit)}${marketId ? `&marketId=${marketId}` : ''}`
+    ? `/products?limit=${limit}&offset=${Math.max(0, offset - limit)}${marketId ? `&marketId=${marketId}` : ''}${categoryId ? `&categoryId=${categoryId}` : ''}`
     : null
 
   const next = max > offset + limit
-    ? `/products?limit=${limit}&offset=${offset + limit}${marketId ? `&marketId=${marketId}` : ''}`
+    ? `/products?limit=${limit}&offset=${offset + limit}${marketId ? `&marketId=${marketId}` : ''}${categoryId ? `&categoryId=${categoryId}` : ''}`
     : null
-
-  console.log(next)
 
   return c.json({
     products: productsToSend,
