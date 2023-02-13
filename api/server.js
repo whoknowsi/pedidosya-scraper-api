@@ -13,7 +13,22 @@ app.get('/products', (c) => {
   offset = offset ? Number(offset) : 0
   limit = limit ? Number(limit) : 10
 
-  let productsToSend = productsData
+  let productsToSend = productsData.map(({ prices, ...product }) => {
+    const filledMarketsPrices = prices.map(({ market: id, ...price }) => {
+      return {
+        ...price,
+        market: {
+          id,
+          name: marketsData.find((market) => market.id === id)?.name || null
+        }
+      }
+    })
+
+    return {
+      ...product,
+      prices: filledMarketsPrices
+    }
+  })
 
   if (marketId) {
     const market = marketsData.find((market) => market.id === marketId)
