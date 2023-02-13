@@ -3,6 +3,7 @@ import path from 'node:path'
 
 const DB_PATH = process.env.VITEST ? path.join(process.cwd(), './tests/assets/static/db') : path.join(process.cwd(), './assets/static/db')
 const IMG_PATH = process.env.VITEST ? path.join(process.cwd(), './tests/assets/static/products') : path.join(process.cwd(), './assets/static/products')
+const IMG_PATH_MARKETS = process.env.VITEST ? path.join(process.cwd(), './tests/assets/static/markets') : path.join(process.cwd(), './assets/static/markets')
 
 const parseId = (id) => {
   return { $oid: id.toString() }
@@ -28,4 +29,4 @@ const getImagesNames = () => {
   return imagesIds
 }
 
-export { parseId, parseDate, sortByDate, write, read, IMG_PATH, DB_PATH, getImagesNames }
+export { parseId, parseDate, sortByDate, write, read, IMG_PATH, DB_PATH, IMG_PATH_MARKETS, getImagesNames }
