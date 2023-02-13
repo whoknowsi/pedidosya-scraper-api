@@ -66,7 +66,7 @@ const createMarket = (market) => {
 
 const createProduct = async (product, foundCategory, foundMarket) => {
   const newMongoProduct = new Product({})
-  const image = await saveImage(newMongoProduct._id, product.image)
+  const image = await saveImage(newMongoProduct._id, product.image) || null
 
   const newProduct = {
     id: newMongoProduct._id,
@@ -130,7 +130,7 @@ const checkImgAndResetStockOnProduct = async (product, imageUrl, newStock, marke
   const productImageName = product?.image?.includes('/') ? product.image.split('/').at(-1) : null
   if (productImageName && imagesNames.includes(productImageName)) return { ...product, prices }
 
-  const newImgUrl = await saveImage(product.id, imageUrl)
+  const newImgUrl = await saveImage(product.id, imageUrl) || null
   return { ...product, prices, image: newImgUrl }
 }
 
@@ -290,7 +290,7 @@ const fillImages = async () => {
 
   const productsToFillImage = products.filter((product) => !product.image?.includes('/static/products/'))
   for (const product of productsToFillImage) {
-    const image = await saveImage(product.id, product.image)
+    const image = await saveImage(product.id, product.image) || null
     product.image = image
   }
 
