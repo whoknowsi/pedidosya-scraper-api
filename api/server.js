@@ -19,7 +19,8 @@ app.get('/products', (c) => {
         ...price,
         market: {
           id,
-          name: marketsData.find((market) => market.id === id)?.name || null
+          name: marketsData.find((market) => market.id === id)?.name || null,
+          image: marketsData.find((market) => market.id === id)?.image || null
         }
       }
     })
@@ -47,7 +48,8 @@ app.get('/products', (c) => {
           },
           market: {
             id: market.id,
-            name: market.name
+            name: market.name,
+            image: market.image
           },
           product: { ...prod, prices, categories }
         }
