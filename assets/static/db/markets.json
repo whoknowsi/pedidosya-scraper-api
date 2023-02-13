@@ -2409,7 +2409,8 @@
         "name": "Bolsas",
         "id": "63ccfd33aa705832ee237627"
       }
-    ]
+    ],
+    "image": "/static/markets/63ccfa15aa705832ee236776.webp"
   },
   {
     "id": "63ccfd52aa705832ee237632",
@@ -7718,7 +7719,8 @@
         "name": "Yogures",
         "id": "63cd0377aa705832ee238a86"
       }
-    ]
+    ],
+    "image": "/static/markets/63ccfd52aa705832ee237632.webp"
   },
   {
     "id": "63cd03baaa705832ee238b2b",
@@ -9788,7 +9790,8 @@
         "name": "Carnes y pescados",
         "id": "63ccfdf6aa705832ee2378bc"
       }
-    ]
+    ],
+    "image": "/static/markets/63cd03baaa705832ee238b2b.webp"
   },
   {
     "id": "63cd04ffaa705832ee238f46",
@@ -11478,7 +11481,8 @@
         "name": "Vinos",
         "id": "63cd0365aa705832ee238a0d"
       }
-    ]
+    ],
+    "image": "/static/markets/63cd04ffaa705832ee238f46.webp"
   },
   {
     "id": "63cd071daa705832ee239505",
@@ -15657,6 +15661,7 @@
         "name": "Tapas",
         "id": "63cd0957aa705832ee239e5a"
       }
-    ]
+    ],
+    "image": "/static/markets/63cd071daa705832ee239505.webp"
   }
 ]

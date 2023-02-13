@@ -2,7 +2,7 @@ import Category from '../models/category.js'
 import HistoricalPrice from '../models/historicalPrice.js'
 import Market from '../models/market.js'
 import Product from '../models/product.js'
-import { read, write, IMG_PATH, getImagesNames } from './utils.js'
+import { read, write, IMG_PATH, IMG_PATH_MARKETS, getImagesNames } from './utils.js'
 import fetch from 'node-fetch'
 import sharp from 'sharp'
 import * as fs from 'fs'
@@ -66,7 +66,7 @@ const createMarket = (market) => {
 
 const createProduct = async (product, foundCategory, foundMarket) => {
   const newMongoProduct = new Product({})
-  const image = await saveImage(newMongoProduct._id, product.image) || null
+  const image = (await saveImage(newMongoProduct._id, product.image)) || null
 
   const newProduct = {
     id: newMongoProduct._id,
@@ -130,7 +130,7 @@ const checkImgAndResetStockOnProduct = async (product, imageUrl, newStock, marke
   const productImageName = product?.image?.includes('/') ? product.image.split('/').at(-1) : null
   if (productImageName && imagesNames.includes(productImageName)) return { ...product, prices }
 
-  const newImgUrl = await saveImage(product.id, imageUrl) || null
+  const newImgUrl = (await saveImage(product.id, imageUrl)) || null
   return { ...product, prices, image: newImgUrl }
 }
 
@@ -290,7 +290,7 @@ const fillImages = async () => {
 
   const productsToFillImage = products.filter((product) => !product.image?.includes('/static/products/'))
   for (const product of productsToFillImage) {
-    const image = await saveImage(product.id, product.image) || null
+    const image = (await saveImage(product.id, product.image)) || null
     product.image = image
   }
 
@@ -304,4 +304,28 @@ const fillImages = async () => {
   )
 }
 
-export { saveMarketStatic, cleanUnusedAssets, fillImages }
+const addImagesToMarkets = async (markets) => {
+  for (const market of markets) {
+    const { image, id } = market
+
+    console.log('Saving market image:', image)
+    const responseImage = await fetch(image)
+    const arrayBuffer = await responseImage.arrayBuffer()
+    const buffer = Buffer.from(arrayBuffer)
+    const imageFileName = `${id}.webp`
+
+    await sharp(buffer).webp({ effort: 6 }).toFile(`${IMG_PATH_MARKETS}/${imageFileName}`)
+    market.image = `/static/markets/${imageFileName}`
+  }
+
+  const marketsLocal = read('markets')
+  write('markets', marketsLocal.map(({ image, ...market }) => {
+    if (image) return { ...market, image }
+    return {
+      ...market,
+      image: markets.find(({ id }) => id === market.id)?.image
+    }
+  }))
+}
+
+export { saveMarketStatic, cleanUnusedAssets, fillImages, addImagesToMarkets }
