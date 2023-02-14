@@ -95,7 +95,9 @@ app.get('/products/:id', (c) => {
 })
 
 app.get('/markets', (c) => {
-  return c.json(marketsData.map(({ id, name }) => { return { id, name } }))
+  return c.json({
+    markets: marketsData.map(({ id, name, image }) => { return { id, name, image } })
+  })
 })
 
 app.get('/markets/:id', (c) => {
