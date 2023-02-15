@@ -9,11 +9,16 @@ const app = new Hono()
 app.use('/*', cors())
 
 app.get('/products', (c) => {
-  let { offset, limit, marketId, categoryId } = c.req.query()
+  let { offset, limit, search, marketId, categoryId } = c.req.query()
   offset = offset ? Number(offset) : 0
   limit = limit ? Number(limit) : 10
 
   let productsToSend = productsData
+
+  if (search) {
+    productsToSend = productsToSend
+      .filter((product) => product.name.toLowerCase().includes(search))
+  }
 
   if (categoryId) {
     const productsByCategory = categoriesData.find((category) => category.id === categoryId)?.products || []
