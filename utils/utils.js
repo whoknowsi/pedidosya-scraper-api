@@ -29,4 +29,9 @@ const parseProducts = (products) => {
   })
 }
 
-export { parseProducts, parseBarcode }
+const checkFilter = (hasToFilter, el, callback) => {
+  if (!hasToFilter) return true
+  return callback(el)
+}
+
+export { parseProducts, parseBarcode, checkFilter }

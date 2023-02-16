@@ -4,6 +4,7 @@ import { serveStatic } from 'hono/serve-static.module'
 import productsData from '../assets/static/db/products.json'
 import categoriesData from '../assets/static/db/categories.json'
 import marketsData from '../assets/static/db/markets.json'
+import { checkFilter } from '../utils/utils'
 const app = new Hono()
 
 app.use('/*', cors())
@@ -14,24 +15,17 @@ app.get('/products', (c) => {
   limit = limit ? Number(limit) : 10
 
   let productsToSend = productsData
+  const productsByCategory = categoryId ? categoriesData.find((category) => category.id === categoryId)?.products || [] : null
+  const productsIdByMarket = marketId ? marketsData.find((market) => market.id === marketId)?.products || [] : null
 
-  if (search) {
-    productsToSend = productsToSend
-      .filter((product) => product.name.toLowerCase().includes(search))
-  }
-
-  if (categoryId) {
-    const productsByCategory = categoriesData.find((category) => category.id === categoryId)?.products || []
-    productsToSend = productsToSend
-      .filter((product) => productsByCategory.includes(product.id))
-  }
-
-  if (marketId) {
-    const market = marketsData.find((market) => market.id === marketId)
-    const productsIdByMarket = market?.products || []
-    productsToSend = productsToSend
-      .filter((product) => productsIdByMarket.includes(product.id))
-  }
+  productsToSend = productsToSend
+    .filter(product => {
+      return (
+        checkFilter(search, product, (x) => x.name.toLowerCase().includes(search)) &&
+        checkFilter(categoryId, product, (x) => productsByCategory.includes(x.id)) &&
+        checkFilter(marketId, product, (x) => productsIdByMarket.includes(x.id))
+      )
+    })
 
   const max = productsToSend.length
 
