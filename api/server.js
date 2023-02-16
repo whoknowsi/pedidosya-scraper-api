@@ -10,22 +10,37 @@ const app = new Hono()
 app.use('/*', cors())
 
 app.get('/products', (c) => {
-  let { offset, limit, search, marketId, categoryId } = c.req.query()
+  let { offset, limit, search, marketId, categoryId, outOfStock } = c.req.query()
   offset = offset ? Number(offset) : 0
   limit = limit ? Number(limit) : 10
+  console.log(outOfStock)
+
+  if (outOfStock === undefined) outOfStock = false
+  if (outOfStock === 'true') outOfStock = true
+  if (outOfStock === 'false') outOfStock = false
 
   let productsToSend = productsData
-  const productsByCategory = categoryId ? categoriesData.find((category) => category.id === categoryId)?.products || [] : null
-  const productsIdByMarket = marketId ? marketsData.find((market) => market.id === marketId)?.products || [] : null
+  const productsByCategory = categoryId ? categoriesData.find((category) => category.id === categoryId)?.products || [] : []
+  const productsIdByMarket = marketId ? marketsData.find((market) => market.id === marketId)?.products || [] : []
 
-  productsToSend = productsToSend
-    .filter(product => {
-      return (
-        checkFilter(search, product, (x) => x.name.toLowerCase().includes(search)) &&
-        checkFilter(categoryId, product, (x) => productsByCategory.includes(x.id)) &&
-        checkFilter(marketId, product, (x) => productsIdByMarket.includes(x.id))
-      )
+  console.log(outOfStock)
+  productsToSend = productsToSend.filter((product) => {
+    return (
+      checkFilter(search, product, (x) => x.name.toLowerCase().includes(search)) &&
+      checkFilter(categoryId, product, (x) => productsByCategory.includes(x.id)) &&
+      checkFilter(marketId, product, (x) => productsIdByMarket.includes(x.id)) &&
+      checkFilter(!outOfStock, product, (x) => x.prices.filter((price) => price.stock !== -1).length !== 0)
+    )
+  })
+
+  if (!outOfStock) {
+    productsToSend = productsToSend.map(({ prices, ...product }) => {
+      return {
+        ...product,
+        prices: prices.filter((price) => price.stock !== -1)
+      }
     })
+  }
 
   const max = productsToSend.length
 
@@ -66,13 +81,21 @@ app.get('/products', (c) => {
     return product
   })
 
-  const prev = max > offset && offset > 0
-    ? `/products?limit=${limit}&offset=${Math.max(0, offset - limit)}${marketId ? `&marketId=${marketId}` : ''}${categoryId ? `&categoryId=${categoryId}` : ''}`
-    : null
+  const prev =
+    max > offset && offset > 0
+      ? `/products?limit=${limit}&offset=${Math.max(0, offset - limit)}${
+          marketId ? `&marketId=${marketId}` : ''}${
+          categoryId ? `&categoryId=${categoryId}` : ''}${
+          outOfStock ? '&outOfStock=true' : ''}`
+      : null
 
-  const next = max > offset + limit
-    ? `/products?limit=${limit}&offset=${offset + limit}${marketId ? `&marketId=${marketId}` : ''}${categoryId ? `&categoryId=${categoryId}` : ''}`
-    : null
+  const next =
+    max > offset + limit
+      ? `/products?limit=${limit}&offset=${offset + limit}${
+          marketId ? `&marketId=${marketId}` : ''}${
+          categoryId ? `&categoryId=${categoryId}` : ''}${
+          outOfStock ? '&outOfStock=true' : ''}`
+      : null
 
   return c.json({
     products: productsToSend,
@@ -95,7 +118,9 @@ app.get('/products/:id', (c) => {
 
 app.get('/markets', (c) => {
   return c.json({
-    markets: marketsData.map(({ id, name, image }) => { return { id, name, image } })
+    markets: marketsData.map(({ id, name, image }) => {
+      return { id, name, image }
+    })
   })
 })
 
@@ -114,7 +139,11 @@ app.get('/markets/:id', (c) => {
 })
 
 app.get('/categories', (c) => {
-  return c.json(categoriesData.map(({ id, name }) => { return { id, name } }))
+  return c.json(
+    categoriesData.map(({ id, name }) => {
+      return { id, name }
+    })
+  )
 })
 
 app.get('/static/*', serveStatic({ root: './' }))
