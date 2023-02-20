@@ -8,6 +8,11 @@ The data is stored in JSON files and images are optimized using the Sharp librar
 ## API Usage
 The API can be used to access the information collected from PedidosYa in a structured and easily consumable format.
 
+### Endpoints
+ - /products
+ - /markets
+ - /categories
+
 ## Screenshots
 
 Raw data of products:
