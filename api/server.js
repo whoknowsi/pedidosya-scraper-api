@@ -26,9 +26,11 @@ app.get('/products', (c) => {
   console.log(outOfStock)
   productsToSend = productsToSend.filter((product) => {
     return (
-      checkFilter(search, product, (x) => x.name.toLowerCase().includes(search)) &&
+      checkFilter(search, product, (x) => x.name.toLowerCase().includes(search.toLowerCase())) &&
       checkFilter(categoryId, product, (x) => productsByCategory.includes(x.id)) &&
-      checkFilter(marketId, product, (x) => productsIdByMarket.includes(x.id)) &&
+      checkFilter(marketId, product, (x) => {
+        return productsIdByMarket.includes(x.id) && x.prices.find((price) => price.market === marketId).stock !== -1
+      }) &&
       checkFilter(!outOfStock, product, (x) => x.prices.filter((price) => price.stock !== -1).length !== 0)
     )
   })
@@ -94,7 +96,8 @@ app.get('/products', (c) => {
       ? `/products?limit=${limit}&offset=${offset + limit}${
           marketId ? `&marketId=${marketId}` : ''}${
           categoryId ? `&categoryId=${categoryId}` : ''}${
-          outOfStock ? '&outOfStock=true' : ''}`
+          outOfStock ? '&outOfStock=true' : ''}${
+          search ? `&search=${search}` : ''}`
       : null
 
   return c.json({
