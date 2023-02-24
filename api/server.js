@@ -58,25 +58,25 @@ app.get('/products', (c) => {
       }
     })
 
-    if (marketId) {
-      const market = marketsData.find((market) => market.id === marketId)
-      const { prices, categories, ...prod } = product
-      const category = categoriesData.find((category) => JSON.stringify(category.markets).includes(marketId))
-      return {
-        ...prod,
-        price: prices.find((price) => price.market === marketId)?.price || null,
-        category: {
-          id: category.id,
-          name: category.name
-        },
-        market: {
-          id: market.id,
-          name: market.name,
-          image: market.image
-        },
-        product: { ...prod, prices, categories }
-      }
-    }
+    // if (marketId) {
+    //   const market = marketsData.find((market) => market.id === marketId)
+    //   const { prices, categories, ...prod } = product
+    //   const category = categoriesData.find((category) => JSON.stringify(category.markets).includes(marketId))
+    //   return {
+    //     ...prod,
+    //     price: prices.find((price) => price.market === marketId)?.price || null,
+    //     category: {
+    //       id: category.id,
+    //       name: category.name
+    //     },
+    //     market: {
+    //       id: market.id,
+    //       name: market.name,
+    //       image: market.image
+    //     },
+    //     product: { ...prod, prices, categories }
+    //   }
+    // }
 
     return product
   })
