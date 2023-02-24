@@ -139,11 +139,20 @@ app.get('/markets/:id', (c) => {
 })
 
 app.get('/categories', (c) => {
-  return c.json(
-    categoriesData.map(({ id, name }) => {
+  const { marketId } = c.req.query()
+
+  let categoriesToSend
+  if (marketId) {
+    categoriesToSend = categoriesData.filter((category) => JSON.stringify(category.markets).includes(marketId))
+  } else {
+    categoriesToSend = categoriesData
+  }
+
+  return c.json({
+    categories: categoriesToSend.map(({ id, name }) => {
       return { id, name }
     })
-  )
+  })
 })
 
 app.get('/static/*', serveStatic({ root: './' }))
