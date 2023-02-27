@@ -21035,7 +21035,8 @@
         "name": "Yogures",
         "id": "63cd0377aa705832ee238a86"
       }
-    ]
+    ],
+    "image": "/static/markets/63ccfd52aa705832ee237632.webp"
   },
   {
     "id": "63fbf610cc5d3c669e19f755",
@@ -22699,6 +22700,7 @@
         "name": "Yogures",
         "id": "63cd0377aa705832ee238a86"
       }
-    ]
+    ],
+    "image": "/static/markets/63cd03baaa705832ee238b2b.webp"
   }
 ]
