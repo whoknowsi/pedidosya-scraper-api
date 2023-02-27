@@ -1347,7 +1347,16 @@
       "63fa1dc207cadc0a58be83a3",
       "63cd0a27aa705832ee23a165",
       "63fa1f9ebffde01efb25db5a",
-      "63fb6fb91c8537c980758907"
+      "63fb6fb91c8537c980758907",
+      "63fbf5a9cc5d3c669e19f6c7",
+      "63fbf5aacc5d3c669e19f6c9",
+      "63fbf5abcc5d3c669e19f6cb",
+      "63e505d261dbf3910e4d6cb3",
+      "63fbf5adcc5d3c669e19f6cd",
+      "63f386dc7ddfb9710d80c61a",
+      "63fbf5aecc5d3c669e19f6cf",
+      "63fbf689cc5d3c669e19f80a",
+      "63fbf68bcc5d3c669e19f80c"
     ],
     "markets": [
       {
@@ -1361,6 +1370,14 @@
       {
         "name": "Dia - Villa Ballester (204)",
         "id": "63ccfa15aa705832ee236776"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -1699,7 +1716,18 @@
       "63cd0666aa705832ee239376",
       "63f4d850799e18936a01dffa",
       "63cd0660aa705832ee239364",
-      "63fa1f82bffde01efb25db2e"
+      "63fa1f82bffde01efb25db2e",
+      "63fbf58ccc5d3c669e19f69d",
+      "63fbf58dcc5d3c669e19f69f",
+      "63dbb739e92fab599f2551bc",
+      "63fbf58fcc5d3c669e19f6a1",
+      "63fbf590cc5d3c669e19f6a3",
+      "63cd0a00aa705832ee23a108",
+      "63fbf674cc5d3c669e19f7ea",
+      "63cd088faa705832ee239b8d",
+      "63cd046eaa705832ee238dca",
+      "63fbf675cc5d3c669e19f7ec",
+      "63fbf677cc5d3c669e19f7ee"
     ],
     "markets": [
       {
@@ -1713,6 +1741,14 @@
       {
         "name": "Dia - Villa Ballester (204)",
         "id": "63ccfa15aa705832ee236776"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -1901,7 +1937,15 @@
       "63f8cc61ff4de9a1de71c648",
       "63f8cc62ff4de9a1de71c64a",
       "63f8cc9eff4de9a1de71c65c",
-      "63f8cc9fff4de9a1de71c65e"
+      "63f8cc9fff4de9a1de71c65e",
+      "63fbf502cc5d3c669e19f5d5",
+      "63fbf504cc5d3c669e19f5d7",
+      "63cd0508aa705832ee238f5a",
+      "63fbf505cc5d3c669e19f5d9",
+      "63fbf506cc5d3c669e19f5db",
+      "63fbf507cc5d3c669e19f5dd",
+      "63fbf508cc5d3c669e19f5df",
+      "63fbf612cc5d3c669e19f758"
     ],
     "markets": [
       {
@@ -1923,6 +1967,14 @@
       {
         "name": "Dia - Villa Ballester (204)",
         "id": "63ccfa15aa705832ee236776"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -2278,7 +2330,15 @@
       "63ee6852530df30afb1a20aa",
       "63fa1d8e07cadc0a58be8367",
       "63fa1e91bffde01efb25d9e4",
-      "63fa1e92bffde01efb25d9e6"
+      "63fa1e92bffde01efb25d9e6",
+      "63fbf52acc5d3c669e19f60d",
+      "63fbf52bcc5d3c669e19f60f",
+      "63fbf52ccc5d3c669e19f611",
+      "63fbf52dcc5d3c669e19f613",
+      "63fbf52ecc5d3c669e19f615",
+      "63fbf530cc5d3c669e19f617",
+      "63fbf531cc5d3c669e19f619",
+      "63fbf623cc5d3c669e19f772"
     ],
     "markets": [
       {
@@ -2300,6 +2360,14 @@
       {
         "name": "PedidosYa Market - Vicente Lopez",
         "id": "63cd071daa705832ee239505"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -2477,7 +2545,11 @@
       "63f77b807358573be315ebab",
       "63f8cca1ff4de9a1de71c660",
       "63fb6f448615f86fad6a3e42",
-      "63fb6f468615f86fad6a3e44"
+      "63fb6f468615f86fad6a3e44",
+      "63fbf569cc5d3c669e19f66b",
+      "63fbf56acc5d3c669e19f66d",
+      "63fbf56ccc5d3c669e19f66f",
+      "63fbf56dcc5d3c669e19f671"
     ],
     "markets": [
       {
@@ -2499,6 +2571,14 @@
       {
         "name": "Dia - Villa Ballester (204)",
         "id": "63ccfa15aa705832ee236776"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -3451,6 +3531,14 @@
       {
         "name": "Dia - Villa Ballester (204)",
         "id": "63ccfa15aa705832ee236776"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -3851,7 +3939,18 @@
       "63fa1f29bffde01efb25dabe",
       "63fa1f2abffde01efb25dac0",
       "63fa1f2cbffde01efb25dac2",
-      "63ccfce0aa705832ee2374b6"
+      "63ccfce0aa705832ee2374b6",
+      "63fbf54ecc5d3c669e19f641",
+      "63fbf54ecc5d3c669e19f643",
+      "63fbf550cc5d3c669e19f645",
+      "63fbf551cc5d3c669e19f647",
+      "63fbf552cc5d3c669e19f649",
+      "63fbf553cc5d3c669e19f64b",
+      "63fbf554cc5d3c669e19f64d",
+      "63fbf556cc5d3c669e19f64f",
+      "63fbf557cc5d3c669e19f651",
+      "63fbf64dcc5d3c669e19f7b2",
+      "63fbf64ecc5d3c669e19f7b4"
     ],
     "markets": [
       {
@@ -3869,6 +3968,14 @@
       {
         "name": "Dia - Villa Ballester (204)",
         "id": "63ccfa15aa705832ee236776"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -4349,7 +4456,9 @@
       "63ccfce3aa705832ee2374d4",
       "63fa1e56bffde01efb25d998",
       "63fa1e57bffde01efb25d99a",
-      "63fb6f931c8537c9807588f7"
+      "63fb6f931c8537c9807588f7",
+      "63cd0870aa705832ee239b0c",
+      "63fbf610cc5d3c669e19f756"
     ],
     "markets": [
       {
@@ -4363,6 +4472,14 @@
       {
         "name": "Diarco Barrio - Villa Ballester",
         "id": "63cd04ffaa705832ee238f46"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -4568,7 +4685,14 @@
       "63f386dc7ddfb9710d80c61a",
       "63cd091faa705832ee239db9",
       "63cd0666aa705832ee239378",
-      "63fa1e59bffde01efb25d99c"
+      "63fa1e59bffde01efb25d99c",
+      "63fbf50acc5d3c669e19f5e1",
+      "63ccfa1daa705832ee2367e8",
+      "63fbf50bcc5d3c669e19f5e3",
+      "63cd09a7aa705832ee239fc1",
+      "63fbf613cc5d3c669e19f75a",
+      "63fbf615cc5d3c669e19f75c",
+      "63fbf616cc5d3c669e19f75e"
     ],
     "markets": [
       {
@@ -4578,6 +4702,14 @@
       {
         "name": "Carrefour - Market Carapachay (201)",
         "id": "63ccfd52aa705832ee237632"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -4676,7 +4808,14 @@
       "63fa1e77bffde01efb25d9be",
       "63fb6f961c8537c9807588f9",
       "63fb6f971c8537c9807588fb",
-      "63fb6f991c8537c9807588fd"
+      "63fb6f991c8537c9807588fd",
+      "63fbf50dcc5d3c669e19f5e5",
+      "63fbf50ecc5d3c669e19f5e7",
+      "63fbf50fcc5d3c669e19f5e9",
+      "63fbf510cc5d3c669e19f5eb",
+      "63fbf617cc5d3c669e19f760",
+      "63fbf618cc5d3c669e19f762",
+      "63fbf619cc5d3c669e19f764"
     ],
     "markets": [
       {
@@ -4686,6 +4825,14 @@
       {
         "name": "Carrefour - Market Carapachay (201)",
         "id": "63ccfd52aa705832ee237632"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -4766,7 +4913,11 @@
       "63ecefce35a510184760ec6e",
       "63ecefd035a510184760ec70",
       "63ee40fe57afb075554a8979",
-      "63ee40ff57afb075554a897b"
+      "63ee40ff57afb075554a897b",
+      "63fbf512cc5d3c669e19f5ed",
+      "63fbf514cc5d3c669e19f5ef",
+      "63fbf61bcc5d3c669e19f766",
+      "63fbf61ccc5d3c669e19f768"
     ],
     "markets": [
       {
@@ -4776,6 +4927,14 @@
       {
         "name": "Carrefour - Market Carapachay (201)",
         "id": "63ccfd52aa705832ee237632"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -4826,7 +4985,9 @@
       "63f0e3be335b44e2a63aaa83",
       "63f2351c14e56d3bd67594fd",
       "63f2351d14e56d3bd67594ff",
-      "63fa1e79bffde01efb25d9c0"
+      "63fa1e79bffde01efb25d9c0",
+      "63fbf516cc5d3c669e19f5f1",
+      "63cd089eaa705832ee239bbf"
     ],
     "markets": [
       {
@@ -4836,6 +4997,14 @@
       {
         "name": "Carrefour - Market Carapachay (201)",
         "id": "63ccfd52aa705832ee237632"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -4943,7 +5112,22 @@
       "63fa1e7fbffde01efb25d9c8",
       "63fa1e80bffde01efb25d9ca",
       "63fa1e81bffde01efb25d9cc",
-      "63fa1e83bffde01efb25d9ce"
+      "63fa1e83bffde01efb25d9ce",
+      "63d5c87d83232b66b534a888",
+      "63ccfbcfaa705832ee236fc0",
+      "63d5c87e83232b66b534a88c",
+      "63fbf517cc5d3c669e19f5f3",
+      "63e3b472b44aab4680afa606",
+      "63d5c88283232b66b534a89a",
+      "63fbf519cc5d3c669e19f5f5",
+      "63fbf51acc5d3c669e19f5f7",
+      "63fbf51bcc5d3c669e19f5f9",
+      "63fbf51ccc5d3c669e19f5fb",
+      "63fbf51dcc5d3c669e19f5fd",
+      "63ccfbceaa705832ee236fb8",
+      "63fbf51ecc5d3c669e19f5ff",
+      "63ee6855530df30afb1a20ae",
+      "63ccfbd1aa705832ee236fd0"
     ],
     "markets": [
       {
@@ -4953,6 +5137,14 @@
       {
         "name": "Carrefour - Market Carapachay (201)",
         "id": "63ccfd52aa705832ee237632"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -5052,7 +5244,14 @@
       "63fa1e8fbffde01efb25d9e0",
       "63cd09b7aa705832ee23a01a",
       "63cd09bfaa705832ee23a03c",
-      "63cd061caa705832ee239289"
+      "63cd061caa705832ee239289",
+      "63fbf51fcc5d3c669e19f601",
+      "63fbf521cc5d3c669e19f603",
+      "63cd09baaa705832ee23a02a",
+      "63cf56ce62a456d09f2630e6",
+      "63fbf61dcc5d3c669e19f76a",
+      "63fbf61fcc5d3c669e19f76c",
+      "63fbf620cc5d3c669e19f76e"
     ],
     "markets": [
       {
@@ -5062,6 +5261,14 @@
       {
         "name": "Carrefour - Market Carapachay (201)",
         "id": "63ccfd52aa705832ee237632"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -5173,7 +5380,13 @@
       "63f4d83b799e18936a01dff6",
       "63f4d83c799e18936a01dff8",
       "63e657bf5ecce159c2831af4",
-      "63da62497108901155d141d7"
+      "63da62497108901155d141d7",
+      "63fbf48172a6d81b93cf1064",
+      "63fbf48372a6d81b93cf1066",
+      "63fbf524cc5d3c669e19f605",
+      "63fbf525cc5d3c669e19f607",
+      "63fbf527cc5d3c669e19f609",
+      "63fbf528cc5d3c669e19f60b"
     ],
     "markets": [
       {
@@ -5183,6 +5396,14 @@
       {
         "name": "Carrefour - Express Villa Adelina (436)",
         "id": "63cd03baaa705832ee238b2b"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -5245,7 +5466,8 @@
       "63ccfb27aa705832ee236c7f",
       "63cd09faaa705832ee23a0e7",
       "63ccfb02aa705832ee236bff",
-      "63fa1e90bffde01efb25d9e2"
+      "63fa1e90bffde01efb25d9e2",
+      "63fbf621cc5d3c669e19f770"
     ],
     "markets": [
       {
@@ -5255,6 +5477,14 @@
       {
         "name": "Carrefour - Market Carapachay (201)",
         "id": "63ccfd52aa705832ee237632"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -5287,7 +5517,8 @@
       "63eceee3dd6952ee718d7b65",
       "63d4872b15ee301d41f493c6",
       "63ee684d530df30afb1a20a4",
-      "63ef91b4d6f3702118f9226f"
+      "63ef91b4d6f3702118f9226f",
+      "63fbf532cc5d3c669e19f61b"
     ],
     "markets": [
       {
@@ -5301,6 +5532,14 @@
       {
         "name": "Carrefour - Market Carapachay (201)",
         "id": "63ccfd52aa705832ee237632"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -5463,7 +5702,10 @@
       "63fa1e99bffde01efb25d9f0",
       "63fa1e9bbffde01efb25d9f2",
       "63fa1e9cbffde01efb25d9f4",
-      "63fa1e9ebffde01efb25d9f6"
+      "63fa1e9ebffde01efb25d9f6",
+      "63fbf533cc5d3c669e19f61d",
+      "63fbf535cc5d3c669e19f61f",
+      "63fbf536cc5d3c669e19f621"
     ],
     "markets": [
       {
@@ -5477,6 +5719,14 @@
       {
         "name": "Diarco Barrio - Villa Ballester",
         "id": "63cd04ffaa705832ee238f46"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -5730,7 +5980,22 @@
       "63fa1eb5bffde01efb25da18",
       "63ccfc7caa705832ee237313",
       "63fa1eb6bffde01efb25da1a",
-      "63fa1eb7bffde01efb25da1c"
+      "63fa1eb7bffde01efb25da1c",
+      "63cd079eaa705832ee239774",
+      "63cd079daa705832ee23976a",
+      "63f8cc33ff4de9a1de71c608",
+      "63fbf539cc5d3c669e19f623",
+      "63fbf624cc5d3c669e19f774",
+      "63fbf626cc5d3c669e19f776",
+      "63fbf627cc5d3c669e19f778",
+      "63fbf628cc5d3c669e19f77a",
+      "63fbf62acc5d3c669e19f77c",
+      "63eb9def7c74059c1f0985da",
+      "63fbf62bcc5d3c669e19f77e",
+      "63fbf62ccc5d3c669e19f780",
+      "63fbf62dcc5d3c669e19f782",
+      "63fbf62ecc5d3c669e19f784",
+      "63fbf630cc5d3c669e19f786"
     ],
     "markets": [
       {
@@ -5740,6 +6005,14 @@
       {
         "name": "Carrefour - Market Carapachay (201)",
         "id": "63ccfd52aa705832ee237632"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -5839,7 +6112,14 @@
       "63eb9d737c74059c1f098570",
       "63eb9df97c74059c1f0985e6",
       "63fa1ebabffde01efb25da20",
-      "63d4877e15ee301d41f49430"
+      "63d4877e15ee301d41f49430",
+      "63d483ed4f6582831ab720ae",
+      "63fbf53bcc5d3c669e19f625",
+      "63fbf631cc5d3c669e19f788",
+      "63fbf632cc5d3c669e19f78a",
+      "63fbf634cc5d3c669e19f78c",
+      "63fbf635cc5d3c669e19f78e",
+      "63fbf636cc5d3c669e19f790"
     ],
     "markets": [
       {
@@ -5849,6 +6129,14 @@
       {
         "name": "Carrefour - Market Carapachay (201)",
         "id": "63ccfd52aa705832ee237632"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -6343,7 +6631,31 @@
       "63fa1f00bffde01efb25da80",
       "63cd060caa705832ee239264",
       "63cd0581aa705832ee2390d8",
-      "63e3b4d5b44aab4680afa678"
+      "63e3b4d5b44aab4680afa678",
+      "63fbf53ccc5d3c669e19f627",
+      "63d484364f6582831ab720d2",
+      "63eb9d507c74059c1f098554",
+      "63fbf53ecc5d3c669e19f629",
+      "63fbf53fcc5d3c669e19f62b",
+      "63fbf540cc5d3c669e19f62d",
+      "63de6ea4119109a751d9ab95",
+      "63fbf541cc5d3c669e19f62f",
+      "63fbf637cc5d3c669e19f792",
+      "63fbf639cc5d3c669e19f794",
+      "63cd060baa705832ee239260",
+      "63fbf63acc5d3c669e19f796",
+      "63fbf63bcc5d3c669e19f798",
+      "63cd057faa705832ee2390cc",
+      "63fbf63dcc5d3c669e19f79a",
+      "63fbf63ecc5d3c669e19f79c",
+      "63cd093faa705832ee239e1b",
+      "63fbf63fcc5d3c669e19f79e",
+      "63fbf640cc5d3c669e19f7a0",
+      "63fbf642cc5d3c669e19f7a2",
+      "63fbf643cc5d3c669e19f7a4",
+      "63fbf644cc5d3c669e19f7a6",
+      "63fbf646cc5d3c669e19f7a8",
+      "63fbf647cc5d3c669e19f7aa"
     ],
     "markets": [
       {
@@ -6357,6 +6669,14 @@
       {
         "name": "PedidosYa Market - Vicente Lopez",
         "id": "63cd071daa705832ee239505"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -6442,7 +6762,13 @@
       "63fa1f09bffde01efb25da8c",
       "63fa1f0abffde01efb25da8e",
       "63fa1f0cbffde01efb25da90",
-      "63fa1f0dbffde01efb25da92"
+      "63fa1f0dbffde01efb25da92",
+      "63fbf543cc5d3c669e19f631",
+      "63fbf544cc5d3c669e19f633",
+      "63fbf546cc5d3c669e19f635",
+      "63fbf547cc5d3c669e19f637",
+      "63fbf648cc5d3c669e19f7ac",
+      "63fbf64acc5d3c669e19f7ae"
     ],
     "markets": [
       {
@@ -6452,6 +6778,14 @@
       {
         "name": "Carrefour - Market Carapachay (201)",
         "id": "63ccfd52aa705832ee237632"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -6577,7 +6911,12 @@
       "63fa1f1cbffde01efb25daaa",
       "63fa1f1ebffde01efb25daac",
       "63fa1f20bffde01efb25daae",
-      "63fa1f21bffde01efb25dab0"
+      "63fa1f21bffde01efb25dab0",
+      "63fbf549cc5d3c669e19f639",
+      "63fbf54acc5d3c669e19f63b",
+      "63fbf54bcc5d3c669e19f63d",
+      "63fbf54dcc5d3c669e19f63f",
+      "63fbf64bcc5d3c669e19f7b0"
     ],
     "markets": [
       {
@@ -6587,6 +6926,14 @@
       {
         "name": "Carrefour - Market Carapachay (201)",
         "id": "63ccfd52aa705832ee237632"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -6766,7 +7113,12 @@
       "63f629df525d970434b551f8",
       "63f8ccfb343410f2139f7047",
       "63cff023d672b25f97807d79",
-      "63fa1f2ebffde01efb25dac4"
+      "63fa1f2ebffde01efb25dac4",
+      "63fbf558cc5d3c669e19f653",
+      "63fbf559cc5d3c669e19f655",
+      "63fbf55bcc5d3c669e19f657",
+      "63fbf55ccc5d3c669e19f659",
+      "63ccfa96aa705832ee236a4a"
     ],
     "markets": [
       {
@@ -6776,6 +7128,14 @@
       {
         "name": "Carrefour - Market Carapachay (201)",
         "id": "63ccfd52aa705832ee237632"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -6871,7 +7231,12 @@
       "63f386eb7ddfb9710d80c61c",
       "63fa1f32bffde01efb25dac6",
       "63fb6fa61c8537c9807588ff",
-      "63fb6fa71c8537c980758901"
+      "63fb6fa71c8537c980758901",
+      "63fbf48d72a6d81b93cf1068",
+      "63fbf55dcc5d3c669e19f65b",
+      "63fbf55fcc5d3c669e19f65d",
+      "63fbf560cc5d3c669e19f65f",
+      "63fbf561cc5d3c669e19f661"
     ],
     "markets": [
       {
@@ -6881,6 +7246,10 @@
       {
         "name": "Carrefour - Market Carapachay (201)",
         "id": "63ccfd52aa705832ee237632"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
       }
     ]
   },
@@ -7181,7 +7550,27 @@
       "63cd080baa705832ee239917",
       "63d8ec0d8fec2a4aa15caf79",
       "63d8ec118fec2a4aa15caf81",
-      "63ccfb08aa705832ee236c23"
+      "63ccfb08aa705832ee236c23",
+      "63d4873115ee301d41f493d0",
+      "63cd0807aa705832ee23990f",
+      "63fbf562cc5d3c669e19f663",
+      "63cd0923aa705832ee239dd3",
+      "63fbf564cc5d3c669e19f665",
+      "63fbf565cc5d3c669e19f667",
+      "63fbf567cc5d3c669e19f669",
+      "63cd0798aa705832ee23973f",
+      "63cd0818aa705832ee239975",
+      "63cd05e8aa705832ee2391ea",
+      "63cd05e1aa705832ee2391e0",
+      "63dbb6fbe92fab599f255170",
+      "63fbf650cc5d3c669e19f7b6",
+      "63fbf652cc5d3c669e19f7b8",
+      "63cd072caa705832ee239586",
+      "63fbf653cc5d3c669e19f7ba",
+      "63fbf654cc5d3c669e19f7bc",
+      "63fbf656cc5d3c669e19f7be",
+      "63fbf657cc5d3c669e19f7c0",
+      "63fbf658cc5d3c669e19f7c2"
     ],
     "markets": [
       {
@@ -7191,6 +7580,14 @@
       {
         "name": "Carrefour - Market Carapachay (201)",
         "id": "63ccfd52aa705832ee237632"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -7422,7 +7819,32 @@
       "63fa1f55bffde01efb25daf6",
       "63fa1f56bffde01efb25daf8",
       "63fa1f57bffde01efb25dafa",
-      "63ccfa7caa705832ee23698d"
+      "63ccfa7caa705832ee23698d",
+      "63fbf56ecc5d3c669e19f673",
+      "63fbf56fcc5d3c669e19f675",
+      "63fbf570cc5d3c669e19f677",
+      "63fbf572cc5d3c669e19f679",
+      "63fbf573cc5d3c669e19f67b",
+      "63cd0720aa705832ee239522",
+      "63fbf575cc5d3c669e19f67d",
+      "63fbf576cc5d3c669e19f67f",
+      "63fbf577cc5d3c669e19f681",
+      "63fbf578cc5d3c669e19f683",
+      "63fbf57acc5d3c669e19f685",
+      "63fbf57bcc5d3c669e19f687",
+      "63fbf65acc5d3c669e19f7c4",
+      "63fbf65bcc5d3c669e19f7c6",
+      "63fbf65ecc5d3c669e19f7c8",
+      "63fbf65fcc5d3c669e19f7ca",
+      "63fbf660cc5d3c669e19f7cc",
+      "63fbf661cc5d3c669e19f7ce",
+      "63fbf663cc5d3c669e19f7d0",
+      "63fbf664cc5d3c669e19f7d2",
+      "63fbf665cc5d3c669e19f7d4",
+      "63fbf666cc5d3c669e19f7d6",
+      "63fbf667cc5d3c669e19f7d8",
+      "63ccfa93aa705832ee236a23",
+      "63fbf669cc5d3c669e19f7da"
     ],
     "markets": [
       {
@@ -7432,6 +7854,14 @@
       {
         "name": "Carrefour - Market Carapachay (201)",
         "id": "63ccfd52aa705832ee237632"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -7564,7 +7994,15 @@
       "63fa1f5ebffde01efb25db02",
       "63ccfb83aa705832ee236e4c",
       "63ccfb85aa705832ee236e52",
-      "63fb6fad1c8537c980758903"
+      "63fb6fad1c8537c980758903",
+      "63cd05f8aa705832ee239222",
+      "63fbf57ccc5d3c669e19f689",
+      "63fbf57fcc5d3c669e19f68b",
+      "63fbf580cc5d3c669e19f68d",
+      "63cd086caa705832ee239aed",
+      "63cd06beaa705832ee23945d",
+      "63fbf66acc5d3c669e19f7dc",
+      "63fbf66ccc5d3c669e19f7de"
     ],
     "markets": [
       {
@@ -7574,6 +8012,14 @@
       {
         "name": "Carrefour - Market Carapachay (201)",
         "id": "63ccfd52aa705832ee237632"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -7618,7 +8064,8 @@
       "63cd0782aa705832ee2396fa",
       "63cd0457aa705832ee238d60",
       "63cd0781aa705832ee2396f6",
-      "63fa1f5fbffde01efb25db04"
+      "63fa1f5fbffde01efb25db04",
+      "63fbf581cc5d3c669e19f68f"
     ],
     "markets": [
       {
@@ -7628,6 +8075,14 @@
       {
         "name": "Carrefour - Market Carapachay (201)",
         "id": "63ccfd52aa705832ee237632"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -7744,7 +8199,14 @@
       "63fa1db207cadc0a58be838d",
       "63fa1db307cadc0a58be838f",
       "63fa1f61bffde01efb25db06",
-      "63fa1f63bffde01efb25db08"
+      "63fa1f63bffde01efb25db08",
+      "63fbf583cc5d3c669e19f691",
+      "63fbf584cc5d3c669e19f693",
+      "63fbf585cc5d3c669e19f695",
+      "63fbf66ecc5d3c669e19f7e0",
+      "63fbf66fcc5d3c669e19f7e2",
+      "63fbf670cc5d3c669e19f7e4",
+      "63fbf671cc5d3c669e19f7e6"
     ],
     "markets": [
       {
@@ -7754,6 +8216,14 @@
       {
         "name": "Carrefour - Market Carapachay (201)",
         "id": "63ccfd52aa705832ee237632"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -7809,7 +8279,9 @@
       "63fa1db507cadc0a58be8393",
       "63fa1f64bffde01efb25db0a",
       "63fa1f67bffde01efb25db0c",
-      "63fa1f68bffde01efb25db0e"
+      "63fa1f68bffde01efb25db0e",
+      "63fbf587cc5d3c669e19f697",
+      "63fbf673cc5d3c669e19f7e8"
     ],
     "markets": [
       {
@@ -7819,6 +8291,14 @@
       {
         "name": "Carrefour - Market Carapachay (201)",
         "id": "63ccfd52aa705832ee237632"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -8004,7 +8484,9 @@
       "63fa1f7cbffde01efb25db26",
       "63fa1f7dbffde01efb25db28",
       "63fa1f7fbffde01efb25db2a",
-      "63fa1f80bffde01efb25db2c"
+      "63fa1f80bffde01efb25db2c",
+      "63fbf589cc5d3c669e19f699",
+      "63fbf58acc5d3c669e19f69b"
     ],
     "markets": [
       {
@@ -8022,6 +8504,14 @@
       {
         "name": "Diarco Barrio - Villa Ballester",
         "id": "63cd04ffaa705832ee238f46"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -8260,7 +8750,14 @@
       "63ccfc9eaa705832ee2373ba",
       "63fa1f8dbffde01efb25db40",
       "63cd0a3baa705832ee23a1cf",
-      "63fb6fb31c8537c980758905"
+      "63fb6fb31c8537c980758905",
+      "63fbf593cc5d3c669e19f6a5",
+      "63fbf594cc5d3c669e19f6a7",
+      "63fbf678cc5d3c669e19f7f0",
+      "63fbf67acc5d3c669e19f7f2",
+      "63fbf67bcc5d3c669e19f7f4",
+      "63fbf67ccc5d3c669e19f7f6",
+      "63fbf67dcc5d3c669e19f7f8"
     ],
     "markets": [
       {
@@ -8270,6 +8767,14 @@
       {
         "name": "Carrefour - Market Carapachay (201)",
         "id": "63ccfd52aa705832ee237632"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -8348,7 +8853,11 @@
       "63fa1dc107cadc0a58be83a1",
       "63cf568d62a456d09f26309d",
       "63ccfc93aa705832ee237392",
-      "63fa1f8fbffde01efb25db42"
+      "63fa1f8fbffde01efb25db42",
+      "63fbf595cc5d3c669e19f6a9",
+      "63fbf595cc5d3c669e19f6ab",
+      "63fbf67ecc5d3c669e19f7fa",
+      "63fbf680cc5d3c669e19f7fc"
     ],
     "markets": [
       {
@@ -8358,6 +8867,14 @@
       {
         "name": "Carrefour - Market Carapachay (201)",
         "id": "63ccfd52aa705832ee237632"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -8482,7 +8999,17 @@
       "63fa1f94bffde01efb25db4c",
       "63fa1f95bffde01efb25db4e",
       "63fa1f97bffde01efb25db50",
-      "63ccfcd3aa705832ee23748a"
+      "63ccfcd3aa705832ee23748a",
+      "63ccfcdeaa705832ee2374a4",
+      "63ef9191d6f3702118f9225b",
+      "63fbf597cc5d3c669e19f6ad",
+      "63fbf598cc5d3c669e19f6af",
+      "63fbf599cc5d3c669e19f6b1",
+      "63fbf59bcc5d3c669e19f6b3",
+      "63fbf681cc5d3c669e19f7fe",
+      "63cd0585aa705832ee2390f7",
+      "63fbf682cc5d3c669e19f800",
+      "63fbf684cc5d3c669e19f802"
     ],
     "markets": [
       {
@@ -8492,6 +9019,14 @@
       {
         "name": "Carrefour - Market Carapachay (201)",
         "id": "63ccfd52aa705832ee237632"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -8534,7 +9069,11 @@
       "63ee415657afb075554a89eb",
       "63eb9d987c74059c1f098594",
       "63f629ec525d970434b551fe",
-      "63cd0a52aa705832ee23a209"
+      "63cd0a52aa705832ee23a209",
+      "63cd0a3baa705832ee23a1d1",
+      "63fbf59ccc5d3c669e19f6b5",
+      "63fa1d9507cadc0a58be8369",
+      "63cd0a3faa705832ee23a1dd"
     ],
     "markets": [
       {
@@ -8544,6 +9083,14 @@
       {
         "name": "Carrefour - Market Carapachay (201)",
         "id": "63ccfd52aa705832ee237632"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -8695,7 +9242,8 @@
       "63f0e437335b44e2a63aab19",
       "63e8f9fcee4fb4ceae75fff5",
       "63f629ef525d970434b55200",
-      "63f629f0525d970434b55202"
+      "63f629f0525d970434b55202",
+      "63fbf685cc5d3c669e19f804"
     ],
     "markets": [
       {
@@ -8709,6 +9257,14 @@
       {
         "name": "Diarco Barrio - Villa Ballester",
         "id": "63cd04ffaa705832ee238f46"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -8818,7 +9374,17 @@
       "63fa1f9abffde01efb25db52",
       "63fa1f9abffde01efb25db54",
       "63fa1f9abffde01efb25db56",
-      "63fa1f9bbffde01efb25db58"
+      "63fa1f9bbffde01efb25db58",
+      "63e505f861dbf3910e4d6cd7",
+      "63fbf59ecc5d3c669e19f6b7",
+      "63fbf5a0cc5d3c669e19f6b9",
+      "63fbf5a1cc5d3c669e19f6bb",
+      "63fbf5a3cc5d3c669e19f6bd",
+      "63fbf5a4cc5d3c669e19f6bf",
+      "63fbf5a5cc5d3c669e19f6c1",
+      "63fbf5a6cc5d3c669e19f6c3",
+      "63cd09fdaa705832ee23a0fa",
+      "63fbf687cc5d3c669e19f806"
     ],
     "markets": [
       {
@@ -8828,6 +9394,14 @@
       {
         "name": "Carrefour - Market Carapachay (201)",
         "id": "63ccfd52aa705832ee237632"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -8898,7 +9472,11 @@
       "63f0e444335b44e2a63aab29",
       "63cd07d2aa705832ee23980e",
       "63ccfbccaa705832ee236fab",
-      "63cd062aaa705832ee2392c1"
+      "63cd062aaa705832ee2392c1",
+      "63ccfbc5aa705832ee236f8f",
+      "63fbf5a8cc5d3c669e19f6c5",
+      "63cd0636aa705832ee2392e1",
+      "63fbf688cc5d3c669e19f808"
     ],
     "markets": [
       {
@@ -8908,6 +9486,14 @@
       {
         "name": "Carrefour - Market Carapachay (201)",
         "id": "63ccfd52aa705832ee237632"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -8967,7 +9553,9 @@
       "63fa1dc407cadc0a58be83a5",
       "63fa1f9fbffde01efb25db5c",
       "63fa1fa0bffde01efb25db5e",
-      "63fa1fa2bffde01efb25db60"
+      "63fa1fa2bffde01efb25db60",
+      "63cd0827aa705832ee2399c5",
+      "63fbf5b0cc5d3c669e19f6d1"
     ],
     "markets": [
       {
@@ -8981,6 +9569,14 @@
       {
         "name": "Diarco Barrio - Villa Ballester",
         "id": "63cd04ffaa705832ee238f46"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -9165,7 +9761,11 @@
       "63fa1fabbffde01efb25db6e",
       "63fa1fadbffde01efb25db70",
       "63fa1faebffde01efb25db72",
-      "63fb6fbb1c8537c980758909"
+      "63fb6fbb1c8537c980758909",
+      "63fbf5b2cc5d3c669e19f6d3",
+      "63fbf5b3cc5d3c669e19f6d5",
+      "63fbf68ccc5d3c669e19f80e",
+      "63fbf68ecc5d3c669e19f810"
     ],
     "markets": [
       {
@@ -9179,6 +9779,14 @@
       {
         "name": "Diarco Barrio - Villa Ballester",
         "id": "63cd04ffaa705832ee238f46"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -9876,7 +10484,31 @@
       "63fb6fc21c8537c98075890d",
       "63fb6fc31c8537c98075890f",
       "63fb6fc51c8537c980758911",
-      "63fb6fc61c8537c980758913"
+      "63fb6fc61c8537c980758913",
+      "63fbf5b6cc5d3c669e19f6d7",
+      "63fbf5b7cc5d3c669e19f6d9",
+      "63fbf5b9cc5d3c669e19f6db",
+      "63fbf5bacc5d3c669e19f6dd",
+      "63fbf5bbcc5d3c669e19f6df",
+      "63fbf5bdcc5d3c669e19f6e1",
+      "63fbf5becc5d3c669e19f6e3",
+      "63fbf5c1cc5d3c669e19f6e5",
+      "63fbf5c4cc5d3c669e19f6e7",
+      "63fbf5c6cc5d3c669e19f6e9",
+      "63fbf5c8cc5d3c669e19f6eb",
+      "63fbf5c9cc5d3c669e19f6ed",
+      "63fbf5cbcc5d3c669e19f6ef",
+      "63fbf5cdcc5d3c669e19f6f1",
+      "63fbf690cc5d3c669e19f812",
+      "63fbf691cc5d3c669e19f814",
+      "63fbf693cc5d3c669e19f816",
+      "63fbf695cc5d3c669e19f818",
+      "63fbf696cc5d3c669e19f81a",
+      "63fbf698cc5d3c669e19f81c",
+      "63fbf69acc5d3c669e19f81e",
+      "63fbf69bcc5d3c669e19f820",
+      "63fbf69dcc5d3c669e19f822",
+      "63fbf69fcc5d3c669e19f824"
     ],
     "markets": [
       {
@@ -9886,6 +10518,14 @@
       {
         "name": "Carrefour - Market Carapachay (201)",
         "id": "63ccfd52aa705832ee237632"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -9922,7 +10562,9 @@
       "63cd06d1aa705832ee239498",
       "63cf53351e8f8d1ecc8cc02d",
       "63cd06d2aa705832ee23949e",
-      "63eb9de07c74059c1f0985c8"
+      "63eb9de07c74059c1f0985c8",
+      "63fbf5cfcc5d3c669e19f6f3",
+      "63f0e357d247c837eae54eb4"
     ],
     "markets": [
       {
@@ -9932,6 +10574,14 @@
       {
         "name": "Carrefour - Market Carapachay (201)",
         "id": "63ccfd52aa705832ee237632"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -10182,7 +10832,19 @@
       "63fa1fd4bffde01efb25db9e",
       "63fa1fd6bffde01efb25dba0",
       "63cd05d9aa705832ee2391cb",
-      "63fb6fc91c8537c980758915"
+      "63fb6fc91c8537c980758915",
+      "63fbf5d1cc5d3c669e19f6f5",
+      "63fbf5d1cc5d3c669e19f6f7",
+      "63fbf5d2cc5d3c669e19f6f9",
+      "63fbf5d4cc5d3c669e19f6fb",
+      "63fbf5d5cc5d3c669e19f6fd",
+      "63fbf5d6cc5d3c669e19f6ff",
+      "63fbf5d8cc5d3c669e19f701",
+      "63fbf5d9cc5d3c669e19f703",
+      "63fbf5dacc5d3c669e19f705",
+      "63fbf5dccc5d3c669e19f707",
+      "63fbf5ddcc5d3c669e19f709",
+      "63fbf6a1cc5d3c669e19f826"
     ],
     "markets": [
       {
@@ -10192,6 +10854,14 @@
       {
         "name": "Carrefour - Market Carapachay (201)",
         "id": "63ccfd52aa705832ee237632"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -10414,7 +11084,40 @@
       "63fa1fddbffde01efb25dba8",
       "63fa1fdfbffde01efb25dbaa",
       "63fa1fe0bffde01efb25dbac",
-      "63fa1fe2bffde01efb25dbae"
+      "63fa1fe2bffde01efb25dbae",
+      "63fbf5decc5d3c669e19f70b",
+      "63fbf5e0cc5d3c669e19f70d",
+      "63cd0985aa705832ee239f40",
+      "63cd06d5aa705832ee2394b9",
+      "63fbf5e2cc5d3c669e19f70f",
+      "63ee4070246b97cc9259c252",
+      "63fbf5e3cc5d3c669e19f711",
+      "63fbf5e5cc5d3c669e19f713",
+      "63fbf5e6cc5d3c669e19f715",
+      "63fbf5e7cc5d3c669e19f717",
+      "63fbf5e9cc5d3c669e19f719",
+      "63fbf5eacc5d3c669e19f71b",
+      "63fbf5ebcc5d3c669e19f71d",
+      "63fbf5eccc5d3c669e19f71f",
+      "63fbf5eecc5d3c669e19f721",
+      "63fbf5f0cc5d3c669e19f723",
+      "63fbf5f1cc5d3c669e19f725",
+      "63fbf5f2cc5d3c669e19f727",
+      "63fbf5f4cc5d3c669e19f729",
+      "63fbf5f5cc5d3c669e19f72b",
+      "63fbf5f6cc5d3c669e19f72d",
+      "63fbf5f7cc5d3c669e19f72f",
+      "63fbf5f9cc5d3c669e19f731",
+      "63cd096caa705832ee239ed4",
+      "63cd0531aa705832ee238ff4",
+      "63cd06d2aa705832ee2394a9",
+      "63fbf6a2cc5d3c669e19f828",
+      "63fbf6a3cc5d3c669e19f82a",
+      "63fbf6a5cc5d3c669e19f82c",
+      "63fbf6a6cc5d3c669e19f82e",
+      "63fbf6a7cc5d3c669e19f830",
+      "63fbf6a8cc5d3c669e19f832",
+      "63fbf6a9cc5d3c669e19f834"
     ],
     "markets": [
       {
@@ -10424,6 +11127,14 @@
       {
         "name": "Carrefour - Market Carapachay (201)",
         "id": "63ccfd52aa705832ee237632"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -10550,7 +11261,17 @@
       "63fa1fe5bffde01efb25dbb2",
       "63fa1fe7bffde01efb25dbb4",
       "63fa1fe8bffde01efb25dbb6",
-      "63fa1febbffde01efb25dbb8"
+      "63fa1febbffde01efb25dbb8",
+      "63fbf5facc5d3c669e19f733",
+      "63fbf5facc5d3c669e19f735",
+      "63cd08aeaa705832ee239c02",
+      "63fbf5fbcc5d3c669e19f737",
+      "63fbf6aacc5d3c669e19f836",
+      "63cd0433aa705832ee238ce8",
+      "63fbf6abcc5d3c669e19f838",
+      "63ccfa36aa705832ee236884",
+      "63fbf6adcc5d3c669e19f83a",
+      "63fbf6aecc5d3c669e19f83c"
     ],
     "markets": [
       {
@@ -10560,6 +11281,14 @@
       {
         "name": "Carrefour - Market Carapachay (201)",
         "id": "63ccfd52aa705832ee237632"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -10703,7 +11432,12 @@
       "63fa1fefbffde01efb25dbbc",
       "63fa1ff0bffde01efb25dbbe",
       "63fa1ff2bffde01efb25dbc0",
-      "63fa1ff3bffde01efb25dbc2"
+      "63fa1ff3bffde01efb25dbc2",
+      "63cd088eaa705832ee239b7c",
+      "63fbf5fecc5d3c669e19f739",
+      "63fbf5ffcc5d3c669e19f73b",
+      "63ccfac1aa705832ee236ae5",
+      "63fbf6afcc5d3c669e19f83e"
     ],
     "markets": [
       {
@@ -10713,6 +11447,14 @@
       {
         "name": "Carrefour - Market Carapachay (201)",
         "id": "63ccfd52aa705832ee237632"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -11044,7 +11786,26 @@
       "63fa1ff8bffde01efb25dbca",
       "63fa1ff9bffde01efb25dbcc",
       "63fa1ffbbffde01efb25dbce",
-      "63fa1ffcbffde01efb25dbd0"
+      "63fa1ffcbffde01efb25dbd0",
+      "63fbf600cc5d3c669e19f73d",
+      "63fbf602cc5d3c669e19f73f",
+      "63ccfc05aa705832ee2370bb",
+      "63fbf603cc5d3c669e19f741",
+      "63fbf604cc5d3c669e19f743",
+      "63fbf605cc5d3c669e19f745",
+      "63fbf606cc5d3c669e19f747",
+      "63fbf607cc5d3c669e19f749",
+      "63fbf608cc5d3c669e19f74b",
+      "63fbf609cc5d3c669e19f74d",
+      "63fbf60acc5d3c669e19f74f",
+      "63fbf6b1cc5d3c669e19f840",
+      "63fbf6b2cc5d3c669e19f842",
+      "63fbf6b3cc5d3c669e19f844",
+      "63fbf6b4cc5d3c669e19f846",
+      "63fbf6b5cc5d3c669e19f848",
+      "63fbf6b6cc5d3c669e19f84a",
+      "63fbf6b7cc5d3c669e19f84c",
+      "63fbf6b8cc5d3c669e19f84e"
     ],
     "markets": [
       {
@@ -11062,6 +11823,14 @@
       {
         "name": "PedidosYa Market - Vicente Lopez",
         "id": "63cd071daa705832ee239505"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
@@ -11209,7 +11978,11 @@
       "63cfbcc7a4faee9013841d9a",
       "63da62537108901155d141ef",
       "63d5c9b483232b66b534aa46",
-      "63fa1ffebffde01efb25dbd2"
+      "63fa1ffebffde01efb25dbd2",
+      "63fbf60ccc5d3c669e19f751",
+      "63fbf60ecc5d3c669e19f753",
+      "63fbf6bacc5d3c669e19f850",
+      "63d507125ddc8fc079a7b253"
     ],
     "markets": [
       {
@@ -11219,6 +11992,14 @@
       {
         "name": "Carrefour - Market Carapachay (201)",
         "id": "63ccfd52aa705832ee237632"
+      },
+      {
+        "name": "Carrefour - Market Chilavert (203)",
+        "id": "63fbf502cc5d3c669e19f5d4"
+      },
+      {
+        "name": "Carrefour - Express Alvear (787)",
+        "id": "63fbf610cc5d3c669e19f755"
       }
     ]
   },
