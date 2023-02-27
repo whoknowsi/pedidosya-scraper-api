@@ -79,7 +79,7 @@ const createProduct = async (product, foundCategory, foundMarket) => {
     ],
     image,
     barcode: parseBarcode(product.barcode),
-    measurementUnit: product.measurementUnit,
+    measurementUnit: { id: product.measurementUnit?.id },
     pricePerMeasurementUnit: product.pricePerMeasurementUnit,
     prices: [
       {
@@ -148,7 +148,7 @@ const saveMarketStatic = async (market) => {
   let marketsLocal = read('markets')
   let productsLocal = read('products')
   let categoriesLocal = read('categories')
-  let historicalPricesLocal = read('historicalprices')
+  let historicalPricesLocal = read('historicalprices', true)
 
   const foundMarket = marketsLocal.find((m) => m.name === market.name) || createMarket(market)
   productsLocal = resetStockOfMarket(foundMarket, productsLocal)
@@ -256,7 +256,7 @@ const saveMarketStatic = async (market) => {
   }
 
   write('categories', categoriesLocal)
-  write('historicalprices', historicalPricesLocal)
+  write('historicalprices', historicalPricesLocal, true)
   write('markets', marketsLocal)
   write('products', productsLocal)
 }

@@ -17,9 +17,9 @@ const sortByDate = (prices) => {
   return [...prices].sort((a, b) => a.date.getTime() > b.date.getTime())
 }
 
-const write = (fileName, content) => writeFileSync(path.join(DB_PATH, `${fileName}.json`), JSON.stringify(content, null, 2), 'utf-8')
-const read = (fileName) => {
-  const file = readFileSync(path.join(DB_PATH, `${fileName}.json`), 'utf-8')
+const write = (fileName, content, backup = false) => writeFileSync(backup ? path.join('backup', `${fileName}.json`) : path.join(DB_PATH, `${fileName}.json`), JSON.stringify(content, null, 2), 'utf-8')
+const read = (fileName, backup = false) => {
+  const file = readFileSync(backup ? path.join('backup', `${fileName}.json`) : path.join(DB_PATH, `${fileName}.json`), 'utf-8')
   return JSON.parse(file)
 }
 
