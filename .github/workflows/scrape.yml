@@ -72,3 +72,39 @@ jobs:
         env:
           REPO_KEY: ${{ secrets.GH_TOKEN }}
           USERNAME: github-actions[bot]
+  scrape3:
+    needs: scrape2
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v3
+        with:
+            fetch-depth: 0
+            token: ${{secrets.GH_TOKEN}}
+      - uses: actions/setup-node@v3
+        with:
+            node-version: 18.13.0
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 7.26.0
+          run_install: true
+      - name: Pull
+        run: git pull
+      - name: Run scrape
+        run: npm run scrape
+        env:
+          BASE_URL: ${{ vars.BASE_URL }}
+          PEDIDOSYA_IMG_BASE_URL: ${{ vars.PEDIDOSYA_IMG_BASE_URL }}
+          PEDIDOSYA_CATEGORY_URL: ${{ vars.PEDIDOSYA_CATEGORY_URL }}
+          PEDIDOSYA_PRODUCT_URL: ${{ vars.PEDIDOSYA_PRODUCT_URL }}
+          DATA_MARKETS: ${{ vars.DATA_MARKETS_3 }}
+      - name: Commit and push
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit --amend --no-edit
+          git push https://${{secrets.GH_TOKEN}}@github.com/whoknowsi/pedidosya-scraper-api.git --force
+        env:
+          REPO_KEY: ${{ secrets.GH_TOKEN }}
+          USERNAME: github-actions[bot]
