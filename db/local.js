@@ -231,7 +231,6 @@ const saveMarketStatic = async (market) => {
       const priceHasChanged = foundProduct.prices.find((m) => m.market === foundMarket.id).price !== product.price
       if (priceHasChanged) {
         foundProduct.prices.find((m) => m.market === foundMarket.id).price = product.price
-        foundProduct.prices.find((m) => m.market === foundMarket.id).date = product.date
 
         foundHistoricalPrice.markets
           .find((m) => m.market === foundMarket.id)
