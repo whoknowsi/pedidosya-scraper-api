@@ -42,8 +42,12 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit -m "[bot] Update PedidosYa scraper database"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/whoknowsi/pedidosya-scraper-api.git --force
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "[bot] Update PedidosYa scraper database"
+            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/whoknowsi/pedidosya-scraper-api.git --force
+          fi
 
   scrape2:
     needs: scrape1
@@ -87,8 +91,12 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit --amend --no-edit
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/whoknowsi/pedidosya-scraper-api.git --force
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit --amend --no-edit
+            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/whoknowsi/pedidosya-scraper-api.git --force
+          fi
 
   scrape3:
     needs: scrape2
@@ -132,5 +140,9 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit --amend --no-edit
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/whoknowsi/pedidosya-scraper-api.git --force
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit --amend --no-edit
+            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/whoknowsi/pedidosya-scraper-api.git --force
+          fi
