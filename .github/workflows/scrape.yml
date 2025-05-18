@@ -4,7 +4,7 @@ on: workflow_dispatch
 
 jobs:
   scrape1:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v3
@@ -26,16 +26,8 @@ jobs:
         env:
           NODE_ENV: development
 
-      - name: Install system dependencies for Playwright (manual)
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y \
-            libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libxcomposite1 \
-            libxdamage1 libxrandr2 libgbm1 libasound2 libpangocairo-1.0-0 \
-            libpangoft2-1.0-0 libgtk-3-0 libxss1 libdbus-glib-1-2
-
-      - name: Install Playwright browsers
-        run: npx playwright install
+      - name: Install Playwright with dependencies
+        run: npx playwright install --with-deps
 
       - name: Run scrape
         run: npm run scrape
@@ -56,7 +48,7 @@ jobs:
 
   scrape2:
     needs: scrape1
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v3
@@ -78,16 +70,8 @@ jobs:
         env:
           NODE_ENV: development
 
-      - name: Install system dependencies for Playwright (manual)
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y \
-            libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libxcomposite1 \
-            libxdamage1 libxrandr2 libgbm1 libasound2 libpangocairo-1.0-0 \
-            libpangoft2-1.0-0 libgtk-3-0 libxss1 libdbus-glib-1-2
-
-      - name: Install Playwright browsers
-        run: npx playwright install
+      - name: Install Playwright with dependencies
+        run: npx playwright install --with-deps
 
       - name: Pull
         run: git pull
@@ -111,7 +95,7 @@ jobs:
 
   scrape3:
     needs: scrape2
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v3
@@ -133,16 +117,8 @@ jobs:
         env:
           NODE_ENV: development
 
-      - name: Install system dependencies for Playwright (manual)
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y \
-            libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libxcomposite1 \
-            libxdamage1 libxrandr2 libgbm1 libasound2 libpangocairo-1.0-0 \
-            libpangoft2-1.0-0 libgtk-3-0 libxss1 libdbus-glib-1-2
-
-      - name: Install Playwright browsers
-        run: npx playwright install
+      - name: Install Playwright with dependencies
+        run: npx playwright install --with-deps
 
       - name: Pull
         run: git pull
