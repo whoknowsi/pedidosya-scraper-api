@@ -19,10 +19,18 @@ jobs:
       - uses: pnpm/action-setup@v2
         with:
           version: 7.26.0
-          run_install: true
+          run_install: false
 
-      - name: Install dependencies for Playwright
-        uses: microsoft/playwright-github-action@v1
+      - name: Install dependencies (including devDependencies)
+        run: pnpm install --frozen-lockfile
+        env:
+          NODE_ENV: development
+
+      - name: Install system dependencies for Playwright
+        run: npx playwright install-deps
+
+      - name: Install Playwright browsers
+        run: npx playwright install
 
       - name: Run scrape
         run: npm run scrape
@@ -58,10 +66,18 @@ jobs:
       - uses: pnpm/action-setup@v2
         with:
           version: 7.26.0
-          run_install: true
+          run_install: false
 
-      - name: Install dependencies for Playwright
-        uses: microsoft/playwright-github-action@v1
+      - name: Install dependencies (including devDependencies)
+        run: pnpm install --frozen-lockfile
+        env:
+          NODE_ENV: development
+
+      - name: Install system dependencies for Playwright
+        run: npx playwright install-deps
+
+      - name: Install Playwright browsers
+        run: npx playwright install
 
       - name: Pull
         run: git pull
@@ -100,10 +116,18 @@ jobs:
       - uses: pnpm/action-setup@v2
         with:
           version: 7.26.0
-          run_install: true
+          run_install: false
 
-      - name: Install dependencies for Playwright
-        uses: microsoft/playwright-github-action@v1
+      - name: Install dependencies (including devDependencies)
+        run: pnpm install --frozen-lockfile
+        env:
+          NODE_ENV: development
+
+      - name: Install system dependencies for Playwright
+        run: npx playwright install-deps
+
+      - name: Install Playwright browsers
+        run: npx playwright install
 
       - name: Pull
         run: git pull
