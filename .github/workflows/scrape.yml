@@ -68,8 +68,10 @@ jobs:
       - name: Install Playwright system deps + browsers
         run: npx playwright install --with-deps
 
-      - name: Pull latest
-        run: git pull
+      - name: Sync with remote
+        run: |
+          git fetch origin
+          git reset --hard origin/master
 
       - name: Run scrape
         run: pnpm run scrape
@@ -111,8 +113,10 @@ jobs:
       - name: Install Playwright system deps + browsers
         run: npx playwright install --with-deps
 
-      - name: Pull latest
-        run: git pull
+      - name: Sync with remote
+        run: |
+          git fetch origin
+          git reset --hard origin/master
 
       - name: Run scrape
         run: pnpm run scrape
