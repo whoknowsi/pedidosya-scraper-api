@@ -2,6 +2,9 @@ name: "Scrape"
 
 on: workflow_dispatch
 
+permissions:
+  contents: write
+
 jobs:
   scrape1:
     runs-on: ubuntu-latest
@@ -40,10 +43,7 @@ jobs:
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
           git commit -m "[bot] Update PedidosYa scraper database"
-          git push https://${{secrets.GH_TOKEN}}@github.com/whoknowsi/pedidosya-scraper-api.git --force
-        env:
-          REPO_KEY: ${{ secrets.GH_TOKEN }}
-          USERNAME: github-actions[bot]
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/whoknowsi/pedidosya-scraper-api.git --force
 
   scrape2:
     needs: scrape1
@@ -86,10 +86,7 @@ jobs:
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
           git commit --amend --no-edit
-          git push https://${{secrets.GH_TOKEN}}@github.com/whoknowsi/pedidosya-scraper-api.git --force
-        env:
-          REPO_KEY: ${{ secrets.GH_TOKEN }}
-          USERNAME: github-actions[bot]
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/whoknowsi/pedidosya-scraper-api.git --force
 
   scrape3:
     needs: scrape2
@@ -132,7 +129,4 @@ jobs:
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
           git commit --amend --no-edit
-          git push https://${{secrets.GH_TOKEN}}@github.com/whoknowsi/pedidosya-scraper-api.git --force
-        env:
-          REPO_KEY: ${{ secrets.GH_TOKEN }}
-          USERNAME: github-actions[bot]
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/whoknowsi/pedidosya-scraper-api.git --force
