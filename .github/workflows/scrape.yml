@@ -4,7 +4,9 @@ on: workflow_dispatch
 
 jobs:
   scrape1:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
+    container:
+      image: mcr.microsoft.com/playwright:v1.40.0-jammy
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v3
@@ -12,22 +14,13 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GH_TOKEN }}
 
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 18.13.0
-
       - uses: pnpm/action-setup@v2
         with:
           version: 7.26.0
           run_install: false
 
-      - name: Install dependencies (including devDependencies)
+      - name: Install dependencies
         run: pnpm install --frozen-lockfile
-        env:
-          NODE_ENV: development
-
-      - name: Install Playwright with dependencies
-        run: npx playwright install --with-deps
 
       - name: Run scrape
         run: npm run scrape
@@ -40,15 +33,17 @@ jobs:
 
       - name: Commit and push
         run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
           git commit -m "[bot] Update PedidosYa scraper database"
           git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/whoknowsi/pedidosya-scraper-api.git
 
   scrape2:
     needs: scrape1
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
+    container:
+      image: mcr.microsoft.com/playwright:v1.40.0-jammy
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v3
@@ -56,24 +51,15 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GH_TOKEN }}
 
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 18.13.0
-
       - uses: pnpm/action-setup@v2
         with:
           version: 7.26.0
           run_install: false
 
-      - name: Install dependencies (including devDependencies)
+      - name: Install dependencies
         run: pnpm install --frozen-lockfile
-        env:
-          NODE_ENV: development
 
-      - name: Install Playwright with dependencies
-        run: npx playwright install --with-deps
-
-      - name: Pull
+      - name: Pull latest
         run: git pull
 
       - name: Run scrape
@@ -87,15 +73,17 @@ jobs:
 
       - name: Commit and push
         run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
           git commit --amend --no-edit
           git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/whoknowsi/pedidosya-scraper-api.git --force
 
   scrape3:
     needs: scrape2
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
+    container:
+      image: mcr.microsoft.com/playwright:v1.40.0-jammy
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v3
@@ -103,24 +91,15 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GH_TOKEN }}
 
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 18.13.0
-
       - uses: pnpm/action-setup@v2
         with:
           version: 7.26.0
           run_install: false
 
-      - name: Install dependencies (including devDependencies)
+      - name: Install dependencies
         run: pnpm install --frozen-lockfile
-        env:
-          NODE_ENV: development
 
-      - name: Install Playwright with dependencies
-        run: npx playwright install --with-deps
-
-      - name: Pull
+      - name: Pull latest
         run: git pull
 
       - name: Run scrape
@@ -134,8 +113,8 @@ jobs:
 
       - name: Commit and push
         run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
           git commit --amend --no-edit
           git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/whoknowsi/pedidosya-scraper-api.git --force
