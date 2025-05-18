@@ -21,11 +21,8 @@ jobs:
           version: 7.26.0
           run_install: true
 
-      - name: Install Playwright dependencies
-        run: npx playwright install-deps
-
-      - name: Install Playwright browsers
-        run: npx playwright install
+      - name: Install dependencies for Playwright
+        uses: microsoft/playwright-github-action@v1
 
       - name: Run scrape
         run: npm run scrape
@@ -63,11 +60,8 @@ jobs:
           version: 7.26.0
           run_install: true
 
-      - name: Install Playwright dependencies
-        run: npx playwright install-deps
-
-      - name: Install Playwright browsers
-        run: npx playwright install
+      - name: Install dependencies for Playwright
+        uses: microsoft/playwright-github-action@v1
 
       - name: Pull
         run: git pull
@@ -108,11 +102,8 @@ jobs:
           version: 7.26.0
           run_install: true
 
-      - name: Install Playwright dependencies
-        run: npx playwright install-deps
-
-      - name: Install Playwright browsers
-        run: npx playwright install
+      - name: Install dependencies for Playwright
+        uses: microsoft/playwright-github-action@v1
 
       - name: Pull
         run: git pull
