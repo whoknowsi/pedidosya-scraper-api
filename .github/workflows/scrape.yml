@@ -9,15 +9,24 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-            fetch-depth: 0
-            token: ${{secrets.GH_TOKEN}}
+          fetch-depth: 0
+          token: ${{ secrets.GH_TOKEN }}
+
       - uses: actions/setup-node@v3
         with:
-            node-version: 18.13.0
+          node-version: 18.13.0
+
       - uses: pnpm/action-setup@v2
         with:
           version: 7.26.0
           run_install: true
+
+      - name: Install Playwright dependencies
+        run: npx playwright install-deps
+
+      - name: Install Playwright browsers
+        run: npx playwright install
+
       - name: Run scrape
         run: npm run scrape
         env:
@@ -26,16 +35,15 @@ jobs:
           PEDIDOSYA_CATEGORY_URL: ${{ vars.PEDIDOSYA_CATEGORY_URL }}
           PEDIDOSYA_PRODUCT_URL: ${{ vars.PEDIDOSYA_PRODUCT_URL }}
           DATA_MARKETS: ${{ vars.DATA_MARKETS_1 }}
+
       - name: Commit and push
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
           git commit -m "[bot] Update PedidosYa scraper database"
-          git push https://$USERNAME:$REPO_KEY@github.com/whoknowsi/pedidosya-scraper-api.git
-        env:
-          REPO_KEY: ${{ secrets.GH_TOKEN }}
-          USERNAME: github-actions[bot]
+          git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/whoknowsi/pedidosya-scraper-api.git
+
   scrape2:
     needs: scrape1
     runs-on: ubuntu-latest
@@ -43,17 +51,27 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-            fetch-depth: 0
-            token: ${{secrets.GH_TOKEN}}
+          fetch-depth: 0
+          token: ${{ secrets.GH_TOKEN }}
+
       - uses: actions/setup-node@v3
         with:
-            node-version: 18.13.0
+          node-version: 18.13.0
+
       - uses: pnpm/action-setup@v2
         with:
           version: 7.26.0
           run_install: true
+
+      - name: Install Playwright dependencies
+        run: npx playwright install-deps
+
+      - name: Install Playwright browsers
+        run: npx playwright install
+
       - name: Pull
         run: git pull
+
       - name: Run scrape
         run: npm run scrape
         env:
@@ -62,16 +80,15 @@ jobs:
           PEDIDOSYA_CATEGORY_URL: ${{ vars.PEDIDOSYA_CATEGORY_URL }}
           PEDIDOSYA_PRODUCT_URL: ${{ vars.PEDIDOSYA_PRODUCT_URL }}
           DATA_MARKETS: ${{ vars.DATA_MARKETS_2 }}
+
       - name: Commit and push
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
           git commit --amend --no-edit
-          git push https://${{secrets.GH_TOKEN}}@github.com/whoknowsi/pedidosya-scraper-api.git --force
-        env:
-          REPO_KEY: ${{ secrets.GH_TOKEN }}
-          USERNAME: github-actions[bot]
+          git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/whoknowsi/pedidosya-scraper-api.git --force
+
   scrape3:
     needs: scrape2
     runs-on: ubuntu-latest
@@ -79,17 +96,27 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-            fetch-depth: 0
-            token: ${{secrets.GH_TOKEN}}
+          fetch-depth: 0
+          token: ${{ secrets.GH_TOKEN }}
+
       - uses: actions/setup-node@v3
         with:
-            node-version: 18.13.0
+          node-version: 18.13.0
+
       - uses: pnpm/action-setup@v2
         with:
           version: 7.26.0
           run_install: true
+
+      - name: Install Playwright dependencies
+        run: npx playwright install-deps
+
+      - name: Install Playwright browsers
+        run: npx playwright install
+
       - name: Pull
         run: git pull
+
       - name: Run scrape
         run: npm run scrape
         env:
@@ -98,13 +125,11 @@ jobs:
           PEDIDOSYA_CATEGORY_URL: ${{ vars.PEDIDOSYA_CATEGORY_URL }}
           PEDIDOSYA_PRODUCT_URL: ${{ vars.PEDIDOSYA_PRODUCT_URL }}
           DATA_MARKETS: ${{ vars.DATA_MARKETS_3 }}
+
       - name: Commit and push
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
           git commit --amend --no-edit
-          git push https://${{secrets.GH_TOKEN}}@github.com/whoknowsi/pedidosya-scraper-api.git --force
-        env:
-          REPO_KEY: ${{ secrets.GH_TOKEN }}
-          USERNAME: github-actions[bot]
+          git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/whoknowsi/pedidosya-scraper-api.git --force
