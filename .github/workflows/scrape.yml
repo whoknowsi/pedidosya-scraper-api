@@ -26,8 +26,13 @@ jobs:
         env:
           NODE_ENV: development
 
-      - name: Install system dependencies for Playwright
-        run: npx playwright install-deps
+      - name: Install system dependencies for Playwright (manual)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libxcomposite1 \
+            libxdamage1 libxrandr2 libgbm1 libasound2 libpangocairo-1.0-0 \
+            libpangoft2-1.0-0 libgtk-3-0 libxss1 libdbus-glib-1-2
 
       - name: Install Playwright browsers
         run: npx playwright install
@@ -73,8 +78,13 @@ jobs:
         env:
           NODE_ENV: development
 
-      - name: Install system dependencies for Playwright
-        run: npx playwright install-deps
+      - name: Install system dependencies for Playwright (manual)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libxcomposite1 \
+            libxdamage1 libxrandr2 libgbm1 libasound2 libpangocairo-1.0-0 \
+            libpangoft2-1.0-0 libgtk-3-0 libxss1 libdbus-glib-1-2
 
       - name: Install Playwright browsers
         run: npx playwright install
@@ -123,8 +133,13 @@ jobs:
         env:
           NODE_ENV: development
 
-      - name: Install system dependencies for Playwright
-        run: npx playwright install-deps
+      - name: Install system dependencies for Playwright (manual)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libxcomposite1 \
+            libxdamage1 libxrandr2 libgbm1 libasound2 libpangocairo-1.0-0 \
+            libpangoft2-1.0-0 libgtk-3-0 libxss1 libdbus-glib-1-2
 
       - name: Install Playwright browsers
         run: npx playwright install
