@@ -5,22 +5,30 @@ on: workflow_dispatch
 jobs:
   scrape1:
     runs-on: ubuntu-latest
-    container:
-      image: mcr.microsoft.com/playwright:v1.40.0-jammy
     timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
           token: ${{ secrets.GH_TOKEN }}
 
-      - uses: pnpm/action-setup@v2
+      - uses: actions/setup-node@v4
         with:
-          version: 7.26.0
+          node-version: 20
+          cache: 'pnpm'
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 8
           run_install: false
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+        env:
+          NODE_ENV: development
+
+      - name: Install Playwright system deps + browsers
+        run: npx playwright install --with-deps
 
       - name: Run scrape
         run: npm run scrape
@@ -42,22 +50,30 @@ jobs:
   scrape2:
     needs: scrape1
     runs-on: ubuntu-latest
-    container:
-      image: mcr.microsoft.com/playwright:v1.40.0-jammy
     timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
           token: ${{ secrets.GH_TOKEN }}
 
-      - uses: pnpm/action-setup@v2
+      - uses: actions/setup-node@v4
         with:
-          version: 7.26.0
+          node-version: 20
+          cache: 'pnpm'
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 8
           run_install: false
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+        env:
+          NODE_ENV: development
+
+      - name: Install Playwright system deps + browsers
+        run: npx playwright install --with-deps
 
       - name: Pull latest
         run: git pull
@@ -82,22 +98,30 @@ jobs:
   scrape3:
     needs: scrape2
     runs-on: ubuntu-latest
-    container:
-      image: mcr.microsoft.com/playwright:v1.40.0-jammy
     timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
           token: ${{ secrets.GH_TOKEN }}
 
-      - uses: pnpm/action-setup@v2
+      - uses: actions/setup-node@v4
         with:
-          version: 7.26.0
+          node-version: 20
+          cache: 'pnpm'
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 8
           run_install: false
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+        env:
+          NODE_ENV: development
+
+      - name: Install Playwright system deps + browsers
+        run: npx playwright install --with-deps
 
       - name: Pull latest
         run: git pull
