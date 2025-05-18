@@ -17,10 +17,8 @@ jobs:
           node-version: 20
           cache: 'pnpm'
 
-      - uses: pnpm/action-setup@v4
-        with:
-          version: 8
-          run_install: false
+      - name: Install pnpm
+        run: corepack enable && corepack prepare pnpm@8 --activate
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
@@ -62,10 +60,8 @@ jobs:
           node-version: 20
           cache: 'pnpm'
 
-      - uses: pnpm/action-setup@v4
-        with:
-          version: 8
-          run_install: false
+      - name: Install pnpm
+        run: corepack enable && corepack prepare pnpm@8 --activate
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
@@ -75,7 +71,7 @@ jobs:
       - name: Install Playwright system deps + browsers
         run: npx playwright install --with-deps
 
-      - name: Pull latest
+      - name: Pull
         run: git pull
 
       - name: Run scrape
@@ -110,10 +106,8 @@ jobs:
           node-version: 20
           cache: 'pnpm'
 
-      - uses: pnpm/action-setup@v4
-        with:
-          version: 8
-          run_install: false
+      - name: Install pnpm
+        run: corepack enable && corepack prepare pnpm@8 --activate
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
@@ -123,7 +117,7 @@ jobs:
       - name: Install Playwright system deps + browsers
         run: npx playwright install --with-deps
 
-      - name: Pull latest
+      - name: Pull
         run: git pull
 
       - name: Run scrape
